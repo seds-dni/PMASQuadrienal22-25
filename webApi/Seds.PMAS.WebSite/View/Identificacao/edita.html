@@ -1,0 +1,369 @@
+﻿<div ng-controller="prefeitoController">
+    <!-- <form ng-show="isEditavel()">-->
+    <form name="frmPrefeitura" data-role="validator" data-show-required-state="false" data-hint-mode="line" data-hint-background="bg-red" data-hint-color="fg-white" data-hide-error="5000" novalidate="novalidate" ng-disabled="status.busy">
+        <div class="accordion" data-role="accordion">
+            <div class="frame">
+                <div class="heading">1.1 - Identificação do Prefeitura Municipal <span class="mif-home icon"></span></div>
+                <div class="content">
+                    <div class="formInput" data-text="prefeitura municipal">
+                        <div class="grid">
+                            <div class="row cells3" ng-class="{'has-error': frmPrefeito.nome.$error.required && frmPrefeito.nome.$touched}">
+                                <div class="cell">
+                                    <label for="Nome">
+                                        CNPJ
+                                    </label>
+                                    <div class="input-control text">
+                                        01.612.150/0001-19
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <label for="Município">
+                                        Município
+                                    </label>
+                                    <div class="input-control text">
+                                        Jumirim
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <label for="DRADS">
+                                        DRADS
+                                    </label>
+                                    <div class="input-control text">
+                                        Sorocaba
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row cells2">
+                                <div class="cell">
+                                    <label for="Habitantes">
+                                        N° de Habitantes
+                                    </label>
+                                    <div class="input-control text">
+                                        2.798
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <label for="Porte">
+                                        Porte
+                                    </label>
+                                    <div class="input-control text">
+                                        Pequeno I - Até 20.000
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row cells2">
+                                <div class="cell">
+                                    <label for="Gestao">
+                                        Gestão
+                                    </label>
+                                    <div class="input-control radio">
+                                        <label class="input-control radio small-check">
+                                            <input type="radio">
+                                            <span class="check"></span>
+                                            <span class="caption">Inicial</span>
+                                        </label>
+                                        <label class="input-control radio small-check">
+                                            <input type="radio">
+                                            <span class="check"></span>
+                                            <span class="caption">Basica</span>
+                                        </label>
+                                        <label class="input-control radio small-check">
+                                            <input type="radio">
+                                            <span class="check"></span>
+                                            <span class="caption">Plena</span>
+                                        </label>
+                                        <label class="input-control radio small-check">
+                                            <input type="radio">
+                                            <span class="check"></span>
+                                            <span class="caption">Não habilitado</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="cell" ng-class="{'has-error': frmPrefeito.dataemissao.$error.required && frmPrefeito.dataemissao.$touched}">
+                                    <label for="DataEmissao">
+                                        Data da ultima publicação de nível de gestão no DOE:
+                                    </label>
+                                    <div class="input-control text" data-role="datepicker" data-scheme="darcula" data-other-days="true" data-format="dd/mm/yyyy">
+                                        <input id="Text2" name="dataemissao" type="text" ng-model="editar.prefeito.DataEmissao" type="datetime-local" class="form-control" />
+                                        <button class="button"><span class="mif-calendar"></span></button>
+                                        <ng-messages for="frmPrefeito.dataemissao.$error" ng-show="frmPrefeito.dataemissao.$touched">
+                                <ng-message class="help-block" when="required">campo obrigatório</ng-message>
+                            </ng-messages>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row cells2">
+                                <div class="cell">
+                                    <label for="CEP">
+                                        CEP:
+                                    </label>
+                                    <div class="input-control text" data-role="input">
+                                        <input type="text" data-validate-func="required" placeholder="informe o CEP" data-validate-hint="O campo CEP deve ser preenchido" style="padding-right: 5px;">
+                                        <span class="input-state-error mif-warning" style="right: 8px;"></span>
+                                        <span class="input-state-success mif-checkmark" style="right: 8px;"></span>
+                                    </div>
+                                    <!-- <div class="input-control select">
+                                        <input id="Text5" name="cpf" type="text" class="form-control" maxlength="2" />
+                                    </div>-->
+                                    <div class="input-control">
+                                        <button class="image-button primary">
+                                            <span class="mif-my-location"></span>
+                                            Buscar cep
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <label for="Endereco">
+                                        Endereco:
+                                    </label>
+                                    <div class="input-control text full-size">
+                                        <input id="Text1" name="cpf" type="text" ng-model="editar.prefeito.CPF" class="form-control" maxlength="2" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row cells3">
+                                <div class="cell">
+                                    <label for="Numero">
+                                        Número:
+                                    </label>
+                                    <div class="input-control select">
+                                        <input id="Text3" name="cpf" type="text" class="form-control" maxlength="2" />
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <label for="Complemento">
+                                        Complemento:
+                                    </label>
+                                    <div class="input-control select">
+                                        <input id="Text4" name="cpf" type="text" class="form-control" maxlength="2" />
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <label for="Bairro">
+                                        Bairro:
+                                    </label>
+                                    <div class="input-control text  full-size">
+                                        <input id="Text8" name="cpf" type="text" class="form-control" maxlength="2" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="row cells2">
+                                    <div class="cell">
+                                        <label for="Cidade">
+                                            Cidade:
+                                        </label>
+                                        <div class="input-control text full-size">
+                                            <input id="Text7" name="cpf" type="text" class="form-control" maxlength="2" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row cells2" ng-class="{'has-error': frmPrefeito.email.$error.required && frmPrefeito.email.$touched}">
+                                <div class="cell">
+                                    <label for="RG">
+                                        E-mail institucional:
+                                    </label>
+                                    <div class="input-control text full-size">
+                                        <input id="Email1" name="email" type="email" ng-model="editar.prefeito.Email" class="form-control" required />
+                                        <ng-messages for="frmPrefeito.email.$error" ng-show="frmPrefeito.email.$error.email || frmPrefeito.email.$touched">
+                                <ng-message class="help-block" when="required">campo obrigatório</ng-message>
+                                <ng-message class="help-block" when="$error">digite um email válido</ng-message>
+                            </ng-messages>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <label for="Site">
+                                        Site:
+                                    </label>
+                                    <div class="input-control text full-size">
+                                        <input id="Site" name="email" type="email" ng-model="editar.prefeito.Email" class="form-control" required />
+                                    </div>
+                                    <label class="input-control checkbox small-check">
+                                        <input type="checkbox" checked>
+                                        <span class="check"></span>
+                                        <span class="caption">Não possui site</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" ng-disabled="status.busy|| frmPrefeito.$invalid" ng-click="salvar()">Salvar</button>
+                        <button type="button" class="btn btn-danger" onclick="showMetroDialog('#dialog1', 'default', ($('<div>').addClass('padding20 warning').html('Deseja realmente cancelar a ação')$('<button').html('Sim'))))" formnovalidate>Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form name="frmPrefeito" role="form" ng-disabled="status.busy">
+        <div class="accordion" data-role="accordion">
+            <div class="frame">
+                <div class="heading">1.2 -Identificação do Prefeito em exercício <span class="mif-home icon"></span></div>
+                <div class="content">
+                    <div class="formInput" data-text="prefeito">
+                        <div class="grid">
+                            <div class="row" ng-class="{'has-error': frmPrefeito.nome.$error.required && frmPrefeito.nome.$touched}">
+                                <div class="cell">
+                                    <label for="Nome">
+                                        Nome
+                                    </label>
+                                    <div class="input-control text full-size">
+                                        <input name="nome" type="text" ng-model="editar.prefeito.Nome" class="form-control" min="8" max="100" required />
+                                        <ng-messages for="frmPrefeito.nome.$error" ng-show="frmPrefeito.nome.$touched">
+                                <ng-message class="help-block" when="required">campo obrigatório</ng-message>
+                            </ng-messages>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row cells2">
+                                <div class="cell" ng-class="{'has-error': frmPrefeito.RG.$error.required && frmPrefeito.RG.$touched}">
+                                    <label for="RG">
+                                        RG
+                                    </label>
+                                    <div class="input-control text">
+                                        <input id="RG" name="RG" type="text" ng-model="editar.prefeito.RG" class="form-control" ng-disabled="status.busy" required />
+                                        <ng-messages for="frmPrefeito.RG.$error" ng-show="frmPrefeito.RG.$touched">
+                                <ng-message class="help-block" when="required">campo obrigatório</ng-message>
+                            </ng-messages>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row cells3">
+                                <div class="cell" ng-class="{'has-error': frmPrefeito.dataemissao.$error.required && frmPrefeito.dataemissao.$touched}">
+                                    <label for="DataEmissao">
+                                        Data da emissão:
+                                    </label>
+                                    <div class="input-control text" data-role="datepicker" data-scheme="darcula" data-other-days="true" data-format="dd/mm/yyyy">
+                                        <input id="DataEmissao" name="dataemissao" type="text" ng-model="editar.prefeito.DataEmissao" type="datetime-local" class="form-control" />
+                                        <button class="button"><span class="mif-calendar"></span></button>
+                                        <ng-messages for="frmPrefeito.dataemissao.$error" ng-show="frmPrefeito.dataemissao.$touched">
+                                <ng-message class="help-block" when="required">campo obrigatório</ng-message>
+                            </ng-messages>
+                                    </div>
+                                </div>
+                                <div class="cell" ng-class="{'has-error': frmPrefeito.SiglaEmissor.$error.required && frmPrefeito.SiglaEmissor.$touched}">
+                                    <label for="OrgaoEmissor">
+                                        Sigla do órgão emissor:
+                                    </label>
+                                    <div class="input-control text">
+                                        <input id="Sigla" name="SiglaEmissor" type="text" ng-model="editar.prefeito.SiglaEmissor" class="form-control" maxlength="3" required />
+                                        <ng-messages for="frmPrefeito.SiglaEmissor.$error" ng-show="frmPrefeito.SiglaEmissor.$touched">
+                                <ng-message class="help-block" when="required">campo obrigatório</ng-message>
+                            </ng-messages>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <label for="UF">
+                                        U.F
+                                    </label>
+                                    <div class="input-control" data-role="select">
+                                        <select>
+                                            <option>Selecione</option>
+                                            <option>AC</option>
+                                            <option>AM</option>
+                                            <option>SP</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row cells2">
+                                <label for="CPF">
+                                    CPF:
+                                </label>
+                                <div class="input-control select">
+                                    <input id="CPF" name="cpf" type="text" ng-model="editar.prefeito.CPF" class="form-control" maxlength="2" />
+                                    <ng-messages for="frmPrefeito.cpf.$error" ng-show="frmPrefeito.cpf.$touched">
+                                <ng-message class="help-block" when="required">campo obrigatório</ng-message>
+                            </ng-messages>
+                                </div>
+                            </div>
+                            <fieldset>
+                                <legend>Mandato do Prefeito</legend>
+                                <div class="row cells2">
+                                    <div class="cell" ng-class="{'has-error': frmPrefeito.iniciomandato.$error.required && frmPrefeito.iniciomandato.$click}">
+                                        <label for="InicioMandato">
+                                            Data de início do mandato:
+                                        </label>
+                                        <div class="input-control text" data-role="datepicker" data-scheme="darcula" data-other-days="true" data-format="dd/mm/yyyy">
+                                            <input id="InicioMandato" name="iniciomandato" type="text" ng-model="editar.prefeito.InicioMandato" class="form-control" />
+                                            <button class="button"><span class="mif-calendar"></span></button>
+                                            <ng-messages for="frmPrefeito.iniciomandato.$error" ng-show="frmPrefeito.iniciomandato.$touched">
+                                <ng-message class="help-block" when="required">campo obrigatório</ng-message>
+                            </ng-messages>
+                                        </div>
+                                    </div>
+                                    <div class="cell">
+                                        <label for="TerminoMandato">
+                                            Data de término do mandato:
+                                        </label>
+                                        <div class="input-control text" data-role="datepicker" data-scheme="darcula" data-other-days="true" max-date="true" data-format="dd/mm/yyyy">
+                                            <input id="TerminoMandato" name="terminoMandato" type="text" ng-model="editar.prefeito.TerminoMandato" class="form-control" />
+                                            <button class="button"><span class="mif-calendar"></span></button>
+                                            <ng-messages for="frmPrefeito.terminoMandato.$error" ng-show="frmPrefeito.terminoMandato.$touched">
+                                <ng-message class="help-block" when="required">campo obrigatório</ng-message>
+                            </ng-messages>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </fieldset>
+                            <div class="row" ng-class="{'has-error': frmPrefeito.email.$error.required && frmPrefeito.email.$touched}">
+                                <div class="cell">
+                                    <label for="RG">
+                                        E-mail institucional:
+                                    </label>
+                                    <div class="input-control text full-size">
+                                        <input id="Email" name="email" type="email" ng-model="editar.prefeito.Email" class="form-control" required />
+                                        <ng-messages for="frmPrefeito.email.$error" ng-show="frmPrefeito.email.$error.email || frmPrefeito.email.$touched">
+                                <ng-message class="help-block" when="required">campo obrigatório</ng-message>
+                                <ng-message class="help-block" when="$error">digite um email válido</ng-message>
+                            </ng-messages>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="button" ng-disabled="status.busy|| frmPrefeito.$invalid" ng-click="salvar()">Salvar</button>
+                        <button class="btn btn-danger" id="btnc" onclick="showMetroDialog('#dialog1', 'default', ($('<div>').addClass('padding20 warning').html('Deseja realmente cancelar a ação')))">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+<div data-role="dialog" id="dialog4" class="padding20 dialog alert" data-close-button="true" data-type="alert" data-overlay="true" data-overlay-color="op-dark" data-overlay-click-close="false" style="width: auto; height: auto; visibility: visible; left: 637.5px; top: 78px;">
+    <h1>Não foi possível cadastrar</h1>
+    <h3>Verifique as inconsistências</h3>
+    <p>
+        <ul>
+            <li id="errorMessages" class="error" data-ng-repeat="error in errors">{{error}}</li>
+        </ul>
+    </p>
+    <span class="dialog-close-button"></span>
+</div>
+
+<div data-role="dialog" id="dialog1" class="padding20 dialog warning" data-close-button="true" data-type="warning" data-overlay="true" data-overlay-color="op-dark" data-overlay-click-close="false" style="width: auto; height: auto; visibility: visible; left: 637.5px; top: 78px;">
+    <div class="set-dialog-content">
+    </div>
+    <span class="dialog-close-button"></span>
+</div>
+
+<!--<div data-role="dialog" id="dialog1" data-type="warning" class="padding20 dialog warning" data-overlay="true" data-overlay-click-close="true" style="visibility: visible; width: 325px; height: 100px;">
+    <div class="set-dialog-content">
+    </div>
+    <div class="teste">
+    </div>
+    <span class="dialog-close-button" onclick="hideMetroDialog('#dialog1')"></span>
+
+</div>-->
+
+<div data-role="dialog" id="dialog3" class="padding20 dialog success" data-close-button="true" data-overlay="true" data-overlay-color="op-dark" data-overlay-click-close="false" style="width: auto; height: auto; visibility: visible; left: 637.5px; top: 78px;">
+    <h1>Parabéns</h1>
+    <p>
+        Prefeito cadastrado com sucesso
+    </p>
+    <span class="dialog-close-button" onclick="hideMetroDialog('#dialog3')"></span>
+</div>

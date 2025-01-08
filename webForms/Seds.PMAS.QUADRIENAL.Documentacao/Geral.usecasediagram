@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="4b31dc69-572f-4058-9025-50254062f49f" name="PMAS 2013" linkedPackageId="321e0076-eb9d-421c-b017-7530d528020d" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="04bcae1e-f048-4845-8968-b6d6f8ed92a7" name="Órgão Gestor" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="65a21146-59c8-4bd1-9d54-37bc71284b6c" />
+        <generalsInternal>
+          <generalization Id="3603c939-c0b5-499a-8b7d-58018bffc3bc" isSubstitutable="false">
+            <actorMoniker Id="c146adcc-d8de-49fd-b5cc-91cf2431d536" LastKnownName="Usuário" />
+            <elementDefinition Id="86f03777-158c-47e0-80e3-ae7a39fde3ab" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="fde38fed-8380-4fa4-b685-8fa993abfaf2" isDerived="false" sourceEndRoleName="Órgão Gestor" targetEndRoleName="Cadastrar Rede Proteção Social" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="cb7a753b-c0b3-48ef-90e2-d177888c5046" LastKnownName="Cadastrar Rede Proteção Social" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="79a51f4d-6a76-457d-a4a9-ab16af339023" name="Órgão Gestor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dee17a55-b7d7-44d2-b268-def0a5d96db3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4b471593-10d5-470b-921a-c1f0340b0c64" name="Cadastrar Rede Proteção Social" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="93ee0f88-c271-4656-b629-fb0f7da78ab5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c0cc31ae-b6d2-4364-b6e0-0764285e2496" />
+          </association>
+          <association Id="7386f638-6134-461e-92a2-7eb5ae3d9876" isDerived="false" sourceEndRoleName="Órgão Gestor" targetEndRoleName="Enviar Plano Municipal p/ DRADS" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="02db7ff9-8cd4-42fa-95ae-61b8c0128cf3" LastKnownName="Enviar Plano Municipal p/ DRADS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8f9ff92a-ca61-4056-a4e2-1cc15f01e74c" name="Órgão Gestor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="93de24b5-c8e5-4370-8922-25d82354b47a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de563168-dc96-424e-8631-29736741cd96" name="Enviar Plano Municipal p/ DRADS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5abcb7ec-6424-4f31-8a1f-e647418ae85b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="838d92be-9d39-40ff-a77b-f50b07842a0f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cb7a753b-c0b3-48ef-90e2-d177888c5046" name="Cadastrar Rede Proteção Social" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5651c1ac-7fc4-4ca8-84f1-08d80bffad0c" />
+        <subjects>
+          <subsystemMoniker Id="f1448c84-39c8-46d8-8ab3-e030d2b36a2a" LastKnownName="PMAS 2013" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="41f7d339-80da-41c7-9b2e-b21f1d343792" name="CMAS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="19af0d47-9899-4be1-ba15-95c3519a3e8c" />
+        <generalsInternal>
+          <generalization Id="02c5f80c-5d7c-47c2-9561-6f15978fcb82" isSubstitutable="false">
+            <actorMoniker Id="c146adcc-d8de-49fd-b5cc-91cf2431d536" LastKnownName="Usuário" />
+            <elementDefinition Id="ca561ddf-7f3e-494f-ba28-d7396f8aa17e" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="490d3bbc-d2ed-436e-9383-db478bf08fc9" isDerived="false" sourceEndRoleName="CMAS" targetEndRoleName="Cadastar Dados do Conselho Municipal" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="af6086fc-77c7-4006-ba16-87b81c738a4c" LastKnownName="Cadastar Dados do Conselho Municipal" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aed4f382-37d7-488e-a6fb-6d43e61ba1dc" name="CMAS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="89a7e1e3-d4c3-46d0-950d-86b3e47fdef2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3898c03b-c512-4b79-b8a1-7d38940f0efb" name="Cadastar Dados do Conselho Municipal" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9daadc56-a5b2-4e1b-857d-22b5149ab6c4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9f5e3080-3a67-4392-9317-ed7dbae0df15" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="af6086fc-77c7-4006-ba16-87b81c738a4c" name="Cadastar Dados do Conselho Municipal" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d837b6e1-5850-4f7b-9b67-689c412acbb2" />
+        <subjects>
+          <subsystemMoniker Id="f1448c84-39c8-46d8-8ab3-e030d2b36a2a" LastKnownName="PMAS 2013" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a0111997-ee56-469c-aa8e-bec7fb46999d" name="Avaliar Plano Municipal" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b1bf3153-8801-4f46-95a5-b1d5fa112339" />
+        <subjects>
+          <subsystemMoniker Id="f1448c84-39c8-46d8-8ab3-e030d2b36a2a" LastKnownName="PMAS 2013" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="3d04630a-cca1-4d56-b450-998a4b88bf37" name="Gestor Municipal" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c08d4aa5-60f9-42f9-bd5b-290940310aa6" />
+        <generalsInternal>
+          <generalization Id="0c2e0268-5073-4019-894b-ace444d5bd5a" isSubstitutable="false">
+            <actorMoniker Id="04bcae1e-f048-4845-8968-b6d6f8ed92a7" LastKnownName="Órgão Gestor" />
+            <elementDefinition Id="e3d32f3c-af77-48a0-8c79-49eeac2eca67" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="357ccfcd-45a5-4a61-a09f-b459c74b1118" isDerived="false" sourceEndRoleName="Gestor Municipal" targetEndRoleName="Finalizar Plano Municipal" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5d818802-d87b-479c-8eba-749771e9a406" LastKnownName="Finalizar Plano Municipal" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e883f36-ab72-477b-b0bc-3b92f475839d" name="Gestor Municipal" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5be950b0-7673-45d0-b311-f60593bb7500" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="179c2b7c-f58d-4cc1-82bd-c1a3dc588385" name="Finalizar Plano Municipal" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="207ea9dd-24cd-4bbb-86a9-aac5ea1c90c9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cf8f23ba-3718-4e75-a81e-1c611754d61b" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="3853133b-1569-4b79-9905-e317ad22bbb1" name="Presidente do CMAS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b724baa5-1e75-4812-bf37-13631bfa8caf" />
+        <generalsInternal>
+          <generalization Id="ba3b27f9-6753-4ba2-ac80-252de1b6af4b" isSubstitutable="false">
+            <actorMoniker Id="41f7d339-80da-41c7-9b2e-b21f1d343792" LastKnownName="CMAS" />
+            <elementDefinition Id="991ff28f-4d67-4645-8878-70bf4cd7e53b" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="3ccd08ac-1034-4ab4-9d15-6be97facf7b6" isDerived="false" sourceEndRoleName="Presidente do CMAS" targetEndRoleName="Avaliar Plano Municipal" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a0111997-ee56-469c-aa8e-bec7fb46999d" LastKnownName="Avaliar Plano Municipal" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="85d98119-4066-43a8-8d94-bfff000329dd" name="Presidente do CMAS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6cf932da-6112-4e4c-b163-f430a8285b2a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3c8ed1cb-aee4-4b0a-8d75-bbe8d9c8cd71" name="Avaliar Plano Municipal" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f480c700-695f-4193-a23d-22bbedc7b495" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="86bb29c9-aa9b-4402-b02b-acc3e6254b63" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5d818802-d87b-479c-8eba-749771e9a406" name="Finalizar Plano Municipal" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bc1815ae-343d-401d-b1ba-88747cf3df71" />
+        <subjects>
+          <subsystemMoniker Id="f1448c84-39c8-46d8-8ab3-e030d2b36a2a" LastKnownName="PMAS 2013" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="02db7ff9-8cd4-42fa-95ae-61b8c0128cf3" name="Enviar Plano Municipal p/ DRADS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d8a150e6-8815-44e8-bfad-8345e00c9d56" />
+        <subjects>
+          <subsystemMoniker Id="f1448c84-39c8-46d8-8ab3-e030d2b36a2a" LastKnownName="PMAS 2013" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c146adcc-d8de-49fd-b5cc-91cf2431d536" name="Usuário" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c9549b9a-a5d9-464c-8fb9-6b05fcfe6500" />
+        <targetEnds>
+          <association Id="f06c4c05-b882-471f-aac3-1fc452d1abf8" isDerived="false" sourceEndRoleName="Usuário" targetEndRoleName="Logar no Sistema" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="45b8d71a-d705-46f9-b913-90fdaa822fb1" LastKnownName="Logar no Sistema" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="516d2963-a1e0-44e7-817b-6a3e8b621682" name="Usuário" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c18eb20c-fb8c-4247-b26c-db5e1c03dc65" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1d639a1a-6b4e-4b39-8114-52bfffd80d93" name="Logar no Sistema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f22321ed-03b2-47e5-bed1-dc358aee5752" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a577163d-599e-44bf-a3db-5ff0cd128b6a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="45b8d71a-d705-46f9-b913-90fdaa822fb1" name="Logar no Sistema" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ce9ce7be-6755-4e2f-8cfd-1b97b7003c4a" />
+        <targetEnds>
+          <association Id="21d1023f-2c39-4c69-8c42-8a02cc5230a2" isDerived="false" sourceEndRoleName="Logar no Sistema" targetEndRoleName="Sistema de Autenticação e Autorização" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="21a8f924-10d4-4458-9624-74625840878e" LastKnownName="Sistema de Autenticação e Autorização" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="410a6295-07b3-42aa-9ee4-c91796781a66" name="Logar no Sistema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="70facd88-973b-4b86-9e0f-10996f5d66a2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f99f6c7c-4b7f-4301-a277-ef2ff3addcb8" name="Sistema de Autenticação e Autorização" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1584df46-6291-4932-979f-757e33b29399" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3d1da9d5-92d5-4187-afb5-50c094aba066" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="f1448c84-39c8-46d8-8ab3-e030d2b36a2a" LastKnownName="PMAS 2013" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="21a8f924-10d4-4458-9624-74625840878e" name="Sistema de Autenticação e Autorização" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="73ae0c88-f39f-4d6d-a2ba-209152a4f7e2" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="f1448c84-39c8-46d8-8ab3-e030d2b36a2a" name="PMAS 2013" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fe539bb5-963f-4132-a03a-2d43ae3ff17b" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="321e0076-eb9d-421c-b017-7530d528020d" name="Seds.PMAS2014.Documentacao">
+    <elementDefinition Id="803bd77e-2f29-40c3-a4b7-8d6543f13147" />
+    <profileInstances>
+      <packageHasProfileInstances Id="2d09f622-7212-4b6f-b6b9-664595261444">
+        <profileInstance Id="a7c09b54-c6c3-43da-a1ff-3ac8ac4499e2" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3fa22ab1-686a-41f9-9fe2-34bd83449ebd">
+        <profileInstance Id="d8a81fc8-2376-41e9-87f8-99801eca94b3" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

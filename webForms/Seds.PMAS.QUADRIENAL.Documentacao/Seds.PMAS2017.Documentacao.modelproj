@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3b218a84-3672-4064-86c2-9cdcee1b7634}</ProjectGuid>
+    <ArchitectureToolsVersion>1.0.0.0</ArchitectureToolsVersion>
+    <Name>Seds.PMAS2015.Documentacao</Name>
+    <RootNamespace>Seds.PMAS2014.Documentacao</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccProvider>
+    </SccProvider>
+    <SccAuxPath />
+    <SccLocalPath>
+    </SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" />
+  <ItemGroup>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="BLOCO I.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BLOCO I.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>BLOCO I.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="Geral.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geral.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Geral.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Seds.PMAS2014.Documentacao.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="Arquitetura.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="Arquitetura.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Arquitetura.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="Arquitetura.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>Arquitetura.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Seds.PMAS2015.Entidades\Seds.PMAS2015.Entidades.csproj">
+      <Name>Seds.PMAS2015.Entidades</Name>
+      <Project>{2ceb2e6e-83b9-4e12-8995-6b58a7607f87}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS2015.Negocio.Validadores\Seds.PMAS2015.Negocio.Validadores.csproj">
+      <Name>Seds.PMAS2015.Negocio.Validadores</Name>
+      <Project>{858694aa-c5a5-44af-a983-2a24ec176028}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS2015.Negocio\Seds.PMAS2015.Negocio.csproj">
+      <Name>Seds.PMAS2015.Negocio</Name>
+      <Project>{d3e84fee-80fd-476b-b07f-65636094995d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS2015.Persistencia.Repositorio\Seds.PMAS2015.Persistencia.Repositorio.csproj">
+      <Name>Seds.PMAS2015.Persistencia.Repositorio</Name>
+      <Project>{bf085aff-ae9b-46ea-9574-0a810a613697}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS2015.Persistencia\Seds.PMAS2015.Persistencia.csproj">
+      <Name>Seds.PMAS2015.Persistencia</Name>
+      <Project>{686f30b7-608b-4e9e-8354-68ec54cd52f3}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS2015.Processos\Seds.PMAS2015.UI.Processos.csproj">
+      <Name>Seds.PMAS2015.UI.Processos</Name>
+      <Project>{2ee39bda-144d-496c-9737-acd1b56bc4ca}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS2015.Servicos.Contratos\Seds.PMAS2015.Servicos.Contratos.csproj">
+      <Name>Seds.PMAS2015.Servicos.Contratos</Name>
+      <Project>{d5445516-9344-4c6f-9081-bd2f412fbc9b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS2015.Servicos\Seds.PMAS2015.Servicos.csproj">
+      <Name>Seds.PMAS2015.Servicos</Name>
+      <Project>{3c00cb7d-b4e4-4f09-aa6d-ce68662d19ad}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS2015.UI.Web\Seds.PMAS2015.UI.Web.csproj">
+      <Name>Seds.PMAS2015.UI.Web</Name>
+      <Project>{195f5ff3-97ae-4451-8326-c40eb71f8566}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

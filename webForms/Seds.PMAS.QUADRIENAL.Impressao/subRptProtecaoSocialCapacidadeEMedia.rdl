@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="table1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>2.97917in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.90625in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.90625in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.60417in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.22in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Unidade</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>7pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>#2e6e9e</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox2</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#a6c9e2</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#bdd7ee</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox7">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Local/Tipo Rede</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>7pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>#2e6e9e</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox7</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#a6c9e2</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#bdd7ee</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Capacidade Mensal de Atendimento</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>7pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>#2e6e9e</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#a6c9e2</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#bdd7ee</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox4">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Média Mensal de atendimento</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>7pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>#2e6e9e</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#a6c9e2</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#bdd7ee</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.21in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="NOME">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!NOME.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>7pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>NOME</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#a6c9e2</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TIPO_UNIDADE">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TIPO_UNIDADE.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>7pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TIPO_UNIDADE</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#a6c9e2</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="CAPACIDADE_DE_ATENDIMENTO">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!CAPACIDADE_DE_ATENDIMENTO.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>7pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>CAPACIDADE_DE_ATENDIMENTO</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#a6c9e2</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="MEDIA_MENSAL_DE_ATENDIMENTO">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!MEDIA_MENSAL_DE_ATENDIMENTO.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>7pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>MEDIA_MENSAL_DE_ATENDIMENTO</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#a6c9e2</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+              <RepeatOnNewPage>true</RepeatOnNewPage>
+              <KeepTogether>true</KeepTogether>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="table1_Details_Group">
+                <DataElementName>Detail</DataElementName>
+              </Group>
+              <TablixMembers>
+                <TablixMember />
+              </TablixMembers>
+              <DataElementName>Detail_Collection</DataElementName>
+              <DataElementOutput>Output</DataElementOutput>
+              <KeepTogether>true</KeepTogether>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>dsProtecaoSocialCapacidadeEMedia</DataSetName>
+        <Top>0.20833in</Top>
+        <Height>0.43in</Height>
+        <Width>7.39584in</Width>
+        <Style />
+      </Tablix>
+      <Textbox Name="Textbox1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=iif(Parameters!ID_TIPO_PROTECAO.Value = 1, "Proteção social básica",iif(Parameters!ID_TIPO_PROTECAO.Value = 2,"Proteção social média",iif(Parameters!ID_TIPO_PROTECAO.Value = 3,"Proteção social Alta","")))</Value>
+                <Style>
+                  <FontFamily>Tahoma</FontFamily>
+                  <FontSize>8pt</FontSize>
+                  <FontWeight>SemiBold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Height>0.18055in</Height>
+        <Width>3.625in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox6">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=iif(Parameters!ID_TIPO_PROTECAO.Value = 1 ,iif(CountRows() &gt; 1,
+"Os Centros de Referência de Assistência Social contam com Serviço de proteção e atendimento integral à família – PAIF e Serviço de convivência e fortalecimento de vínculos." + IIF(Sum(Fields!COFINANCIAMENTO_ESTADUAL.Value, "dsProtecaoSocialCapacidadeEMedia") &gt; 0, "Valores de cofinanciamento FEAS para o CRAS: R$ " +CStr(FormatNumber(Sum(Fields!COFINANCIAMENTO_ESTADUAL.Value, "dsProtecaoSocialCapacidadeEMedia"),2)) + ".","Não consta para o CRAS valores de cofinanciamento.") + iif(Sum(Fields!COFINANCIAMENTO_ESTADUAL_REPROGRAMADO.Value, "dsProtecaoSocialCapacidadeEMedia") &gt; 0,"Valores Reprogramados: R$" + CStr(FormatNumber(Sum(Fields!COFINANCIAMENTO_ESTADUAL_REPROGRAMADO.Value, "dsProtecaoSocialCapacidadeEMedia"))), "Não há valores reprogramados."),
+"O Centro de Referência de Assistência Social conta com serviço de proteção e atendimento integral à família – PAIF e Serviço de convivência e fortalecimento de vínculos." + IIF(Sum(Fields!COFINANCIAMENTO_ESTADUAL.Value, "dsProtecaoSocialCapacidadeEMedia") &gt; 0, "Valores de cofinanciamento FEAS para o CRAS: R$ " +CStr(FormatNumber(Sum(Fields!COFINANCIAMENTO_ESTADUAL.Value, "dsProtecaoSocialCapacidadeEMedia"),2)) + ".","Não consta para o CRAS valores de cofinanciamento.") + iif(Sum(Fields!COFINANCIAMENTO_ESTADUAL_REPROGRAMADO.Value, "dsProtecaoSocialCapacidadeEMedia") &gt; 0,"Valor Reprogramado: R$" + CStr(FormatNumber(Sum(Fields!COFINANCIAMENTO_ESTADUAL_REPROGRAMADO.Value, "dsProtecaoSocialCapacidadeEMedia"))), "Não há valor reprogramado.")),
+iif(Parameters!ID_TIPO_PROTECAO.Value = 2 , 
+iif(CountRows() &gt; 1,
+"Os Centros de Referência Especializado de Assistência Social contam com Serviço de proteção e atendimento especializado à famílias e indivíduos – PAEFI." + IIF(Sum(Fields!TIPO_PSCLA.Value, "dsProtecaoSocialCapacidadeEMedia") = 1 ,"Serviço especializado em abordagem social e Serviço de Proteção Social a Adolescentes em Cumprimento de Medida Socioeducativa de Liberdade Assistida (LA) e Prestação de Serviços à Comunidade (PSC).","") + IIF(Sum(Fields!COFINANCIAMENTO_ESTADUAL.Value, "dsProtecaoSocialCapacidadeEMedia") &gt; 0, "Valores de cofinanciamento FEAS para o CREAS: R$ " +CStr(FormatNumber(Sum(Fields!COFINANCIAMENTO_ESTADUAL.Value, "dsProtecaoSocialCapacidadeEMedia"),2)) + ".","Não consta para o CREAS valores de cofinanciamento.") + iif(Sum(Fields!COFINANCIAMENTO_ESTADUAL_REPROGRAMADO.Value, "dsProtecaoSocialCapacidadeEMedia") &gt; 0,"Valores Reprogramados: R$" + CStr(FormatNumber(Sum(Fields!COFINANCIAMENTO_ESTADUAL_REPROGRAMADO.Value, "dsProtecaoSocialCapacidadeEMedia"))) + ".", "Não há valores reprogramados."),
+"O Centro de Referência Especializado de Assistência Social conta com serviço de proteção e atendimento especializado à família e indivíduos – PAEFI." + IIF(Sum(Fields!TIPO_PSCLA.Value,"dsProtecaoSocialCapacidadeEMedia") = 1,"Serviço especializado em abordagem social e Serviço de Proteção Social a Adolescentes em Cumprimento de Medida Socioeducativa de Liberdade Assistida (LA) e Prestação de Serviços à Comunidade (PSC).","") + IIF(Sum(Fields!COFINANCIAMENTO_ESTADUAL.Value, "dsProtecaoSocialCapacidadeEMedia") &gt; 0, "Valores de cofinanciamento FEAS para o CREAS: R$ " +CStr(FormatNumber(Sum(Fields!COFINANCIAMENTO_ESTADUAL.Value, "dsProtecaoSocialCapacidadeEMedia"),2)) + ".","Não consta para o CREAS valores de cofinanciamento.") + iif(Sum(Fields!COFINANCIAMENTO_ESTADUAL_REPROGRAMADO.Value, "dsProtecaoSocialCapacidadeEMedia") &gt; 0,"Valor Reprogramado: R$" + CStr(FormatNumber(Sum(Fields!COFINANCIAMENTO_ESTADUAL_REPROGRAMADO.Value, "dsProtecaoSocialCapacidadeEMedia"))) + ".", "Não há valor reprogramado.")),
+IIF(Sum(Fields!COFINANCIAMENTO_ESTADUAL.Value, "dsProtecaoSocialCapacidadeEMedia") &gt; 0, "Valores de cofinanciamento FEAS proteção Alta: R$ " + CStr(FormatNumber(Sum(Fields!COFINANCIAMENTO_ESTADUAL.Value, "dsProtecaoSocialCapacidadeEMedia"),2)) + ".","Não consta para a proteção alta valores de cofinanciamento.") + iif(Sum(Fields!COFINANCIAMENTO_ESTADUAL_REPROGRAMADO.Value, "dsProtecaoSocialCapacidadeEMedia") &gt; 0,"Valores Reprogramados: R$ " + CStr(FormatNumber(Sum(Fields!COFINANCIAMENTO_ESTADUAL_REPROGRAMADO.Value, "dsProtecaoSocialCapacidadeEMedia"))), "Não há valores reprogramados.")))</Value>
+                <Style>
+                  <FontFamily>Tahoma</FontFamily>
+                  <FontSize>7pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox6</rd:DefaultName>
+        <Top>0.65222in</Top>
+        <Height>0.19445in</Height>
+        <Width>7.39584in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox8">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>="- Total da Capacidade de Atendimento: " + CStr(Sum(Fields!CAPACIDADE_DE_ATENDIMENTO.Value, "dsProtecaoSocialCapacidadeEMedia"))+"."</Value>
+                <Style>
+                  <FontFamily>Tahoma</FontFamily>
+                  <FontSize>7pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox8</rd:DefaultName>
+        <Top>0.84667in</Top>
+        <Height>0.17708in</Height>
+        <Width>7.39584in</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>1.02375in</Height>
+    <Style />
+  </Body>
+  <Width>7.39584in</Width>
+  <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="dbPMAS_QUADRIENAL">
+      <DataSourceReference>dbPMAS_QUADRIENAL</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>1aff4496-ad32-4e11-b4f5-217285178f2f</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="dsProtecaoSocialCapacidadeEMedia">
+      <Query>
+        <DataSourceName>dbPMAS_QUADRIENAL</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@EXERCICIO">
+            <Value>=Parameters!EXERCICIO.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@ID_PREFEITURA">
+            <Value>=Parameters!ID_PREFEITURA.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@ID_TIPO_PROTECAO">
+            <Value>=Parameters!ID_TIPO_PROTECAO.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>PR_SUBREPORT_PROTECAO_SOCIAL_CAPACIDADE_E_MEDIA_MENSAL</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="NOME">
+          <DataField>NOME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CAPACIDADE_DE_ATENDIMENTO">
+          <DataField>CAPACIDADE DE ATENDIMENTO</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MEDIA_MENSAL_DE_ATENDIMENTO">
+          <DataField>MEDIA MENSAL DE ATENDIMENTO</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="COFINANCIAMENTO_ESTADUAL">
+          <DataField>COFINANCIAMENTO_ESTADUAL</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="COFINANCIAMENTO_ESTADUAL_REPROGRAMADO">
+          <DataField>COFINANCIAMENTO_ESTADUAL_REPROGRAMADO</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TIPO_UNIDADE">
+          <DataField>TIPO_UNIDADE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TIPO_PSCLA">
+          <DataField>TIPO_PSCLA</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ID_TIPO_UNIDADE">
+          <DataField>ID_TIPO_UNIDADE</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="EXERCICIO">
+      <DataType>Integer</DataType>
+      <Prompt>EXERCICIO</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ID_PREFEITURA">
+      <DataType>Integer</DataType>
+      <Prompt>ID PREFEITURA</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ID_TIPO_PROTECAO">
+      <DataType>Integer</DataType>
+      <Prompt>ID TIPO PROTECAO</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Language>en-US</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>b9898e43-9add-42f3-8aec-24963b70ee1c</rd:ReportID>
+</Report>

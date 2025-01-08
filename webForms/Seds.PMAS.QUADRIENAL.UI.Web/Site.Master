@@ -1,0 +1,233 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Seds.PMAS.QUADRIENAL.UI.Web.SiteMaster" %>
+
+<%@ Register Assembly="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="Microsoft.IdentityModel.Web.Controls" TagPrefix="wif" %>
+<%--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">--%>
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+
+    <title>Plano Municipal de Assistência Social - PMAS 2022</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="PRAGMA" content="NO-CACHE">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <%--    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />--%>
+
+    <link href="~/Styles/Style.css" rel="stylesheet" type="text/css" />
+    
+    <link href="~/Styles/metro/css/metro-icons.css" rel="stylesheet" />
+    <link href="Styles/BotoesAbas.css" rel="stylesheet" />
+    <link href="~/Styles/BootstrapMenu/bootstrap.css" rel="stylesheet" />
+    <link href="~/Styles/BootstrapMenu/bootstrap-min.css" rel="stylesheet" />
+
+    <link href="~/Styles/custom-theme/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
+    <link href="~/Styles/metro/css/metro-colors.css" rel="stylesheet" />
+    <%--    <link href="~/Styles/ui.jqgrid.css" rel="stylesheet" />--%>
+    <link type="image/x-icon" href="~/Styles/Icones/pmas.ico" rel="shortcut icon" />
+    <link href="Styles/blocos/bloco_inicio/b_inicio.css" rel="stylesheet" />
+    <link href="Styles/blocos/default/default.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .image {
+            position: absolute;
+        }
+        /*Modal Popup*/
+        .modalBackground {
+            background-color: rgba(29, 29, 29, 0.7);
+            /*#EFEFEF*/
+            filter: alpha(opacity=70);
+            opacity: 0.7;
+        }
+    </style>
+    <script type="text/javascript">
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.mif-cog')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-toggle");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <form runat="server">
+        <script id="Pop" language="javascript" type="text/javascript">
+            Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(BeginRequestHandler);
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+
+
+            function BeginRequestHandler(sender, args) {
+                $find("popAguarde").show();
+                document.getElementById('image').visibility = 'visible';
+                document.getElementById('image').width = 72;
+            }
+
+            function EndRequestHandler(sender, args) {
+                $find("popAguarde").hide();
+                document.getElementById('image').visibility = 'hidden';
+                document.getElementById('image').width = 0;
+
+            }
+        </script>
+        <div id="sucesso" data-role="dialog" class="padding20 dialog success" modal="true" data-overlay="true" data-overlay-color="op-dark" data-overlay-click-close="false" data-close-button="true">
+            <br />
+            <h2><span class="mif-thumbs-up mif-ani-bounce"></span>Cadastro concluído com sucesso</h2>
+            <p id="msg">
+            </p>
+        </div>
+        <div id="warning" data-role="dialog" class="padding20 dialog warning" modal="true" data-overlay="true" data-overlay-color="op-dark" data-overlay-click-close="false" data-close-button="true">
+            <br />
+            <h2 style="text-align: center;"><span class="mif-warning mif-ani-flash mif-ani-slow" style="float: left;"></span>Atenção</h2>
+            <p id="msgWarning">
+            </p>
+        </div>
+        <div data-role="dialog" class="padding20 dialog alert" modal="true" data-overlay="true" data-overlay-color="op-dark" data-overlay-click-close="false" data-close-button="true" id="alerta">
+            <br />
+            <h2><span class="mif-thumbs-down mif-ani-bounce"></span>Opa! Alguma coisa não deu certo:</h2>
+            <p id="msgAlerta">
+            </p>
+        </div>
+
+        <ajaxToolkit:ToolkitScriptManager runat="Server" ID="ScriptManager1" EnableScriptGlobalization="true" EnableScriptLocalization="true" EnablePageMethods="true">
+            <Scripts>
+                <asp:ScriptReference Path="~/Scripts/vendors/jquery.js" />
+                <asp:ScriptReference Path="~/Scripts/vendors/jquery.mask.js" />
+                <asp:ScriptReference Path="~/Scripts/widgets/metro.js" />
+                <asp:ScriptReference Path="~/Scripts/bootstrapMenu/tether.js" />
+                <asp:ScriptReference Path="~/Scripts/bootstrapMenu/bootstrap.js" />
+                <asp:ScriptReference Path="~/Scripts/bootstrapMenu/bootstrap-min.js" />
+                <asp:ScriptReference Path="~/Scripts/Site/start.js" />
+                <asp:ScriptReference Path="~/Scripts/Site/inicio.js" />
+                <asp:ScriptReference Path="~/Scripts/jqgrid/i18n/grid.locale-pt-br.js" />
+                <asp:ScriptReference Path="~/Scripts/jqgrid/plugins/ui.multiselect.js" />
+                <asp:ScriptReference Path="~/Scripts/jqgrid/src/jqDnR.js" />
+                <asp:ScriptReference Path="~/Scripts/jqgrid/src/jqModal.js" />
+                <asp:ScriptReference Path="~/Scripts/ui.functions.js" />
+                <asp:ScriptReference Path="~/Scripts/webkit.js" />
+                <asp:ScriptReference Path="~/Scripts/maskedinput.js" />
+                <asp:ScriptReference Path="~/Scripts/mascara.js" />
+            </Scripts>
+        </ajaxToolkit:ToolkitScriptManager>
+        <div class="header">
+            <div class="app-bar fixed-top  fg-white" data-role="appbar">
+                <a class="app-bar-element branding">
+                    <div style="margin-left:10px;">
+                        <strong>Sistema dos Planos Municipais de Assistência Social  -  PMASweb</strong>
+                    </div>
+                </a>
+                <span class="app-bar-divider"></span>
+                <div class="app-bar-element place-right">
+                    <div class="dropdown" style="z-index: 3">
+                        <span class="dropdown-toggle" onclick="myFunction()">
+                            <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                                <LoggedInTemplate>
+                                    <strong>Bem-Vindo 
+                                        <asp:LoginName ID="HeadLoginName" runat="server" />
+                                        </b>
+                                    </strong>
+                                </LoggedInTemplate>
+                            </asp:LoginView>
+                            <strong>(<asp:Label ID="lblPerfil" runat="server" />)! </strong>
+                            <span class="mif-cog"></span></span>
+                        <div id="myDropdown" class="dropdown-content">
+                            <!--<asp:HyperLink NavigateUrl="~/Download.aspx" Text="Orientações" runat="server" ID="lnkOrientações" class="mif-download2" />-->
+                            <asp:HyperLink NavigateUrl="~/Usuario/AlterarSenha.aspx" Text="Alterar senha" runat="server" ID="lnkAlterarSenha" class="mif-lock" />
+                            <asp:HyperLink NavigateUrl="~/LogOff.aspx" Text="Sair" runat="server" ID="lnkSair" class="mif-exit" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="divide-nav">
+                <%--<asp:Image ID="imgSP" runat="server" ImageUrl="~/Styles/Images/bandeira_menor.png" Style="width:170px; height: auto; padding:8px; float:right" />--%>
+                <asp:Image ID="imgSP" runat="server" ImageUrl="~/Styles/Images/logosp.png" Style="width:170px; height: auto; padding:8px; float:right" />
+                <div class="container">
+                    <a href="Default.aspx" >
+                        <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Styles/Images/logoPMAS.png" Style="width:300px; height: auto; padding:15px;" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="z-index: 3">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <asp:Menu ID="menu" runat="server" Orientation="Horizontal" RenderingMode="List"
+                    IncludeStyleBlock="false" StaticMenuStyle-CssClass="nav navbar-nav" DynamicMenuStyle-CssClass="dropdown-menu">
+                </asp:Menu>
+            </div>
+        </nav>
+
+
+        <asp:UpdatePanel ID="updatePanel" runat="server">
+            <ContentTemplate>
+                <div style="margin-left: 30%;">
+                    <asp:Label ID="lblDrads" CssClass="ui-text" Font-Bold="True" runat="server"></asp:Label>
+                    <asp:Label ID="lblPrefeitura" runat="server" CssClass="ui-text" Font-Bold="True"></asp:Label>
+                </div>
+                <div style="margin-left: 30%;">
+                    <ul class="breadcrumbs2">
+                        <asp:Label ID="lblMenu" runat="server" Font-Bold="True"></asp:Label>
+                    </ul>
+                </div>
+                <ajaxToolkit:ModalPopupExtender ID="popAguarde" runat="server" TargetControlID="Button1"
+                    PopupControlID="pnAguarde" BackgroundCssClass="modalBackground" BehaviorID="popAguarde" />
+                <asp:Panel ID="pnAguarde" runat="server">
+                    <span class="mif-spinner4 mif-ani-spin mif-4x fg-blue" id="image"></span>
+                    <br />
+                    <strong class="fg-blue">Aguarde</strong>
+                    <%--  <asp:Image ID="image" runat="server" ImageUrl="~/Styles/Images/ajax-loader.gif" CssClass="image" />--%>
+                </asp:Panel>
+                <asp:Button ID="Button1" runat="server" Text="Button" Style="display: none" />
+                <script type="text/javascript">
+                    document.getElementById('image').visibility = 'hidden';
+                </script>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+
+
+        <div id="pnlMain" style="overflow: auto; padding-bottom: 75px; margin-bottom: 400px">
+            <div class="container">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                <asp:ContentPlaceHolder ID="SecondContent" runat="server" />
+            </div>
+        </div>
+
+        <footer class="footer" style="z-index: 3">
+            <div style="float: right; margin-right: 10px;">
+                <asp:Label ID="txtVersion" runat="server" />
+            </div>
+            <%--<div class="row">
+                <asp:Image ID="imgGov" runat="server" ImageUrl="~/Styles/Images/gov-white.png" Width="200" />
+            </div>--%>
+        </footer>
+    </form>
+
+</body>
+</html>

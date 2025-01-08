@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Seds.PMAS2016.Negocio.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Seds_PMAS2017_Negocio_wsRS_ReportingService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://10.22.2.20/ReportServer/ReportService.asmx</Value>
+    </Setting>
+    <Setting Name="Seds_PMAS2017_Negocio_wsReport_ReportingService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.22.2.20/ReportServer/ReportService.asmx</Value>
+    </Setting>
+    <Setting Name="Seds_PMAS2017_Negocio_wsReport_ReportingService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.22.2.20/ReportServer/ReportService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

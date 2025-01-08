@@ -1,0 +1,121 @@
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.ControleAcesso\obj\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb

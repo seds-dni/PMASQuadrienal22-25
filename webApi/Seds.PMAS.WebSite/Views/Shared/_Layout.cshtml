@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html ng-app="pmas">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PMAS BETA</title>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/AngularApp/modules/pmas.js"></script>
+    <script src="~/AngularApp/controller/menuController.js"></script>
+    <script src="~/AngularApp/services/menuService.js"></script>
+    <script src="~/AngularApp/controller/homeController.js"></script>
+    <script src="../AngularApp/controller/prefeitoController.js"></script>
+    <script src="../AngularApp/services/prefeitoService.js"></script>
+    <script src="~/Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+
+    <script src="~/Scripts/bootstrapMenu/jquery.js"></script>
+    <script src="~/Scripts/bootstrapMenu/tether.js"></script>
+    <script src="~/Scripts/bootstrapMenu/bootstrap.min.js"></script>
+
+    <link href="~/Content/BootstrapMenu/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/BootstrapMenu/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/site/site.css" rel="stylesheet" />
+    <link href="~/Content/metro/css/metro-icons.css" rel="stylesheet" />
+    <link href="~/Content/metro/css/style.css" rel="stylesheet" />
+    <base href="/" />
+    <style>
+        body {
+            padding-top: 30px;
+            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        }
+    </style>
+    @*    @RenderSection("head", required: false)*@
+</head>
+<body>
+    <div class="header">
+        <div class="app-bar fixed-top  fg-white" data-role="appbar">
+            <a class="app-bar-element branding">Plano Municipal da Assistência Social PMAS
+            </a>
+            <span class="app-bar-divider"></span>
+            <div class="app-bar-element place-right">Bem Vindo Usuário Teste ! <a class="dropdown-toggle fg-white"><span class="mif-cog"></span></a></div>
+        </div>
+        <div class="row">
+            <div class="divide-nav">
+                <img id="imgBandeira" src="Content/site/images/bandeira_menor.png" />
+                <img id="logoPmas" src="Content/site/images/logoPMAS.png" height="60" />
+            </div>
+        </div>
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="menuController">
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <footer class="footer">
+        <div class="row">
+            <img id="imgBandeiraBranca" src="Content/site/images/gov-white.png" />
+        </div>
+    </footer>
+
+</body>
+</html>

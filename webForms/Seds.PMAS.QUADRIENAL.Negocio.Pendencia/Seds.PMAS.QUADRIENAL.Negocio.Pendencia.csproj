@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{84C88F58-9294-4248-9CF7-0E95888637C7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Seds.PMAS.QUADRIENAL.Negocio.Pendencia</RootNamespace>
+    <AssemblyName>Seds.PMAS.QUADRIENAL.Negocio.Pendencia</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerificadorPendenciaPMAS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Entidades\Seds.PMAS.QUADRIENAL.Entidades.csproj">
+      <Project>{2ceb2e6e-83b9-4e12-8995-6b58a7607f87}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Negocio.Validadores\Seds.PMAS.QUADRIENAL.Negocio.Validadores.csproj">
+      <Project>{858694aa-c5a5-44af-a983-2a24ec176028}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Negocio.Validadores</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Negocio\Seds.PMAS.QUADRIENAL.Negocio.csproj">
+      <Project>{d3e84fee-80fd-476b-b07f-65636094995d}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Processos\Seds.PMAS.QUADRIENAL.UI.Processos.csproj">
+      <Project>{2ee39bda-144d-496c-9737-acd1b56bc4ca}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.UI.Processos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Servicos.Contratos\Seds.PMAS.QUADRIENAL.Servicos.Contratos.csproj">
+      <Project>{d5445516-9344-4c6f-9081-bd2f412fbc9b}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Servicos.Contratos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Servicos\Seds.PMAS.QUADRIENAL.Servicos.csproj">
+      <Project>{3c00cb7d-b4e4-4f09-aa6d-ce68662d19ad}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Servicos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Sessao\Seds.PMAS.QUADRIENAL.Sessao.csproj">
+      <Project>{6f43c4ea-b4f6-4a20-8b25-649a822237f4}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Sessao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.UI.Facade\Seds.PMAS.QUADRIENAL.UI.Facade.csproj">
+      <Project>{7559b3f1-f932-4614-984d-1d26cba1ae7b}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.UI.Facade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

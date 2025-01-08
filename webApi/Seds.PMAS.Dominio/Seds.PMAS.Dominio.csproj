@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6292D70F-4A36-464A-9A8E-8F59CAA2C21B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Seds.PMAS.Dominio</RootNamespace>
+    <AssemblyName>Seds.PMAS.Dominio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Crypto">
+      <HintPath>..\Uteis\DLLS\Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=6.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.6.2.1.0\lib\Net45\FluentValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Uteis\DLLS\Microsoft.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Entidades">
+      <HintPath>..\Uteis\DLLS\Seds.Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Seguranca.Entidades">
+      <HintPath>..\Uteis\DLLS\Seds.Seguranca.Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Seguranca.Negocio">
+      <HintPath>..\Uteis\DLLS\Seds.Seguranca.Negocio.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\Uteis\DLLS\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\ConsultaUsuarioEntity.cs" />
+    <Compile Include="Entities\Enumerables\EPerfil.cs" />
+    <Compile Include="Entities\EPerfil.cs" />
+    <Compile Include="Entities\IBaseEntity.cs" />
+    <Compile Include="Entities\RecursoEntity.cs" />
+    <Compile Include="Entities\RecursoPerfilEntity.cs" />
+    <Compile Include="Entities\Identificacao\Prefeitura Municipal\PrefeitoEntity.cs" />
+    <Compile Include="Entities\Identificacao\Prefeitura Municipal\NivelGestaoEntity.cs" />
+    <Compile Include="Entities\Identificacao\Prefeitura Municipal\PrefeituraEntity.cs" />
+    <Compile Include="Entities\Identificacao\Prefeitura Municipal\SituacaoEntity.cs" />
+    <Compile Include="Interfaces\Repositories\IPrefeitoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPrefeituraRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IRecursoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEntityBaseRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IUsuarioRepository.cs" />
+    <Compile Include="Interfaces\Services\IPerfilService.cs" />
+    <Compile Include="Interfaces\Services\IPrefeitoService.cs" />
+    <Compile Include="Interfaces\Services\IPrefeituraService.cs" />
+    <Compile Include="Interfaces\Services\IRecursoServico.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
+    <Compile Include="Interfaces\Services\IUsuarioService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\PrefeitoService.cs" />
+    <Compile Include="Services\PrefeituraService.cs" />
+    <Compile Include="Services\RecursoService.cs" />
+    <Compile Include="Services\ServiceBase.cs" />
+    <Compile Include="Entities\Usuario\StatusEntity.cs" />
+    <Compile Include="Entities\Usuario\UsuarioEntity.cs" />
+    <Compile Include="Services\UsuarioService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Seds.PMAS.Commom\Seds.PMAS.Common.csproj">
+      <Project>{E8DBFD3F-E09F-4EE1-BB5A-046E97C196B8}</Project>
+      <Name>Seds.PMAS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.Dominio.Core\Seds.PMAS.Dominio.Core.csproj">
+      <Project>{318aff8d-4a8f-457f-ac89-b3d50e6c9fab}</Project>
+      <Name>Seds.PMAS.Dominio.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\CMAS\" />
+    <Folder Include="Entities\Diagnostico Socioterritorial\" />
+    <Folder Include="Entities\Financiamento\" />
+    <Folder Include="Entities\Identificacao\Orgao Gestor\" />
+    <Folder Include="Entities\Planejamento\" />
+    <Folder Include="Entities\Rede de Protecao Social\" />
+    <Folder Include="Entities\Vigilancia\" />
+    <Folder Include="Proxy\" />
+    <Folder Include="Validadores\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

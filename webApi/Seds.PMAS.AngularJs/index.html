@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html ng-app="pmas" lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PMAS BETA</title>
+    <script src="scripts/vendors/jquery.js"></script>
+    <script src="scripts/vendors/jquery.mask.js"></script>
+    <script src="scripts/vendors/angular.js"></script>
+    <script src="scripts/vendors/angular-ui-router.min.js"></script>
+    <script src="scripts/vendors/angular-local-storage.min.js"></script>
+    <script src="scripts/vendors/angular-resource.js"></script>
+    <script src="scripts/vendors/angular-messages.js"></script>
+
+    <script src="scripts/vendors/ui-bootstrap-tpls.min.js"></script>
+
+    <script src="spa/app.js"></script>
+    <script src="spa/config/routes.js"></script>
+    <script src="spa/config/config.js"></script>
+    <script src="spa/services/apiFactory.js"></script>
+    <script src="spa/services/authData.js"></script>
+    <script src="spa/services/authenticationService.js"></script>
+    <script src="spa/services/userService.js"></script>
+    <script src="spa/login/loginService.js"></script>
+    <script src="spa/services/menuService.js"></script>
+    <script src="spa/services/dataService.js"></script>
+    <script src="spa/services/userService.js"></script>
+    <!--    <script src="scripts/spa/services/menuService.js"></script>-->
+    <script src="spa/services/prefeitoService.js"></script>
+    <script src="spa/services/usuarioService.js"></script>
+
+
+
+    <script src="spa/login/loginController.js"></script>
+    <script src="spa/index/indexController.js"></script>
+    <script src="spa/home/homeController.js"></script>
+    <script src="spa/index/menuController.js"></script>
+    <script src="spa/prefeitura/prefeituraController.js"></script>
+
+
+    <script src="scripts/widgets/metro.js"></script>
+    <script src="scripts/bootstrapMenu/tether.js"></script>
+    <script src="scripts/bootstrapMenu/bootstrap-min.js"></script>
+    <script src="scripts/widgets/select2.min.js"></script>
+
+    <link type="image/x-icon" href="Images/Icons/pmas.ico" rel="shortcut icon" />
+
+    <link href="Content/BootstrapMenu/bootstrap.css" rel="stylesheet" />
+    <link href="Content/BootstrapMenu/bootstrap-min.css" rel="stylesheet" />
+    <link href="Content/site/site.css" rel="stylesheet" />
+    <link href="Content/metro/css/metro-icons.css" rel="stylesheet" />
+    <link href="Content/metro/css/style.css" rel="stylesheet" />
+    <base href="/" />
+    <style>
+        body {
+            padding-top: 30px;
+            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        }
+    </style>
+    <!--<script type="text/javascript">// <![CDATA[
+        jQuery(function ($) {
+            //$.mask.definitions['~'] = '[+-]';
+            //Inicio Mascara Telefone
+            //$('input[type=tel]').mask("(99) 9999-9999?9").ready(function (event) {
+            //    var target, phone, element;
+            //    target = (event.currentTarget) ? event.currentTarget : event.srcElement;
+            //    phone = target.value.replace(/\D/g, '');
+            //    element = $(target);
+            //    element.unmask();
+            //    if (phone.length > 10) {
+            //        element.mask("(99) 99999-999?9");
+            //    } else {
+            //        element.mask("(99) 9999-9999?9");
+            //    }
+            //});
+            //Fim Mascara Telefone
+            //$("#CPF").mask("999.999.999-99");
+            $("#RG").mask("99.999.999-A");
+        });
+
+        function notifyOnErrorInput(input) {
+            var message = input.data('validateHint');
+            $.Notify({
+                caption: 'Error',
+                content: message,
+                type: 'alert'
+            });
+        }
+
+        function openCustom() {
+            metroDialog.create({
+
+                title: "Cancelar Operação",
+                content: "Deseja realmente cancelar?",
+                actions: [
+                    {
+                        title: "Sim",
+                        onclick: function (el) {
+                            //console.log(el);
+                            $(el).data('dialog').close();
+                        }
+                    },
+                    {
+                        title: "Não",
+                        cls: "js-dialog-close"
+                    }
+                ],
+                options: {
+                }
+            });
+        }
+        // ]]>
+    </script>-->
+
+</head>
+<body>
+    <div class="header" data-ng-controller="indexController" data-ng-hide="!authentication.IsAuthenticated" >
+        <div class="app-bar fixed-top  fg-black" data-role="appbar">
+            <a class="app-bar-element branding">
+                <strong>Plano Municipal da Assistência Social PMAS</strong>
+            </a>
+            <span class="app-bar-divider"></span>
+            <div class="app-bar-element place-right"><strong>Bem Vindo {{usuariologado.nome}} ({{usuariologado.perfil}})!</strong> <a class="dropdown-toggle fg-black"><span class="mif-cog"></span></a></div>
+        </div>
+        <div class="row">
+            <div class="divide-nav">
+                <img id="imgBandeira" src="Content/site/images/bandeira_menor.png" />
+                <img id="logoPmas" src="Content/site/images/logoPMAS.png" height="60" />
+            </div>
+        </div>
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!--ng-controller="menuController"-->
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div ui-view="main">
+
+            <!--<div ui-view="" style="margin-left: 10%; margin-right: 10%;">
+            </div>-->
+
+        </div>
+    </div>
+    <footer class="footer" data-ng-controller="indexController" data-ng-hide="!authentication.IsAuthenticated">
+        <div class="row">
+            <img id="imgBandeiraBranca" src="Content/site/images/gov-white.png" />
+        </div>
+    </footer>
+
+    <!--<div ui-view="auth"></div>-->
+</body>
+</html>

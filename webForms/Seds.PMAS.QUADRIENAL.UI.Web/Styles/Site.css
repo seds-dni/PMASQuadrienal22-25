@@ -1,0 +1,148 @@
+﻿body {
+    background-image: url('Images/bg.png');
+    background-repeat: repeat-x;
+    background-color: #F8F8F8;
+    margin-top: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: Tahoma;
+    font-size: 11px;
+    scrollbar-face-color: #EBF5FF;
+    scrollbar-base-color: #EBF5FF;
+    scrollbar-arrow-color: black;
+    scrollbar-track-color: #F3F3F3;
+    scrollbar-shadow-color: #EBF5FF;
+    scrollbar-highlight-color: #EBF5FF;
+    scrollbar-3dlight-color: #78AAFF;
+    scrollbar-darkshadow-Color: #78AAFF;
+}
+
+.bar {
+    background-image: url('Images/bgbar.png');
+    background-repeat: repeat-x;
+    height: 29px;
+}
+
+.menu {
+    width: 200px;
+    background-color: #F0F6FF;
+}
+
+.conteudo {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.align-center {
+    text-align: center !important;
+}
+
+.mnu_sub_item {
+    padding-left: 5px;
+    overflow: visible;
+    position: relative;
+    z-index: 1000;
+    float: left;
+}
+
+.titulo {
+    color: #D35757;
+}
+
+.ajuda {
+    display: none;
+    position: absolute;
+    padding: 3px;
+    z-index: 20;
+    border: solid 1px #000;
+    background-color: White !important;
+    font-style: normal;
+    font-weight: normal;
+    color: Black !important;
+}
+
+
+
+/********Inclusão de rotated table headers*******/
+.table-header-rotated {
+    border-collapse: collapse;
+}
+
+.csstransforms .table-header-rotated td {
+    width: 30px;
+}
+
+.no-csstransforms .table-header-rotated th {
+    padding: 4px 20px;
+}
+
+.table-header-rotated td {
+    text-align: center;
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+}
+
+.csstransforms .table-header-rotated th.rotate {
+    height: 90px;
+    white-space: nowrap;
+    background: #dfeffc url("custom-theme/images/ui-bg_glass_85_dfeffc_1x400.png") repeat-x scroll 45% 54.5%;
+    border-bottom: 1px solid #c5dbec;
+    color: #2e6e9e;
+    font-weight: bold;
+}
+
+    .csstransforms .table-header-rotated th.rotate > div {
+        -webkit-transform: translate(22px, 18px) rotate(280deg);
+        transform: translate(22px, 18px) rotate(280deg);
+        /*-webkit-transform: translate(0px, 17px) rotate(312deg);
+          transform: translate(0px, 17px) rotate(312deg);*/
+        width: 54px;
+    }
+
+        .csstransforms .table-header-rotated th.rotate > div > span {
+            border-bottom: 1px solid #a6c9e2;
+            padding: 4px 11px;
+        }
+
+.table-header-rotated th.row-header {
+    padding: 0 10px;
+    border-bottom: 1px solid #a6c9e2;
+}
+
+
+.ui-th-rtl, .ui-jqgrid .ui-jqgrid-htable th.ui-th-rtl {
+    border-left: 0px none;
+    text-align: right!important;
+}
+
+.ui-state-sub-header, .ui-widget-subcontent .ui-state-sub, .ui-widget-subheader .ui-state-sub {
+    border: 1px solid #8bc34a;
+    background: #C5E0B2 url(images/turquesa_ombre_folleto_header_1x_248.png) 50% 95% repeat-x;
+    color: #026906;
+}
+
+.ui-state-footer, .ui-widget-footer-content .ui-state-foot, .ui-widget-footer .ui-state-foot {
+    border: 1px solid #8bc34a;
+    background: #C5E0B2 url(images/bg_ui_footer_2X_349.png) 50% 50% repeat-x;
+    color: #026906;
+}
+
+
+.ui-state-sub, .ui-widget-subcontent .ui-state-sub, .ui-widget-subheader .ui-state-sub {
+    border: 1px solid #97cefd;
+    background: #EAF1DD url(images/turquesa_ombre_folleto_1x_248.png) 50% 50% repeat-x;
+    color: #667F35;
+}
+
+.ui-state-reprogramacao-textbox td input {
+    background-color: #9df4eb !important;
+}
+

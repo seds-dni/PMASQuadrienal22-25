@@ -1,0 +1,30 @@
+﻿<div class="header" data-ng-hide="!authentication.IsAuthenticated" data-ng-controller="indexController">
+    <div class="app-bar fixed-top  fg-black" data-role="appbar">
+        <a class="app-bar-element branding"><strong>Plano Municipal da Assistência Social PMAS</strong>
+        </a>
+        <span class="app-bar-divider"></span>
+        <div class="app-bar-element place-right">Bem Vindo Usuário {{authentication.userName}}! <a class="dropdown-toggle fg-black"><span class="mif-cog"></span></a></div>
+    </div>
+    <div class="row">
+        <div class="divide-nav">
+            <img id="imgBandeira" src="Content/site/images/bandeira_menor.png" />
+            <img id="logoPmas" src="Content/site/images/logoPMAS.png" height="60" />
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!--ng-controller="menuController"-->
+        </div>
+    </nav>
+</div>

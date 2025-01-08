@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CEB2E6E-83B9-4E12-8995-6B58A7607F87}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Seds.PMAS.QUADRIENAL.Entidades</RootNamespace>
+    <AssemblyName>Seds.PMAS.QUADRIENAL.Entidades</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Seds.Entidades">
+      <HintPath>..\packages\Seds.Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acoes\ConsultaIntencaoAcaoServicoSocioassistencialInfo.cs" />
+    <Compile Include="Acoes\RecursosPrefeituraAcaoPlanejamentoInfo.cs" />
+    <Compile Include="BlocoInfo.cs" />
+    <Compile Include="ComentarioExecucaoFinanceiraCMASInfo.cs" />
+    <Compile Include="ComentarioPrestacaoDeContasCMASInfo.cs" />
+    <Compile Include="ComentarioPrestacaoDeContasDRADSInfo.cs" />
+    <Compile Include="ComentarioPrestacaoDeContasInfo.cs" />
+    <Compile Include="ControleAcesso\PrefeituraExercicioBloqueioInfo.cs" />
+    <Compile Include="DeliberacaoCMASInfo.cs" />
+    <Compile Include="DeliberacaoPrestacaoDeContasCMASInfo.cs" />
+    <Compile Include="DeliberacaoPrestacaoDeContasDRADSInfo.cs" />
+    <Compile Include="DradsPlanoMunicipalDemandasParlamentaresInfo.cs" />
+    <Compile Include="DradsPlanoMunicipalReprogramacaoDemandasParlamentaresInfo.cs" />
+    <Compile Include="EProgramaProjetoEstrutura.cs" />
+    <Compile Include="DradsPlanoMunicipalBeneficioProgramaRecursosInfo.cs" />
+    <Compile Include="DradsPlanoMunicipalRecursosReprogramadoInfo.cs" />
+    <Compile Include="DradsPlanoMunicipalRecursosInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\CaracteristicasOfertaServicoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ConsorcioCentroPOPInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ConsorcioCRASInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ConsorcioCREASInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ConsorcioPrivadoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ConsorcioPublicoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\FormaJuridicaInfo.cs" />
+    <Compile Include="Estruturas\ConsultaAnaliseDiagnosticaServicosInfo.cs" />
+    <Compile Include="Estruturas\ConsultaLocalExecucaoPublicoInativoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaProgramaProjetoExercicioInfo.cs" />
+    <Compile Include="Estruturas\ConsultaProgramaProjetoServicoCofinanciamentoFundosInfo.cs" />
+    <Compile Include="Estruturas\ConsultarServicosDiretrizesInfo.cs" />
+    <Compile Include="Estruturas\ConsultaUnidadePrivadaDesativadaInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\CronogramaDesembolsoRelatorio22Info.cs" />
+    <Compile Include="Estruturas\Relatorios\RAuxilioReclusaoPensaoMorteInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RedeServicoSocioassistencialDetalhamentoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RedeServicoSocioassistencialRegionalizadosRelatorio.cs" />
+    <Compile Include="Estruturas\Relatorios\RedeServicoSocioassistencialRelatorio.cs" />
+    <Compile Include="Estruturas\Relatorios\RelAcaoVigilanciaInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RelatorioAEPETIInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RelatorioAnaliseDiagnosticaProcInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RPrestacaoDeContasAlta.cs" />
+    <Compile Include="Estruturas\Relatorios\RPrestacaoDeContasBasica.cs" />
+    <Compile Include="Estruturas\Relatorios\RPrestacaoDeContasBeneficiosEventuais.cs" />
+    <Compile Include="Estruturas\Relatorios\RPrestacaoDeContasMedia.cs" />
+    <Compile Include="Estruturas\Relatorios\RPrestacaoDeContasProgramasProjetos.cs" />
+    <Compile Include="Estruturas\Relatorios\RStatusExecucaoFinanceiraInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RStatusLeiOrcamentariaInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RStatusPrestacaoDeContasInfo.cs" />
+    <Compile Include="HistoricoPrestacaoDeContasInfo.cs" />
+    <Compile Include="LocaisExecucaoPrestacaoDeContasInfo.cs" />
+    <Compile Include="LogCentroPopInfo.cs" />
+    <Compile Include="LogCrasInfo.cs" />
+    <Compile Include="LogCreasInfo.cs" />
+    <Compile Include="PlanoMunicipalHistoricoConsolidadoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AvaliacaoLocalExecucaoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AvaliacaoServicoRecursoFinanceiroInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\CaracterizacaoUsuariosInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AcoesDesenvolvidaProgramasInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\CaracterizacaoAtividadesInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\DistritosSaoPauloInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\EixoTecnologicoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\InterlocutorMunicipalInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\OrgaoResponsavelInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\UnidadeExecutoraInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\UnidadeOfertanteInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\UsuarioProgramaProjetoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaIndicadoresPETIInfo.cs" />
+    <Compile Include="Acoes\ConsultaIntencaoAcaoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaLocalPublicoGeral.cs" />
+    <Compile Include="Estruturas\ConsultaProgramaProjetoServicoCofinanciamentoInfo.cs" />
+    <Compile Include="Estruturas\PrevisaoOrcamentariaMunicipalInfo.cs" />
+    <Compile Include="Estruturas\ProgramasDesenvolvidosMunicipio2016Info.cs" />
+    <Compile Include="Estruturas\Relatorios\ComunidadesPovosGruposEspecificosInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\CronogramaDesembolsoRelatorioInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\DiagnosticoSocioterritorialInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\InformacoesProgramaFamiliaPaulistaInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\UnidadeGeralInfo.cs" />
+    <Compile Include="IntegracaoProSocial\AreaAtuacaoProSocialInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\FormaAtuacaoInfo.cs" />
+    <Compile Include="IntegracaoProSocial\MantenedoraProSocialInfo.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaAlimentacaoFormaDistribuicaoAlimentosInfo.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaAlimentacaoInfo.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaAlimentacaoOutraAcaoInfo.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaAlimentacaoRestauranteInfo.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaDistribuicaoAlimentoInfo.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaEmpregoInfo.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaOutraPoliticaInfo.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaOutroServicoInfo.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaSaudeInfo.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaEducacaoInfo.cs" />
+    <Compile Include="MotivoDesativacaoLocalInfo.cs" />
+    <Compile Include="MotivoDesinstalacaoInfo.cs" />
+    <Compile Include="Prefeitura\ConselhoExistentePresidenteInfo.cs" />
+    <Compile Include="Prefeitura\ConselhoMunicipalPresidenteAnteriorInfo.cs" />
+    <Compile Include="EAcao.cs" />
+    <Compile Include="ESituacaoQuadro.cs" />
+    <Compile Include="Estruturas\ConsultaLogInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\ConselhosMunicipaisExistentesInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\AcaoAvaliacaoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\AcaoMonitoramentoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\AcaoVigilanciaInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\AtividadeServicoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\IntegracaoServicoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\DistribuicaoEstadualProgramaTrabalhoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\InformacoesBeneficiosEventuaisInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\DistribuicaoSituacaoVulnerabilidadeInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\AcaoPlanejadaInfo.cs" />
+    <Compile Include="ProgramaProjetoGeralInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RedeServicoSocioassistencialInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RedeServicoSocioassistencialSimplesInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\SaoPauloAmigoIdosoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\ServicoEstadualizadoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RelatorioAnaliseDiagnosticaInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\ResumoTransferenciaRendaInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\DistribuicaoEstadualProtecaoSocialInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\ProgramasMunicipaisTransferenciaRendaInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RHRedeExecutoraInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\RHOrgaoGestorInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\OrganizacaoOrgaoGestorInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\QuantidadesServicosLocaisExecucaoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\InformacoesCadastraisLocalExecucaoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\InformacoesCadastraisConselhoMunicipalInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\InformacoesCadastraisOrgaoGestorInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\InformacoesCadastraisPrefeiturasInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\FuncionamentoCentroPOPInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\FuncionamentoCREASInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\FuncionamentoCRASInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\InformacoesFMASInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\SaoPauloSolidarioInfo.cs" />
+    <Compile Include="Estruturas\SaoPauloSolidario2016Info.cs" />
+    <Compile Include="IndiceGestaoDescentralizadaInfo.cs" />
+    <Compile Include="ENivelGestao.cs" />
+    <Compile Include="EOpcaoFiltro.cs" />
+    <Compile Include="EPorteMunicipio.cs" />
+    <Compile Include="ERelatorio.cs" />
+    <Compile Include="EscolaridadeInfo.cs" />
+    <Compile Include="ConselhoMunicipalParecerInfo.cs" />
+    <Compile Include="Estruturas\ConsultaPlanoMunicipalHistoricoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AcaoVigilanciaSocioAssistencialInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\BaseDadosInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AprimoramentoAcaoInfo.cs" />
+    <Compile Include="Acoes\AvaliacaoInfo.cs" />
+    <Compile Include="Acoes\MonitoramentoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\DistribuicaoPorteNivelGestaoInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\InformacoesBasicasDradsInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\InformacoesMunicipaisBasicasInfo.cs" />
+    <Compile Include="ETipoRelatorio.cs" />
+    <Compile Include="ETipoUnidade.cs" />
+    <Compile Include="LogInfo.cs" />
+    <Compile Include="MotivoNaoInstalacaoInfo.cs" />
+    <Compile Include="Acoes\PrefeituraMonitoramentoFocoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoRedeInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\InstrumentoMonitoramentoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ProcedimentoMonitoramentoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\FocoMonitoramentoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\PeriodicidadeInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\MeioDivulgacaoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\MotivoNaoAvaliacaoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ProcedimentoAvaliacaoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ObjetivoAvaliacaoInfo.cs" />
+    <Compile Include="Acoes\PrefeituraVigilanciaMonitoramentoAvaliacaoInfo.cs" />
+    <Compile Include="Acoes\PrefeituraVigilanciaMonitoramentoAvaliacaoPesquisaInfo.cs" />
+    <Compile Include="Estruturas\Relatorios\ExecucaoRecursosCofinanciamentoEstadual.cs" />
+    <Compile Include="Prefeitura\FundoMunicipalValoresInfo.cs" />
+    <Compile Include="Prefeitura\PrefeituraAtualizacaoAnualInfo.cs" />
+    <Compile Include="Prefeitura\EquipeEspecificaTotaisInfo.cs" />
+    <Compile Include="Prefeitura\EquipeEspecificaInfo.cs" />
+    <Compile Include="Prefeitura\GestorFundoMunicipalInfo.cs" />
+    <Compile Include="Prefeitura\IntencaoEstruturacaoEquipeInfo.cs" />
+    <Compile Include="Prefeitura\PrefeituraSituacaoQuadroInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Prefeitura\PrefeituraValoresReprogramadosAnoAnteriorInfo.cs" />
+    <Compile Include="Prefeitura\TipoEquipeInfo.cs" />
+    <Compile Include="Prefeitura\TipoGestorMunicipalInfo.cs" />
+    <Compile Include="PrestacaoDeContasAplicacoesFinanceirasInfo.cs" />
+    <Compile Include="PrestacaoDeContasBeneficiosEventuaisInfo.cs" />
+    <Compile Include="PrestacaoDeContasDespesasInfo.cs" />
+    <Compile Include="PrestacaoDeContasExecucaoFisicaInfo.cs" />
+    <Compile Include="PrestacaoDeContasExecucaoFisicaProgramasProjetosInfo.cs" />
+    <Compile Include="ProgramaProjetoPrestacaoContasInfo.cs" />
+    <Compile Include="Programas\key.cs" />
+    <Compile Include="Programas\ProgramaProjetoParcelasInfo.cs" />
+    <Compile Include="Programas\PrefeituraBeneficioEventualRecursosFinanceirosInfo.cs" />
+    <Compile Include="Programas\ProgramaProjetoRecursoFinanceiroInfo.cs" />
+    <Compile Include="Programas\MetaFamiliaPaulistaInfo.cs" />
+    <Compile Include="Programas\IdentificacaoTerritorioInfo.cs" />
+    <Compile Include="Programas\MetaPrevistaProgramasTransferenciasInfo.cs" />
+    <Compile Include="Programas\PETIAcaoInfo.cs" />
+    <Compile Include="Programas\PETIEixoAtuacaoInfo.cs" />
+    <Compile Include="Programas\PETIIndicadoresInfo.cs" />
+    <Compile Include="Programas\PETISituacaoAcaoInfo.cs" />
+    <Compile Include="Programas\PETITipoAcaoInfo.cs" />
+    <Compile Include="Programas\PlanoAcaoInfo.cs" />
+    <Compile Include="Programas\ProgramaProjetoGrupoGestorInfo.cs" />
+    <Compile Include="Programas\ProgramaProjetoPrevisaoAnualBeneficiariosInfo.cs" />
+    <Compile Include="Programas\SPSolidarioAlemdaRendaParceriaInfo.cs" />
+    <Compile Include="Programas\SPSolidarioPlanejamentoBensInfo.cs" />
+    <Compile Include="Programas\SPSolidarioPlanejamentoServicosInfo.cs" />
+    <Compile Include="Programas\SPSolidarioAgendaFamiliaParceriaInfo.cs" />
+    <Compile Include="Programas\TransferenciaRendaGestorAcaoInfo.cs" />
+    <Compile Include="Programas\TransferenciaRendaPrevisaoAnualInfo.cs" />
+    <Compile Include="Programas\TransferenciaRendaTecnicoReferenciaInfo.cs" />
+    <Compile Include="QuadroInfo.cs" />
+    <Compile Include="QuestoesCMASinfo.cs" />
+    <Compile Include="QuestoesDRADSInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\AnaliseDiagnosticaComunidadeInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\CentroPOPMunicipioInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ConsultaAnaliseDiagnosticaPrefeituraExercicioInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ConsultaDemografiaTerritorioIndicadoresInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ConsultaMunicipioIndicadoresInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\MotivoEstadualizadoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ConsultaMunicipioPopulacaoVulnerabilidadeIndicadoresInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ConsultaMunicipioRedeSocioAssistencialIndicadoresInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\DemandasParlamentaresServicosCentroPOPInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\DemandasParlamentaresServicosCRASInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\DemandasParlamentaresServicosCREASInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\DemandasParlamentaresServicosPrivados.cs" />
+    <Compile Include="RedeProtecaoSocial\DemandasParlamentaresServicosPublicosInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\centropop\ServicoRecursoFinanceiroCentroPOPCapacidadeInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\centropop\ServicoRecursoFinanceiroCentroPOPMediaMensalInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\cras\ServicoRecursoFinanceiroCRASCapacidadeInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\cras\ServicoRecursoFinanceiroCRASMediaMensalInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\creas\ServicoRecursoFinanceiroCREASMediaMensalInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\creas\ServicoRecursoFinanceiroCREASCapacidadeInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\creas\ServicoRecursoFinanceiroCREASMediaMensalLAInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\creas\ServicoRecursoFinanceiroCREASMediaMensalPSCInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\privado\ServicoRecursoFinanceiroPrivadoCapacidadeInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\privado\ServicoRecursoFinanceiroPrivadoMediaMensalInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\privado\ServicoRecursoFinanceiroPrivadoMediaMensalLAInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\privado\ServicoRecursoFinanceiroPrivadoMediaMensalPSCInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\publico\ServicoRecursoFinanceiroPublicoMediaMensalInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\publico\ServicoRecursoFinanceiroPublicoCapacidadeInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\publico\ServicoRecursoFinanceiroPublicoMediaMensalPSCInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\publico\ServicoRecursoFinanceiroPublicoMediaMensalLAInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\privado\ServicoRecursoFinanceiroPrivadoCapacidadePSCInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\privado\ServicoRecursoFinanceiroPrivadoCapacidadeLAInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\creas\ServicoRecursoFinanceiroCREASCapacidadePSCInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\creas\ServicoRecursoFinanceiroCREASCapacidadeLAInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\publico\ServicoRecursoFinanceiroPublicoCapacidadePSCInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\Funcionamento\publico\ServicoRecursoFinanceiroPublicoCapacidadeLAInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroFundosCREASInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroFundosCRASInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroFundosCentroPOPInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroFundosPublicoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroFundosPrivadoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\FonteRecursoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroPublicoFonteRecursoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroCentroPOPFonteRecursoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroCREASFonteRecursoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\PublicoAlvoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroCRASFonteRecursoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroCentroPopRecursosHumanosInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroPrivadoRecursosHumanosInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroCREASRecursosHumanosInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\RecursosHumanos.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroCRASRecursosHumanosInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroPublicoRecursosHumanosInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroPrivadoFonteRecursoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\SituacaoAtualInscricaoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\SituacaoInscricaoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\TipoAtendimentoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\UnidadeTipoAtendimentoInfo.cs" />
+    <Compile Include="RelatorioFiltroInfo.cs" />
+    <Compile Include="SituacaoQuadroInfo.cs" />
+    <Compile Include="ValidacaoPMASInfo.cs" />
+    <Compile Include="PlanoMunicipalHistoricoInfo.cs" />
+    <Compile Include="Prefeitura\ConselhoMunicipalInfo.cs" />
+    <Compile Include="Prefeitura\CronogramaDesembolsoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AcaoPlanejamentoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\EixoAcaoPlanejamentoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\BeneficioEventualInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoLegislacaoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\FormaAuxilioInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\CriterioConcessaoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\NecessidadeBeneficioEventualInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoBeneficioEventualInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AcaoSocioAssistencialComplementarInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\UsuarioTransferenciaRendaInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoTransferenciaRendaInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AbrangenciaTerritorialInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AbrangenciaServicoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AcaoSocioAssistencialInfo.cs" />
+    <Compile Include="Estruturas\ConsultaPrefeituraAcaoPlanejamentoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaProgramaProjetoCofinanciamentoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaProgramaProjetoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaTransferenciaRendaInfo.cs" />
+    <Compile Include="Estruturas\ConsultaTransferenciaRendaCofinanciamentoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaPrefeituraBeneficioEventualServicoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaPrefeituraBeneficioEventualInfo.cs" />
+    <Compile Include="Estruturas\ConsultaCofinanciamentoEstadualInfo.cs" />
+    <Compile Include="Estruturas\BeneficioEventualAnualInfo.cs" />
+    <Compile Include="TransferenciaRendaAnualInfo.cs" />
+    <Compile Include="Estruturas\PrevisaoOrcamentariaInfo.cs" />
+    <Compile Include="ETipoBeneficioEventual.cs" />
+    <Compile Include="ETipoProtecao.cs" />
+    <Compile Include="ETipoTransferenciaRenda.cs" />
+    <Compile Include="Acoes\PrefeituraAcaoPlanejamentoInfo.cs" />
+    <Compile Include="Programas\PrefeituraBeneficioEventualInfo.cs" />
+    <Compile Include="Programas\TransferenciaRendaCofinanciamentoInfo.cs" />
+    <Compile Include="Programas\TransferenciaRendaInfo.cs" />
+    <Compile Include="Programas\TransferenciaRendaParceriaInfo.cs" />
+    <Compile Include="Programas\ProgramaProjetoCofinanciamentoInfo.cs" />
+    <Compile Include="Programas\ProgramaProjetoParceriaInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\AnaliseDiagnosticaInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AtividadeSocioAssistencialInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\CaracteristicasTerritorioInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\CargoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ParceriaInfo.cs" />
+    <Compile Include="Programas\ProgramaProjetoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\CentroReferenciaInfo.cs" />
+    <Compile Include="Prefeitura\ComentarioExecucaoFinanceiraInfo.cs" />
+    <Compile Include="Prefeitura\ConselhoExistenteInfo.cs" />
+    <Compile Include="ConselhosInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\CentroPOPInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\PrevisaoInstalacaoCentroPOPInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\PrevisaoInstalacaoCREASInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\CREASMunicipioInfo.cs" />
+    <Compile Include="Estruturas\ConsultaAnaliseDiagnosticaInfo.cs" />
+    <Compile Include="Estruturas\ConsultaCRASInfo.cs" />
+    <Compile Include="Estruturas\ConsultaCREASInfo.cs" />
+    <Compile Include="Estruturas\ConsultaCentroPOPInfo.cs" />
+    <Compile Include="Estruturas\ConsultaServicosRecursosFinanceirosCRASInfo.cs" />
+    <Compile Include="Estruturas\ConsultaServicosRecursosFinanceirosCREASInfo.cs" />
+    <Compile Include="Estruturas\ConsultaServicosRecursosFinanceirosCentroPOPInfo.cs" />
+    <Compile Include="Estruturas\ConsultaUnidadePrivadaInfo.cs" />
+    <Compile Include="Estruturas\ConsultaServicosRecursosFinanceirosPrivadoInfo.cs" />
+    <Compile Include="PrefeituraDemandaAtendimentoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\PrevisaoInstalacaoCRASInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroCentroPOPInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\CREASInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroCREASInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\CRASInfo.cs" />
+    <Compile Include="Estruturas\ConsultaServicosRecursosFinanceirosPublicoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaUnidadePublicaInfo.cs" />
+    <Compile Include="Estruturas\ConsultaLocalExecucaoPublicoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaLocalExecucaoPrivadoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\HorasSemanaInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\LocalExecucaoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\LocalExecucaoPrivadoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\LocalExecucaoPublicoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\RegiaoMoradiaInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroCRASInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroPrivadoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\ServicoRecursoFinanceiroPublicoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\SexoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoDemandaAtendimentoInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoImovelInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\UnidadePrivadaInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\SituacaoEspecificaInfo.cs" />
+    <Compile Include="EPerfil.cs" />
+    <Compile Include="ESituacao.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\EstruturaInfo.cs" />
+    <Compile Include="Estruturas\BeneficioEventual2016Info.cs" />
+    <Compile Include="Estruturas\ConsultaFluxoInfo.cs" />
+    <Compile Include="Estruturas\ConsultaUsuariosInfo.cs" />
+    <Compile Include="Estruturas\TransferenciaRenda2016Info.cs" />
+    <Compile Include="Estruturas\IdentificacaoConselhoExistenteInfo.cs" />
+    <Compile Include="Estruturas\PrevisaoOrcamentaria2016Info.cs" />
+    <Compile Include="Prefeitura\ExecucaoFinanceiraInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\FormacaoInfo.cs" />
+    <Compile Include="Prefeitura\FundoMunicipalInfo.cs" />
+    <Compile Include="Prefeitura\GestorMunicipal.cs" />
+    <Compile Include="Prefeitura\LeiOrcamentariaInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\NivelGestaoInfo.cs" />
+    <Compile Include="Prefeitura\OrgaoGestorInfo.cs" />
+    <Compile Include="Prefeitura\PrefeitoInfo.cs" />
+    <Compile Include="Prefeitura\PrefeituraInfo.cs" />
+    <Compile Include="RecursoInfo.cs" />
+    <Compile Include="RecursoPerfilInfo.cs" />
+    <Compile Include="Programas\PrefeituraBeneficioEventualServicoInfo.cs" />
+    <Compile Include="SituacaoInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\SituacaoVulnerabilidadeInfo.cs" />
+    <Compile Include="StatusInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoProtecaoSocialInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoServicoInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\UnidadeInfo.cs" />
+    <Compile Include="RedeProtecaoSocial\UnidadePublicaInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoParceriaInfo.cs" />
+    <Compile Include="UsuarioInfo.cs" />
+    <Compile Include="UsuarioPMASInfo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\UsuarioTipoServicoInfo.cs" />
+    <Compile Include="Acoes\VigilanciaSocioAssistencialInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

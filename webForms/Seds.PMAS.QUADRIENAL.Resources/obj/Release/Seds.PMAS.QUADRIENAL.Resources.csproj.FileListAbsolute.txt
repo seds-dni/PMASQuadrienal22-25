@@ -1,0 +1,25 @@
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.Resources\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.Resources\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.Resources\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.Resources\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.Resources\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.Resources\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.Resources\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.Resources\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.Resources\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.Resources\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.Resources\obj\Release\Seds.PMAS.QUADRIENAL.Resources.pdb

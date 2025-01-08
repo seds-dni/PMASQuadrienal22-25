@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2e5c025e-7db7-4071-a0e6-b994af22ff62" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.22.0.6:82/PerfilService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PerfilService.disco" MetadataType="Disco" ID="9f8c083d-fb04-4e51-8c49-a1ef4dacca6a" SourceId="1" SourceUrl="http://s-producao.seds.com.br:82/PerfilService.svc?disco" />
+    <MetadataFile FileName="PerfilService.wsdl" MetadataType="Wsdl" ID="fdb76175-579c-4103-b847-2f8ce860030b" SourceId="1" SourceUrl="http://s-producao.seds.com.br:82/PerfilService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="PerfilService.xsd" MetadataType="Schema" ID="509166e7-dacc-47ab-8d8b-8ce581cca946" SourceId="1" SourceUrl="http://s-producao.seds.com.br:82/PerfilService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PerfilService1.xsd" MetadataType="Schema" ID="ba6cadf9-3874-4d06-b520-c32a3078a241" SourceId="1" SourceUrl="http://s-producao.seds.com.br:82/PerfilService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PerfilService2.xsd" MetadataType="Schema" ID="78575b80-efae-4c11-9f37-5b168c45e599" SourceId="1" SourceUrl="http://s-producao.seds.com.br:82/PerfilService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PerfilService3.xsd" MetadataType="Schema" ID="a626079e-e3cd-4499-82f2-05cd8b00b332" SourceId="1" SourceUrl="http://s-producao.seds.com.br:82/PerfilService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PerfilService1.wsdl" MetadataType="Wsdl" ID="cb24eca9-fb01-4a23-a341-bd9095baf7c2" SourceId="1" SourceUrl="http://s-producao.seds.com.br:82/PerfilService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

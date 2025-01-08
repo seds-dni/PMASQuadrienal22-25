@@ -1,0 +1,2284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{195F5FF3-97AE-4451-8326-C40EB71F8566}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Seds.PMAS.QUADRIENAL.UI.Web</RootNamespace>
+    <AssemblyName>Seds.PMAS.QUADRIENAL.UI.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60501.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60501\lib\40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AntiXSSLibrary">
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60501\lib\40\SanitizerProviders\AntiXSSLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\..\..\..\npoi\tools\Libs\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Cells, Version=23.8.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Cells.23.8.0\lib\net40\Aspose.Cells.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CadastroCep, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a7cd3226d7734712, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Extras\Dlls\CadastroCep.dll</HintPath>
+    </Reference>
+    <Reference Include="CadastroUsuario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6c79422eb190c620, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Extras\Dlls\CadastroUsuario.dll</HintPath>
+    </Reference>
+    <Reference Include="Crypto, Version=1.0.1.0, Culture=neutral, PublicKeyToken=94a737ba91af7143, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Extras\Dlls\Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXmlSDK.2.0\lib\Net35\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlSanitizationLibrary">
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60501\lib\40\SanitizerProviders\HtmlSanitizationLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.TextEditor">
+      <HintPath>..\..\..\..\..\npoi\tools\Libs\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\Extras\Microsoft.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SanitizerProviders">
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60501\lib\40\SanitizerProviders\SanitizerProviders.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Entidades, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Extras\Dlls\Seds.Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Seguranca.Entidades, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Extras\Dlls\Seds.Seguranca.Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Seguranca.Servicos.Contratos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Extras\Dlls\Seds.Seguranca.Servicos.Contratos.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Seguranca.Token, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Extras\Dlls\Seds.Seguranca.Token.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Servicos.Contratos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Extras\Dlls\Seds.Servicos.Contratos.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Servicos.Contratos.Faults, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Extras\Dlls\Seds.Servicos.Contratos.Faults.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.WebApiClient, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Extras\Dlls\Seds.WebApiClient.dll</HintPath>
+    </Reference>
+    <Reference Include="skmControls2">
+      <HintPath>..\packages\skmControls2.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetLight, Version=3.2.9.0, Culture=neutral, PublicKeyToken=32fbb46dc1730c57, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpreadsheetLight.3.2.9\lib\SpreadsheetLight.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Default\css\clock.css" />
+    <Content Include="App_Themes\Default\css\docs.css" />
+    <Content Include="App_Themes\Default\Default.css" />
+    <Content Include="App_Themes\Default\fonts\metro.svg" />
+    <Content Include="Arquivos\glossario.htm" />
+    <Content Include="BlocoIII\CBeneficioEventual.aspx" />
+    <Content Include="BlocoIII\CBeneficiosContinuados.aspx" />
+    <Content Include="BlocoIII\CCRASDesativados.aspx" />
+    <Content Include="BlocoIII\CCREASDesativados.aspx" />
+    <Content Include="BlocoIII\CCentroPOPDesativados.aspx" />
+    <Content Include="BlocoIII\FProgramaProjetoCadastro.aspx" />
+    <Content Include="BlocoIII\FServicoRecursoFinanceiroPublico.aspx" />
+    <Content Include="BlocoIII\VUnidadePublica.aspx" />
+    <Content Include="BlocoIII\CUnidadesPublicasDesativadas.aspx" />
+    <Content Include="BlocoIII\VUnidadePrivada.aspx" />
+    <Content Include="BlocoIII\CUnidadesPrivadasDesativadas.aspx" />
+    <Content Include="BlocoIII\CServicosRecursosFinanceirosPrivadoDesativado.aspx" />
+    <Content Include="BlocoIII\VLocalExecucaoPrivado.aspx" />
+    <Content Include="BlocoIII\CLocaisPrivadosDesativados.aspx" />
+    <Content Include="BlocoIII\CServicosRecursosFinanceirosCentroPOPDesativado.aspx" />
+    <Content Include="BlocoIII\VCentroPOP.aspx" />
+    <Content Include="BlocoIII\VCREAS.aspx" />
+    <Content Include="BlocoIII\CServicosRecursosFinanceirosCREASDesativado.aspx" />
+    <Content Include="BlocoIII\CServicosRecursosFinanceirosCRASDesativado.aspx" />
+    <Content Include="BlocoIII\VCRAS.aspx" />
+    <Content Include="BlocoIII\VLocalExecucaoPublico.aspx" />
+    <Content Include="BlocoIII\CLocaisPublicoDesativados.aspx" />
+    <Content Include="BlocoIII\CServicosRecursosFinanceirosPublicoDesativado.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoUnidadePrivada.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoLocalPrivado.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoUnidadePublica.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoCentroPOP.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoCREAS.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoCRAS.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoLocalPublico.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoServicoCentroPOP.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoServicoCRAS.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoServicoCREAS.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoServicoPrivado.aspx" />
+    <Content Include="BlocoIII\FMotivoExclusaoServicoPublico.aspx" />
+    <Content Include="BlocoIII\VProgramaProjetoDetalhe.aspx" />
+    <Content Include="BlocoIII\FSaoPauloSolidario.aspx" />
+    <Content Include="BlocoIII\FBeneficioEventualServicos.aspx" />
+    <Content Include="BlocoIII\FBeneficioEventual.aspx" />
+    <Content Include="BlocoIII\FTransferenciaRendaCofinanciamento.aspx" />
+    <Content Include="BlocoIII\CTransferenciaRenda.aspx" />
+    <Content Include="BlocoIII\FTransferenciaRenda.aspx" />
+    <Content Include="BlocoIII\CProgramasProjetos.aspx" />
+    <Content Include="BlocoIII\FProgramaProjetoCofinanciamento.aspx" />
+    <Content Include="BlocoIII\FProgramaProjeto.aspx" />
+    <Content Include="BlocoIII\CCentrosReferencias.aspx" />
+    <Content Include="BlocoIII\MapaRedeProtecaoSocial.aspx" />
+    <Content Include="BlocoIII\VServicoRecursoFinanceiroCentroPOP.aspx" />
+    <Content Include="BlocoIII\VServicoRecursoFinanceiroCREAS.aspx" />
+    <Content Include="BlocoIII\VServicoRecursoFinanceiroCRAS.aspx" />
+    <Content Include="BlocoIII\VServicoRecursoFinanceiroPrivado.aspx" />
+    <Content Include="BlocoIII\VServicoRecursoFinanceiroPublico.aspx" />
+    <Content Include="BlocoIII\CServicosRecursosFinanceirosPrivado.aspx" />
+    <Content Include="BlocoIII\FCREAS.aspx" />
+    <Content Include="BlocoIII\FPrevisaoInstalacaoCentroPOP.aspx" />
+    <Content Include="BlocoIII\FPrevisaoInstalacaoCRAS.aspx" />
+    <Content Include="BlocoIII\FPrevisaoInstalacaoCREAS.aspx" />
+    <Content Include="BlocoIII\FServicoRecursoFinanceiroCREAS.aspx" />
+    <Content Include="BlocoIII\FServicoRecursoFinanceiroCentroPOP.aspx" />
+    <Content Include="BlocoIII\CServicosRecursosFinanceirosCentroPOP.aspx" />
+    <Content Include="BlocoIII\CServicosRecursosFinanceirosCREAS.aspx" />
+    <Content Include="BlocoIII\CServicosRecursosFinanceirosCRAS.aspx" />
+    <Content Include="BlocoIII\FServicoRecursoFinanceiroCRAS.aspx" />
+    <Content Include="BlocoIII\FCentroPOP.aspx" />
+    <Content Include="BlocoIII\FCRAS.aspx" />
+    <Content Include="BlocoIII\CServicosRecursosFinanceirosPublico.aspx" />
+    <Content Include="BlocoIII\CUnidadesPrivadas.aspx" />
+    <Content Include="BlocoIII\CUnidadesPublicas.aspx" />
+    <Content Include="BlocoII\FAtualizacaoDiagnostica.aspx" />
+    <Content Include="BlocoII\FSituacaoVulnerabilidade.aspx" />
+    <Content Include="BlocoII\FAnaliseDiagnostica.aspx" />
+    <Content Include="BlocoIII\FLocalExecucaoPrivado.aspx" />
+    <Content Include="BlocoIII\FLocalExecucaoPublico.aspx" />
+    <Content Include="BlocoIII\FServicoRecursoFinanceiroPrivado.aspx" />
+    <Content Include="BlocoIII\FUnidadePrivada.aspx" />
+    <Content Include="BlocoIII\FUnidadePublica.aspx" />
+    <Content Include="BlocoII\FAnaliseInterpretacao.aspx" />
+    <Content Include="BlocoII\FEvolucaoRedeSocioassistencial.aspx" />
+    <Content Include="BlocoII\FPopulacaoVulnerabilidade.aspx" />
+    <Content Include="BlocoIV\FInterfacePolitica.aspx" />
+    <Content Include="BlocoVI\CAcaoPlanejamento.aspx" />
+    <Content Include="BlocoVI\FAcaoPlanejamento.aspx" />
+    <Content Include="BlocoVI\FDiretrizes.aspx" />
+    <Content Include="BlocoVI\FDiretrizesServicos.aspx" />
+    <Content Include="BlocoV\FDespesas.aspx" />
+    <Content Include="BlocoV\FFonteFinanciamento.aspx" />
+    <Content Include="BlocoV\FHistorico.aspx" />
+    <Content Include="BlocoV\FLeiOrcamentaria.aspx" />
+    <Content Include="BlocoV\FPrestacaoDeContas.aspx" />
+    <Content Include="BlocoV\FPrevisaoOrcamentaria.aspx" />
+    <Content Include="BlocoI\FConselhos.aspx" />
+    <Content Include="BlocoV\FExecucaoFinanceira.aspx" />
+    <Content Include="BlocoI\FFundoMunicipal.aspx" />
+    <Content Include="BlocoI\FGestorMunicipal.aspx" />
+    <Content Include="BlocoI\FOrgaoGestor.aspx" />
+    <Content Include="BlocoI\FPrefeito.aspx" />
+    <Content Include="BlocoI\FPrefeitura.aspx" />
+    <Content Include="BlocoVIII\FParecerConselhoMunicipal.aspx" />
+    <Content Include="BlocoVIII\FConselhoMunicipal.aspx" />
+    <Content Include="BlocoVII\FMonitoramento.aspx" />
+    <Content Include="BlocoVII\FAvaliacao.aspx" />
+    <Content Include="BlocoVII\FAspectosGerais.aspx" />
+    <Content Include="BlocoVII\FVigilancia.aspx" />
+    <Content Include="BlocoV\FCronogramaDesembolso.aspx" />
+    <Content Include="CalcularParcelasPublicas.aspx" />
+    <Content Include="Controles\celular.ascx" />
+    <Content Include="Controles\data.ascx" />
+    <Content Include="Controles\valor.ascx" />
+    <Content Include="CalcularParcelasPrivadas.aspx" />
+    <Content Include="FDesbloqueioAnual.aspx" />
+    <Content Include="HistoricoAlteracoesCompleto.aspx" />
+    <Content Include="Download.aspx" />
+    <Content Include="HistoricoAlteracoes.aspx" />
+    <Content Include="Mapa.aspx" />
+    <Content Include="Relatorios\Raepeti.aspx" />
+    <Content Include="Relatorios\RAtividadesServicosSocioassistenciais.aspx" />
+    <Content Include="Relatorios\RAcoesVigilancia.aspx" />
+    <Content Include="Relatorios\RAcoesMonitoramento.aspx" />
+    <Content Include="Relatorios\RAcoesAvaliacao.aspx" />
+    <Content Include="Relatorios\RAuxilioReclusaoPensaoMorte.aspx" />
+    <Content Include="Relatorios\RComunidadesGrupos.aspx" />
+    <Content Include="Relatorios\RCronogramaDesembolso.aspx" />
+    <Content Include="Relatorios\RDiagnosticoSocioterritorial.aspx" />
+    <Content Include="Relatorios\RExecucaoFinanceira.aspx" />
+    <Content Include="Relatorios\RIndicadores.aspx" />
+    <Content Include="Relatorios\RIntegracaoServicos.aspx" />
+    <Content Include="Relatorios\RPrestacaoDeContas.aspx" />
+    <Content Include="Relatorios\RPrestacaoDeContasProtecaoAlta.aspx" />
+    <Content Include="Relatorios\RPrestacaoDeContasBE.aspx" />
+    <Content Include="Relatorios\RPrestacaoDeContasProtecaoMedia.aspx" />
+    <Content Include="Relatorios\RPrestacaoDeContasPP.aspx" />
+    <Content Include="Relatorios\RProgramaFamiliaPaulista.aspx" />
+    <Content Include="Relatorios\RProgramaProjeto.aspx" />
+    <Content Include="Relatorios\RRedesSocioassistenciaisFinanceiro.aspx" />
+    <Content Include="Relatorios\RAcoesPlanejadas.aspx" />
+    <Content Include="Relatorios\RRedesSocioassistenciaisDetalhamento.aspx" />
+    <Content Include="Relatorios\RSaoPauloAmigoIdoso.aspx" />
+    <Content Include="Relatorios\RSaoPauloSolidario.aspx" />
+    <Content Include="Relatorios\RDistribuicaoEstadualProgramaTrabalho.aspx" />
+    <Content Include="Relatorios\RBeneficiosContinuados.aspx" />
+    <Content Include="Relatorios\RServicosIntermunicipais.aspx" />
+    <Content Include="Relatorios\RServicosRegionalizados.aspx" />
+    <Content Include="Relatorios\RStatusExecucaoFinanceira.aspx" />
+    <Content Include="Relatorios\RStatusLeiOrcamentaria.aspx" />
+    <Content Include="Relatorios\RStatusPrestacaoDeContas.aspx" />
+    <Content Include="Relatorios\RUnidadesServicosSocioassistenciais.aspx" />
+    <Content Include="Scripts\bootstrapMenu\bootstrap-min.js" />
+    <Content Include="Scripts\bootstrapMenu\bootstrap.js" />
+    <Content Include="App_Themes\Default\fonts\metro.eot" />
+    <Content Include="App_Themes\Default\fonts\metro.ttf" />
+    <Content Include="App_Themes\Default\fonts\metro.woff" />
+    <Content Include="App_Themes\Default\fonts\selection.json" />
+    <Content Include="Arquivos\II Plano Decenal da Assistência Social 2016-2026.pdf" />
+    <Content Include="Arquivos\Plano Estadual de Assistência Social 2016-2019.pdf" />
+    <Content Include="Arquivos\Caderno de Orientações Técnicas - MSE em meio aberto.pdf" />
+    <Content Include="Arquivos\PSB no domicílio para PCD e idosos.pdf" />
+    <Content Include="Arquivos\Trabalho Social com Famílias Indígenas.pdf" />
+    <Content Include="Arquivos\ManuaisOrientacoesSistema\Orientacoesparadesativacaodeserviços.pdf" />
+    <Content Include="Arquivos\ManuaisOrientacoesSistema\Orientacoes_para_registro_da_Reprogramacao_no_PMASweb.pdf" />
+    <Content Include="Arquivos\ManuaisOrientacoesSistema\Orientacoessobreaatualizacaoanualpara2022-PMAS_2022-2025.pdf" />
+    <Content Include="Arquivos\20-NotaTecnica25de2020.pdf" />
+    <Content Include="Arquivos\ManuaisOrientacoesSistema\Execução_Financeira_2022_e_Prestação_de_Contas_2022_PMASweb_2022_2025.pdf" />
+    <Content Include="Arquivos\FormulariosAcesso\PMAS_Formulário_perfil_CMAS.pdf" />
+    <Content Include="Arquivos\FormulariosAcesso\PMAS_Formulário_perfil_CONSULTA.pdf" />
+    <Content Include="Arquivos\FormulariosAcesso\PMAS_Formulário_perfil_CONSULTA_REGIONAL.pdf" />
+    <Content Include="Arquivos\FormulariosAcesso\PMAS_Formulário_perfil_DIRETOR_REGIONAL.pdf" />
+    <Content Include="Arquivos\FormulariosAcesso\PMAS_Formulário_perfil_DRADS.pdf" />
+    <Content Include="Arquivos\FormulariosAcesso\PMAS_Formulário_perfil_DRADS_ADM.pdf" />
+    <Content Include="Arquivos\FormulariosAcesso\PMAS_Formulário_perfil_ÓRGÃO_GESTOR.pdf" />
+    <None Include="Arquivos\Monitoramento_2016_das_metas_do_Pacto.xls" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_ALTA_NOROESTE.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_ALTA_PAULISTA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_ALTA_SOROCABANA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_ARARAQUARA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_AVARÉ.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_BAIXADA_SANTISTA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_BARRETOS.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_BAURU.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_BOTUCATU.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_CAMPINAS.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_CAPITAL.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_FERNANDÓPOLIS.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_FRANCA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_GRANDE_SP_ABC.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_GRANDE_SP_LESTE.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_GRANDE_SP_NORTE.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_GRANDE_SP_OESTE.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_ITAPEVA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_MARÍLIA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_MOGIANA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_PIRACICABA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_RIBEIRÃO_PRETO.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_SOROCABA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_SÃO_JOSÉ_DO_RIO_PRETO.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_VALE_DO_PARAÍBA.pdf" />
+    <Content Include="Arquivos\RelatorioVulnerabilidade\DRADS_VALE_DO_RIBEIRA.pdf" />
+    <None Include="Properties\PublishProfiles\HOMOLOGACAO.pubxml" />
+    <None Include="Scripts\bootstrapMenu\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\bootstrapMenu\jquery-1.8.2.js" />
+    <Content Include="Scripts\bootstrapMenu\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\bootstrapMenu\jquery-2.1.3.min.js" />
+    <Content Include="Scripts\bootstrapMenu\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\bootstrapMenu\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\bootstrapMenu\jquery.js" />
+    <Content Include="Scripts\bootstrapMenu\mdb.js" />
+    <Content Include="Scripts\bootstrapMenu\mdb.min.js" />
+    <Content Include="Scripts\bootstrapMenu\tether.js" />
+    <Content Include="Scripts\bootstrapMenu\tether.min.js" />
+    <Content Include="Scripts\bootstrapMenu\ui-bootstrap-tpln.min.js" />
+    <Content Include="Scripts\dataFormat.js" />
+    <Content Include="Scripts\mascara.js" />
+    <Content Include="Scripts\MaskedEditFix.js" />
+    <Content Include="Scripts\maskedinput.js" />
+    <Content Include="Scripts\meiomask.js" />
+    <Content Include="Scripts\modernizr-2.7.1.js" />
+    <Content Include="Scripts\Site\start.js" />
+    <Content Include="Scripts\SpecificUtils.js" />
+    <Content Include="Scripts\vendors\jquery.js" />
+    <Content Include="Scripts\vendors\jquery.mask.js" />
+    <Content Include="Scripts\webkit.js" />
+    <Content Include="Scripts\widgets\appbar.js" />
+    <Content Include="Scripts\widgets\blocoIII\FOrgaoGestor.js" />
+    <Content Include="Scripts\widgets\datepicker.js" />
+    <Content Include="Scripts\widgets\docs.js" />
+    <Content Include="Scripts\widgets\ga.js" />
+    <Content Include="Scripts\widgets\global.js" />
+    <Content Include="Scripts\widgets\initiator.js" />
+    <Content Include="Scripts\widgets\inputs.js" />
+    <Content Include="Scripts\widgets\jquery-2.1.3.min.js" />
+    <Content Include="Scripts\widgets\jquery.dataTables.min.js" />
+    <Content Include="Scripts\widgets\metro.js" />
+    <Content Include="Scripts\widgets\requirements.js" />
+    <Content Include="Scripts\widgets\select2.min.js" />
+    <Content Include="Scripts\widgets\widget.js" />
+    <Content Include="SpreadsheetLight.xml" />
+    <Content Include="Styles\blocos\bloco_inicio\b_inicio.css" />
+    <Content Include="Styles\blocos\default\default.css" />
+    <Content Include="Styles\BootstrapMenu\bootstrap-min.css" />
+    <Content Include="Styles\BootstrapMenu\bootstrap.css" />
+    <Content Include="Styles\BootstrapMenu\bootstrapNovo.css" />
+    <Content Include="Styles\BotoesAbas.css" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Styles\fonts\metro.svg" />
+    <Content Include="Styles\Icones\arrow-left.png" />
+    <Content Include="Styles\Icones\arrow.png" />
+    <Content Include="Styles\Icones\backward.png" />
+    <Content Include="Styles\Icones\cmas.gif" />
+    <Content Include="Styles\Icones\desbloqueioCMAS.png" />
+    <Content Include="Styles\Icones\desbloqueioOG.png" />
+    <Content Include="Styles\Icones\diagnostico.gif" />
+    <Content Include="Styles\Icones\financiamento.gif" />
+    <Content Include="Styles\Icones\forward-old.png" />
+    <Content Include="Styles\Icones\identificacao.gif" />
+    <Content Include="Styles\Icones\irkickflash.png" />
+    <Content Include="Styles\Icones\lock.png" />
+    <Content Include="Styles\Icones\note.png" />
+    <Content Include="Styles\Icones\planejamento.gif" />
+    <Content Include="Styles\Icones\redeprotecao.gif" />
+    <Content Include="Styles\Icones\unlock.png" />
+    <Content Include="Styles\Icones\vigilancia.gif" />
+    <Content Include="Styles\Images\gov-white.png" />
+    <Content Include="Styles\Images\governo-do-estado-de-sao-paulo-sp-logo.png" />
+    <Content Include="Styles\Images\logo-rodape.png" />
+    <Content Include="Styles\Images\turquesa_ombre_folleto_1x_248.png" />
+    <Content Include="Styles\metro\css\clock.css" />
+    <Content Include="Styles\metro\css\docs.css" />
+    <Content Include="Styles\metro\css\metro-colors.css" />
+    <Content Include="Styles\metro\css\metro-icons.css" />
+    <Content Include="Styles\metro\css\metro-responsive.css" />
+    <Content Include="Styles\metro\css\metro-rtl.css" />
+    <Content Include="Styles\metro\css\metro-schemes.css" />
+    <Content Include="Styles\metro\css\metro.css" />
+    <Content Include="Styles\metro\css\style.css" />
+    <Content Include="Styles\metro\fonts\metro.svg" />
+    <Content Include="Styles\Style.css" />
+    <Content Include="UsuarioInativo.aspx" />
+    <Content Include="versao.aspx" />
+    <Content Include="VHistorico.aspx" />
+    <Content Include="ConsultaFluxoPMASCAS.aspx" />
+    <Content Include="ConsultaUsuarios.aspx" />
+    <Content Include="Controles\cep.ascx" />
+    <Content Include="Controles\cnpj.ascx" />
+    <Content Include="Controles\cpf.ascx" />
+    <Content Include="Controles\rg.ascx" />
+    <Content Include="Controles\telefone.ascx" />
+    <Content Include="ConsultaFluxoPMASOrgaoGestor.aspx" />
+    <Content Include="ConsultaFluxoPMASDRADS.aspx" />
+    <Content Include="ConsultaFluxoPMASCMAS.aspx" />
+    <Content Include="ConsultaPMAS.aspx" />
+    <Content Include="FBloqueioQuadroFinanceiro.aspx" />
+    <Content Include="Impressao.aspx" />
+    <Content Include="FluxoHistorico.aspx" />
+    <None Include="FederationMetadata\2007-06\FederationMetadata.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="App_Themes\Default\SkinDefault.skin" />
+    <Content Include="FFluxo.aspx" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Arquivos\1-NOB2012.pdf" />
+    <Content Include="Arquivos\9-OrientacoesPAIFVolII-2012.pdf" />
+    <Content Include="Arquivos\16-ConcepcaodeConvivenciaeFortalecimentodeVinculos.pdf" />
+    <Content Include="Arquivos\17-OrientacoesTecnicasdaVigilanciaSocioassistencialfinal.pdf" />
+    <Content Include="Arquivos\2-TipificacaoNacionaldeServiçosSocioassistenciais-2009.pdf" />
+    <Content Include="Arquivos\3-PactodeAprimoramento.pdf" />
+    <Content Include="Arquivos\4-Orientacoestecnicas-VigilanciaSocioassistencias.pdf" />
+    <Content Include="Arquivos\5-ConcepcaodeaConvivenciaeFortalecimentodeVinculos.pdf" />
+    <Content Include="Arquivos\6-OrientacoesTecnicasCRAS-2009.pdf" />
+    <Content Include="Arquivos\7-OCRASquetemosoCRASquequeremos-2011.pdf" />
+    <Content Include="Arquivos\8-OrientacoesPAIFvolI-2012.pdf" />
+    <Content Include="Arquivos\10-Caderno_de_orientacoes_Paif_SCFV.pdf" />
+    <Content Include="Arquivos\11-OrientacoesTecnicasCREAS-2011.pdf" />
+    <Content Include="Arquivos\12-PerguntaserespostasCREAS-2011.pdf" />
+    <Content Include="Arquivos\13-OrientacoesTecnicasCentroPop-2011.pdf" />
+    <Content Include="Arquivos\14-Perguntas_e_RespostasCentroPop-2011.pdf" />
+    <Content Include="Arquivos\15-OrientacoesTecnicasServicosdeAcolhimento-2009.pdf" />
+    <Content Include="Arquivos\16-Cartilha_Servico_Abordagem_Social.pdf" />
+    <Content Include="Arquivos\16-PerguntaseRespostas-ServicoespecializadoemabordagemSocial.pdf" />
+    <Content Include="Arquivos\17-Orientacoestecnicas-ServicoparapessoacomdeficienciaemCentroDia.pdf" />
+    <Content Include="Arquivos\18-PerguntaseRespostas-ResidenciaInclusiva.pdf" />
+    <Content Include="Arquivos\19-CadernodeOrientacoesIGD-SUAS-2012.pdf" />
+    <Content Include="Arquivos\20-Caderno_de_orientacao_pagamento_profissionais.pdf" />
+    <None Include="Arquivos\formularioBlocoI.doc" />
+    <None Include="Arquivos\formularioBlocoII.doc" />
+    <None Include="Arquivos\formularioBlocoIII.doc" />
+    <None Include="Arquivos\formularioBlocoIV.doc" />
+    <None Include="Arquivos\formularioBlocoV.doc" />
+    <None Include="Arquivos\formularioBlocoVI.doc" />
+    <None Include="Arquivos\formularioBlocoVII.doc" />
+    <Content Include="Arquivos\FSA_perfil_CAS.pdf" />
+    <Content Include="Arquivos\FSA_perfil_CMAS.pdf" />
+    <Content Include="Arquivos\FSA_perfil_CONSULTAREGIONAL.pdf" />
+    <Content Include="Arquivos\FSA_perfil_CONSULTA.pdf" />
+    <Content Include="Arquivos\FSA_perfil_DIRETORREGIONAL.pdf" />
+    <Content Include="Arquivos\FSA_perfil_DRADSADM.pdf" />
+    <Content Include="Arquivos\FSA_perfil_DRADS.pdf" />
+    <Content Include="Arquivos\FSA_perfil_SEDS.pdf" />
+    <Content Include="Arquivos\FSA_perfil_ORGAOGESTOR.pdf" />
+    <Content Include="Arquivos\OrientacoesparagestaodosistemaPMASweb.pdf" />
+    <Content Include="Arquivos\ManualdepreenchimentoPMAS2017-ParecerdaDRADS.pdf" />
+    <None Include="Properties\DataSources\Seds.Entidades.DradsInfo.datasource" />
+    <None Include="Properties\DataSources\Seds.Entidades.MacroRegiaoInfo.datasource" />
+    <None Include="Properties\DataSources\Seds.Entidades.MunicipioInfo.datasource" />
+    <None Include="Properties\DataSources\Seds.Entidades.RegiaoGovernoInfo.datasource" />
+    <None Include="Properties\DataSources\Seds.Entidades.RegiaoMetropolitanaInfo.datasource" />
+    <Content Include="LogOff.aspx" />
+    <Content Include="Pendencias.aspx" />
+    <Content Include="PopUpImpressao.aspx" />
+    <Content Include="Rascunho.aspx" />
+    <Content Include="Relatorios\RInformacoesBeneficiosEventuais.aspx" />
+    <Content Include="Relatorios\RDistribuicaoSituacaoVulnerabilidade.aspx" />
+    <Content Include="Relatorios\RRedesSocioassistenciais.aspx" />
+    <Content Include="Relatorios\RServicosEstadualizados.aspx" />
+    <Content Include="Relatorios\RAnaliseDiagnostica.aspx" />
+    <Content Include="Relatorios\RProgramasTransferenciaRenda.aspx" />
+    <Content Include="Relatorios\RDistribuicaoEstadualProtecaoSocial.aspx" />
+    <Content Include="Relatorios\RProgramasMunicipaisTransferenciaRenda.aspx" />
+    <Content Include="Relatorios\RRHLocalExecucao.aspx" />
+    <Content Include="Relatorios\RRHOrgaoGestor.aspx" />
+    <Content Include="Relatorios\ROrganizacaoOrgaoGestor.aspx" />
+    <Content Include="Relatorios\RConselhosExistentes.aspx" />
+    <Content Include="Relatorios\RQuantidadeUnidadesLocaisServicos.aspx" />
+    <Content Include="Relatorios\RInformacoesCadastraisLocalExecucao.aspx" />
+    <Content Include="Relatorios\RInformacoesCadastraisConselhoMunicipal.aspx" />
+    <Content Include="Relatorios\RInformacoesCadastraisOrgaoGestor.aspx" />
+    <Content Include="Relatorios\RInformacoesCadastraisPrefeituras.aspx" />
+    <Content Include="Relatorios\RFuncionamentoCentroPOP.aspx" />
+    <Content Include="Relatorios\RFuncionamentoCREAS.aspx" />
+    <Content Include="Relatorios\RFuncionamentoCRAS.aspx" />
+    <Content Include="Relatorios\RDistribuicaoPorteNivelGestao.aspx" />
+    <Content Include="Relatorios\RInformacoesBasicasDrads.aspx" />
+    <Content Include="Relatorios\RInformacoesFMAS.aspx" />
+    <Content Include="Relatorios\RInformacoesMunicipais.aspx" />
+    <Content Include="Reports.aspx" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-ar.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-bg.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-bg1251.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-cat.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-cn.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-cs.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-da.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-de.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-el.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-en.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-es.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-fa.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-fi.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-fr.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-gl.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-he.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-hr.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-hr1250.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-hu.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-is.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-it.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-ja.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-lt.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-mne.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-nl.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-no.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-pl.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-pt-br.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-pt.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-ro.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-ru.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-sk.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-sr-latin.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-sr.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-sv.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-th.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-tr.js" />
+    <Content Include="Scripts\jqgrid\i18n\grid.locale-ua.js" />
+    <Content Include="Scripts\jqgrid\jquery.jqGrid.min.js" />
+    <Content Include="Scripts\jqgrid\jquery.jqGrid.src.js" />
+    <Content Include="Scripts\jqgrid\plugins\grid.addons.js" />
+    <Content Include="Scripts\jqgrid\plugins\grid.postext.js" />
+    <Content Include="Scripts\jqgrid\plugins\grid.setcolumns.js" />
+    <Content Include="Scripts\jqgrid\plugins\jquery.contextmenu.js" />
+    <Content Include="Scripts\jqgrid\plugins\jquery.searchFilter.js" />
+    <Content Include="Scripts\jqgrid\plugins\jquery.tablednd.js" />
+    <Content Include="Scripts\jqgrid\plugins\ui.multiselect.js" />
+    <Content Include="Scripts\jqgrid\src\css\ellipsis-xbl.xml" />
+    <Content Include="Scripts\jqgrid\src\css\ui.jqgrid.css" />
+    <Content Include="Scripts\jqgrid\src\css\ui.multiselect.css" />
+    <Content Include="Scripts\jqgrid\src\grid.base.js" />
+    <Content Include="Scripts\jqgrid\src\grid.celledit.js" />
+    <Content Include="Scripts\jqgrid\src\grid.common.js" />
+    <Content Include="Scripts\jqgrid\src\grid.custom.js" />
+    <Content Include="Scripts\jqgrid\src\grid.filter.js" />
+    <Content Include="Scripts\jqgrid\src\grid.formedit.js" />
+    <Content Include="Scripts\jqgrid\src\grid.grouping.js" />
+    <Content Include="Scripts\jqgrid\src\grid.import.js" />
+    <Content Include="Scripts\jqgrid\src\grid.inlinedit.js" />
+    <Content Include="Scripts\jqgrid\src\grid.jqueryui.js" />
+    <Content Include="Scripts\jqgrid\src\grid.loader.js" />
+    <Content Include="Scripts\jqgrid\src\grid.subgrid.js" />
+    <Content Include="Scripts\jqgrid\src\grid.tbltogrid.js" />
+    <Content Include="Scripts\jqgrid\src\grid.treegrid.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-ar.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-bg.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-bg1251.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-cat.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-cn.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-cs.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-da.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-de.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-dk.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-el.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-en.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-es.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-fa.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-fi.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-fr.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-gl.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-he.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-hr.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-hr1250.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-hu.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-is.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-it.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-ja.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-lt.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-mne.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-nl.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-no.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-pl.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-pt-br.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-pt.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-ro.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-ru.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-sk.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-sr-latin.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-sr.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-sv.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-th.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-tr.js" />
+    <Content Include="Scripts\jqgrid\src\i18n\grid.locale-ua.js" />
+    <Content Include="Scripts\jqgrid\src\jqDnR.js" />
+    <Content Include="Scripts\jqgrid\src\jqModal.js" />
+    <Content Include="Scripts\jqgrid\src\jquery.fmatter.js" />
+    <Content Include="Scripts\jqgrid\src\JsonXml.js" />
+    <Content Include="Scripts\jquery-1.5.2.min.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.18.custom.min.js" />
+    <Content Include="Scripts\json.js" />
+    <Content Include="Scripts\json2.js" />
+    <Content Include="Scripts\Pages\Consultas\ConsFluxo.js" />
+    <Content Include="Scripts\Site\inicio.js" />
+    <Content Include="Scripts\ui.functions.js" />
+    <Content Include="Scripts\Util.js" />
+    <Content Include="SelecionarRelatorio.aspx" />
+    <Content Include="Styles\custom-theme\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Styles\custom-theme\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Styles\custom-theme\images\ui-bg_glass_55_bcd2ef_1x400.png" />
+    <Content Include="Styles\custom-theme\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Styles\custom-theme\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Styles\custom-theme\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Styles\custom-theme\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Styles\custom-theme\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Styles\custom-theme\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Styles\custom-theme\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Styles\custom-theme\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Styles\custom-theme\images\ui-icons_666666_256x240.png" />
+    <Content Include="Styles\custom-theme\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Styles\custom-theme\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Styles\custom-theme\jquery-ui-1.8.18.custom.css" />
+    <Content Include="Styles\Icones\apply.png" />
+    <Content Include="Styles\Icones\back.png" />
+    <Content Include="Styles\Icones\Calendar_scheduleHS.png" />
+    <Content Include="Styles\Icones\cancel.png" />
+    <Content Include="Styles\Icones\coins-icon.png" />
+    <Content Include="Styles\Icones\edit.png" />
+    <Content Include="Styles\Icones\editdelete.png" />
+    <Content Include="Styles\Icones\edit_add.png" />
+    <Content Include="Styles\Icones\filesaveas.png" />
+    <Content Include="Styles\Icones\find.png" />
+    <Content Include="Styles\Icones\forward.png" />
+    <Content Include="Styles\Icones\help.png" />
+    <Content Include="Styles\Icones\kcalc.png" />
+    <Content Include="Styles\Icones\kdmconfig.png" />
+    <Content Include="Styles\Icones\knotes.png" />
+    <Content Include="Styles\Icones\messagebox_critical.png" />
+    <Content Include="Styles\Icones\messagebox_warning.png" />
+    <Content Include="Styles\Icones\money-icon.png" />
+    <Content Include="Styles\Icones\noatunback.png" />
+    <Content Include="Styles\Icones\noatunforward.png" />
+    <Content Include="Styles\Icones\pmas.ico" />
+    <Content Include="Styles\Icones\sp.ico" />
+    <Content Include="Styles\Icones\US-dollar-icon.png" />
+    <Content Include="Styles\Images\0.png" />
+    <Content Include="Styles\Images\1.png" />
+    <Content Include="Styles\Images\2.png" />
+    <Content Include="Styles\Images\3.png" />
+    <Content Include="Styles\Images\4.png" />
+    <Content Include="Styles\Images\5.png" />
+    <Content Include="Styles\Images\6.png" />
+    <Content Include="Styles\Images\7.png" />
+    <Content Include="Styles\Images\8.png" />
+    <Content Include="Styles\Images\9.png" />
+    <Content Include="Styles\Images\ajax-loader.gif" />
+    <Content Include="Styles\Images\bandeira.png" />
+    <Content Include="Styles\Images\bandeira_menor.png" />
+    <Content Include="Styles\Images\bg.png" />
+    <Content Include="Styles\Images\bgbar.png" />
+    <Content Include="Styles\Images\login.png" />
+    <Content Include="Styles\Images\logo.png" />
+    <Content Include="Styles\Images\logoPMAS.png" />
+    <Content Include="Styles\Images\logopmas2013.png" />
+    <Content Include="Styles\Images\logosecretaria.jpg" />
+    <Content Include="Styles\Images\logosp.png" />
+    <Content Include="Styles\Images\logosp_secretaria.png" />
+    <Content Include="Styles\Images\PMAS.jpg" />
+    <Content Include="Styles\searchFilter.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\ui.jqgrid.css" />
+    <Content Include="Styles\ui.multiselect.css" />
+    <Content Include="Usuario\AlterarSenha.aspx" />
+    <Content Include="Usuario\AlterarSenhaUsuario.aspx" />
+    <Content Include="Usuario\ConsultarUsuarioCadUnico.aspx" />
+    <Content Include="Usuario\FUsuario.aspx" />
+    <Content Include="Web - homologacao.config" />
+    <None Include="Web.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Usuario\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Relatorios\Relatorio.Master" />
+    <None Include="Properties\PublishProfiles\LOCAL.pubxml" />
+    <Content Include="Styles\metro\fonts\metro.eot" />
+    <Content Include="Styles\metro\fonts\metro.ttf" />
+    <Content Include="Styles\metro\fonts\metro.woff" />
+    <Content Include="Styles\metro\fonts\selection.json" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Styles\fonts\metro.eot" />
+    <Content Include="Styles\fonts\metro.ttf" />
+    <Content Include="Styles\fonts\metro.woff" />
+    <Content Include="Styles\fonts\roboto\Roboto-Bold.eot" />
+    <Content Include="Styles\fonts\roboto\Roboto-Bold.ttf" />
+    <Content Include="Styles\fonts\roboto\Roboto-Bold.woff" />
+    <Content Include="Styles\fonts\roboto\Roboto-Bold.woff2" />
+    <Content Include="Styles\fonts\roboto\Roboto-Light.eot" />
+    <Content Include="Styles\fonts\roboto\Roboto-Light.ttf" />
+    <Content Include="Styles\fonts\roboto\Roboto-Light.woff" />
+    <Content Include="Styles\fonts\roboto\Roboto-Light.woff2" />
+    <Content Include="Styles\fonts\roboto\Roboto-Medium.eot" />
+    <Content Include="Styles\fonts\roboto\Roboto-Medium.ttf" />
+    <Content Include="Styles\fonts\roboto\Roboto-Medium.woff" />
+    <Content Include="Styles\fonts\roboto\Roboto-Medium.woff2" />
+    <Content Include="Styles\fonts\roboto\Roboto-Regular.eot" />
+    <Content Include="Styles\fonts\roboto\Roboto-Regular.ttf" />
+    <Content Include="Styles\fonts\roboto\Roboto-Regular.woff" />
+    <Content Include="Styles\fonts\roboto\Roboto-Regular.woff2" />
+    <Content Include="Styles\fonts\roboto\Roboto-Thin.eot" />
+    <Content Include="Styles\fonts\roboto\Roboto-Thin.ttf" />
+    <Content Include="Styles\fonts\roboto\Roboto-Thin.woff" />
+    <Content Include="Styles\fonts\roboto\Roboto-Thin.woff2" />
+    <Content Include="Styles\fonts\selection.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlocoIII\CBeneficioEventual.aspx.cs">
+      <DependentUpon>CBeneficioEventual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CBeneficioEventual.aspx.designer.cs">
+      <DependentUpon>CBeneficioEventual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CBeneficiosContinuados.aspx.cs">
+      <DependentUpon>CBeneficiosContinuados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CBeneficiosContinuados.aspx.designer.cs">
+      <DependentUpon>CBeneficiosContinuados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CCRASDesativados.aspx.cs">
+      <DependentUpon>CCRASDesativados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CCRASDesativados.aspx.designer.cs">
+      <DependentUpon>CCRASDesativados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CCREASDesativados.aspx.cs">
+      <DependentUpon>CCREASDesativados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CCREASDesativados.aspx.designer.cs">
+      <DependentUpon>CCREASDesativados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CCentroPOPDesativados.aspx.cs">
+      <DependentUpon>CCentroPOPDesativados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CCentroPOPDesativados.aspx.designer.cs">
+      <DependentUpon>CCentroPOPDesativados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FProgramaProjetoCadastro.aspx.cs">
+      <DependentUpon>FProgramaProjetoCadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FProgramaProjetoCadastro.aspx.designer.cs">
+      <DependentUpon>FProgramaProjetoCadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FServicoRecursoFinanceiroPublico.aspx.cs">
+      <DependentUpon>FServicoRecursoFinanceiroPublico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FServicoRecursoFinanceiroPublico.aspx.designer.cs">
+      <DependentUpon>FServicoRecursoFinanceiroPublico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VUnidadePublica.aspx.cs">
+      <DependentUpon>VUnidadePublica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VUnidadePublica.aspx.designer.cs">
+      <DependentUpon>VUnidadePublica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CUnidadesPublicasDesativadas.aspx.cs">
+      <DependentUpon>CUnidadesPublicasDesativadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CUnidadesPublicasDesativadas.aspx.designer.cs">
+      <DependentUpon>CUnidadesPublicasDesativadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VUnidadePrivada.aspx.cs">
+      <DependentUpon>VUnidadePrivada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VUnidadePrivada.aspx.designer.cs">
+      <DependentUpon>VUnidadePrivada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CUnidadesPrivadasDesativadas.aspx.cs">
+      <DependentUpon>CUnidadesPrivadasDesativadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CUnidadesPrivadasDesativadas.aspx.designer.cs">
+      <DependentUpon>CUnidadesPrivadasDesativadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosPrivadoDesativado.aspx.cs">
+      <DependentUpon>CServicosRecursosFinanceirosPrivadoDesativado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosPrivadoDesativado.aspx.designer.cs">
+      <DependentUpon>CServicosRecursosFinanceirosPrivadoDesativado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VLocalExecucaoPrivado.aspx.cs">
+      <DependentUpon>VLocalExecucaoPrivado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VLocalExecucaoPrivado.aspx.designer.cs">
+      <DependentUpon>VLocalExecucaoPrivado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CLocaisPrivadosDesativados.aspx.cs">
+      <DependentUpon>CLocaisPrivadosDesativados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CLocaisPrivadosDesativados.aspx.designer.cs">
+      <DependentUpon>CLocaisPrivadosDesativados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCentroPOPDesativado.aspx.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCentroPOPDesativado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCentroPOPDesativado.aspx.designer.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCentroPOPDesativado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VCentroPOP.aspx.cs">
+      <DependentUpon>VCentroPOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VCentroPOP.aspx.designer.cs">
+      <DependentUpon>VCentroPOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VCREAS.aspx.cs">
+      <DependentUpon>VCREAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VCREAS.aspx.designer.cs">
+      <DependentUpon>VCREAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCREASDesativado.aspx.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCREASDesativado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCREASDesativado.aspx.designer.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCREASDesativado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCRASDesativado.aspx.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCRASDesativado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCRASDesativado.aspx.designer.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCRASDesativado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VCRAS.aspx.cs">
+      <DependentUpon>VCRAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VCRAS.aspx.designer.cs">
+      <DependentUpon>VCRAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VLocalExecucaoPublico.aspx.cs">
+      <DependentUpon>VLocalExecucaoPublico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VLocalExecucaoPublico.aspx.designer.cs">
+      <DependentUpon>VLocalExecucaoPublico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CLocaisPublicoDesativados.aspx.cs">
+      <DependentUpon>CLocaisPublicoDesativados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CLocaisPublicoDesativados.aspx.designer.cs">
+      <DependentUpon>CLocaisPublicoDesativados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosPublicoDesativado.aspx.cs">
+      <DependentUpon>CServicosRecursosFinanceirosPublicoDesativado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosPublicoDesativado.aspx.designer.cs">
+      <DependentUpon>CServicosRecursosFinanceirosPublicoDesativado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoUnidadePrivada.aspx.cs">
+      <DependentUpon>FMotivoExclusaoUnidadePrivada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoUnidadePrivada.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoUnidadePrivada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoLocalPrivado.aspx.cs">
+      <DependentUpon>FMotivoExclusaoLocalPrivado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoLocalPrivado.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoLocalPrivado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoUnidadePublica.aspx.cs">
+      <DependentUpon>FMotivoExclusaoUnidadePublica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoUnidadePublica.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoUnidadePublica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoCentroPOP.aspx.cs">
+      <DependentUpon>FMotivoExclusaoCentroPOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoCentroPOP.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoCentroPOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoCREAS.aspx.cs">
+      <DependentUpon>FMotivoExclusaoCREAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoCREAS.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoCREAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoCRAS.aspx.cs">
+      <DependentUpon>FMotivoExclusaoCRAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoCRAS.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoCRAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoLocalPublico.aspx.cs">
+      <DependentUpon>FMotivoExclusaoLocalPublico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoLocalPublico.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoLocalPublico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoServicoCentroPOP.aspx.cs">
+      <DependentUpon>FMotivoExclusaoServicoCentroPOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoServicoCentroPOP.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoServicoCentroPOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoServicoCRAS.aspx.cs">
+      <DependentUpon>FMotivoExclusaoServicoCRAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoServicoCRAS.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoServicoCRAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoServicoCREAS.aspx.cs">
+      <DependentUpon>FMotivoExclusaoServicoCREAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoServicoCREAS.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoServicoCREAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoServicoPrivado.aspx.cs">
+      <DependentUpon>FMotivoExclusaoServicoPrivado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoServicoPrivado.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoServicoPrivado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoServicoPublico.aspx.cs">
+      <DependentUpon>FMotivoExclusaoServicoPublico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FMotivoExclusaoServicoPublico.aspx.designer.cs">
+      <DependentUpon>FMotivoExclusaoServicoPublico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VProgramaProjetoDetalhe.aspx.cs">
+      <DependentUpon>VProgramaProjetoDetalhe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VProgramaProjetoDetalhe.aspx.designer.cs">
+      <DependentUpon>VProgramaProjetoDetalhe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FSaoPauloSolidario.aspx.cs">
+      <DependentUpon>FSaoPauloSolidario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FSaoPauloSolidario.aspx.designer.cs">
+      <DependentUpon>FSaoPauloSolidario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FBeneficioEventualServicos.aspx.cs">
+      <DependentUpon>FBeneficioEventualServicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FBeneficioEventualServicos.aspx.designer.cs">
+      <DependentUpon>FBeneficioEventualServicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FBeneficioEventual.aspx.cs">
+      <DependentUpon>FBeneficioEventual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FBeneficioEventual.aspx.designer.cs">
+      <DependentUpon>FBeneficioEventual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FTransferenciaRendaCofinanciamento.aspx.cs">
+      <DependentUpon>FTransferenciaRendaCofinanciamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FTransferenciaRendaCofinanciamento.aspx.designer.cs">
+      <DependentUpon>FTransferenciaRendaCofinanciamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CTransferenciaRenda.aspx.cs">
+      <DependentUpon>CTransferenciaRenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CTransferenciaRenda.aspx.designer.cs">
+      <DependentUpon>CTransferenciaRenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FTransferenciaRenda.aspx.cs">
+      <DependentUpon>FTransferenciaRenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FTransferenciaRenda.aspx.designer.cs">
+      <DependentUpon>FTransferenciaRenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CProgramasProjetos.aspx.cs">
+      <DependentUpon>CProgramasProjetos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CProgramasProjetos.aspx.designer.cs">
+      <DependentUpon>CProgramasProjetos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FProgramaProjetoCofinanciamento.aspx.cs">
+      <DependentUpon>FProgramaProjetoCofinanciamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FProgramaProjetoCofinanciamento.aspx.designer.cs">
+      <DependentUpon>FProgramaProjetoCofinanciamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FProgramaProjeto.aspx.cs">
+      <DependentUpon>FProgramaProjeto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FProgramaProjeto.aspx.designer.cs">
+      <DependentUpon>FProgramaProjeto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CCentrosReferencias.aspx.cs">
+      <DependentUpon>CCentrosReferencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CCentrosReferencias.aspx.designer.cs">
+      <DependentUpon>CCentrosReferencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\MapaRedeProtecaoSocial.aspx.cs">
+      <DependentUpon>MapaRedeProtecaoSocial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\MapaRedeProtecaoSocial.aspx.designer.cs">
+      <DependentUpon>MapaRedeProtecaoSocial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VServicoRecursoFinanceiroCentroPOP.aspx.cs">
+      <DependentUpon>VServicoRecursoFinanceiroCentroPOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VServicoRecursoFinanceiroCentroPOP.aspx.designer.cs">
+      <DependentUpon>VServicoRecursoFinanceiroCentroPOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VServicoRecursoFinanceiroCREAS.aspx.cs">
+      <DependentUpon>VServicoRecursoFinanceiroCREAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VServicoRecursoFinanceiroCREAS.aspx.designer.cs">
+      <DependentUpon>VServicoRecursoFinanceiroCREAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VServicoRecursoFinanceiroCRAS.aspx.cs">
+      <DependentUpon>VServicoRecursoFinanceiroCRAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VServicoRecursoFinanceiroCRAS.aspx.designer.cs">
+      <DependentUpon>VServicoRecursoFinanceiroCRAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VServicoRecursoFinanceiroPrivado.aspx.cs">
+      <DependentUpon>VServicoRecursoFinanceiroPrivado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VServicoRecursoFinanceiroPrivado.aspx.designer.cs">
+      <DependentUpon>VServicoRecursoFinanceiroPrivado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\VServicoRecursoFinanceiroPublico.aspx.cs">
+      <DependentUpon>VServicoRecursoFinanceiroPublico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\VServicoRecursoFinanceiroPublico.aspx.designer.cs">
+      <DependentUpon>VServicoRecursoFinanceiroPublico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosPrivado.aspx.cs">
+      <DependentUpon>CServicosRecursosFinanceirosPrivado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosPrivado.aspx.designer.cs">
+      <DependentUpon>CServicosRecursosFinanceirosPrivado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FCREAS.aspx.cs">
+      <DependentUpon>FCREAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FCREAS.aspx.designer.cs">
+      <DependentUpon>FCREAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FPrevisaoInstalacaoCentroPOP.aspx.cs">
+      <DependentUpon>FPrevisaoInstalacaoCentroPOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FPrevisaoInstalacaoCentroPOP.aspx.designer.cs">
+      <DependentUpon>FPrevisaoInstalacaoCentroPOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FPrevisaoInstalacaoCRAS.aspx.cs">
+      <DependentUpon>FPrevisaoInstalacaoCRAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FPrevisaoInstalacaoCRAS.aspx.designer.cs">
+      <DependentUpon>FPrevisaoInstalacaoCRAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FPrevisaoInstalacaoCREAS.aspx.cs">
+      <DependentUpon>FPrevisaoInstalacaoCREAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FPrevisaoInstalacaoCREAS.aspx.designer.cs">
+      <DependentUpon>FPrevisaoInstalacaoCREAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FServicoRecursoFinanceiroCREAS.aspx.cs">
+      <DependentUpon>FServicoRecursoFinanceiroCREAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FServicoRecursoFinanceiroCREAS.aspx.designer.cs">
+      <DependentUpon>FServicoRecursoFinanceiroCREAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FServicoRecursoFinanceiroCentroPOP.aspx.cs">
+      <DependentUpon>FServicoRecursoFinanceiroCentroPOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FServicoRecursoFinanceiroCentroPOP.aspx.designer.cs">
+      <DependentUpon>FServicoRecursoFinanceiroCentroPOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCentroPOP.aspx.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCentroPOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCentroPOP.aspx.designer.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCentroPOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCREAS.aspx.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCREAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCREAS.aspx.designer.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCREAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCRAS.aspx.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCRAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosCRAS.aspx.designer.cs">
+      <DependentUpon>CServicosRecursosFinanceirosCRAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FServicoRecursoFinanceiroCRAS.aspx.cs">
+      <DependentUpon>FServicoRecursoFinanceiroCRAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FServicoRecursoFinanceiroCRAS.aspx.designer.cs">
+      <DependentUpon>FServicoRecursoFinanceiroCRAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FCentroPOP.aspx.cs">
+      <DependentUpon>FCentroPOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FCentroPOP.aspx.designer.cs">
+      <DependentUpon>FCentroPOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FCRAS.aspx.cs">
+      <DependentUpon>FCRAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FCRAS.aspx.designer.cs">
+      <DependentUpon>FCRAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosPublico.aspx.cs">
+      <DependentUpon>CServicosRecursosFinanceirosPublico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CServicosRecursosFinanceirosPublico.aspx.designer.cs">
+      <DependentUpon>CServicosRecursosFinanceirosPublico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CUnidadesPrivadas.aspx.cs">
+      <DependentUpon>CUnidadesPrivadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CUnidadesPrivadas.aspx.designer.cs">
+      <DependentUpon>CUnidadesPrivadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\CUnidadesPublicas.aspx.cs">
+      <DependentUpon>CUnidadesPublicas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\CUnidadesPublicas.aspx.designer.cs">
+      <DependentUpon>CUnidadesPublicas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoII\FAtualizacaoDiagnostica.aspx.cs">
+      <DependentUpon>FAtualizacaoDiagnostica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoII\FAtualizacaoDiagnostica.aspx.designer.cs">
+      <DependentUpon>FAtualizacaoDiagnostica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoII\FSituacaoVulnerabilidade.aspx.cs">
+      <DependentUpon>FSituacaoVulnerabilidade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoII\FSituacaoVulnerabilidade.aspx.designer.cs">
+      <DependentUpon>FSituacaoVulnerabilidade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoII\FAnaliseDiagnostica.aspx.cs">
+      <DependentUpon>FAnaliseDiagnostica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoII\FAnaliseDiagnostica.aspx.designer.cs">
+      <DependentUpon>FAnaliseDiagnostica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FLocalExecucaoPrivado.aspx.cs">
+      <DependentUpon>FLocalExecucaoPrivado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FLocalExecucaoPrivado.aspx.designer.cs">
+      <DependentUpon>FLocalExecucaoPrivado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FLocalExecucaoPublico.aspx.cs">
+      <DependentUpon>FLocalExecucaoPublico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FLocalExecucaoPublico.aspx.designer.cs">
+      <DependentUpon>FLocalExecucaoPublico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FServicoRecursoFinanceiroPrivado.aspx.cs">
+      <DependentUpon>FServicoRecursoFinanceiroPrivado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FServicoRecursoFinanceiroPrivado.aspx.designer.cs">
+      <DependentUpon>FServicoRecursoFinanceiroPrivado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FUnidadePrivada.aspx.cs">
+      <DependentUpon>FUnidadePrivada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FUnidadePrivada.aspx.designer.cs">
+      <DependentUpon>FUnidadePrivada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIII\FUnidadePublica.aspx.cs">
+      <DependentUpon>FUnidadePublica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIII\FUnidadePublica.aspx.designer.cs">
+      <DependentUpon>FUnidadePublica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoII\FAnaliseInterpretacao.aspx.cs">
+      <DependentUpon>FAnaliseInterpretacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoII\FAnaliseInterpretacao.aspx.designer.cs">
+      <DependentUpon>FAnaliseInterpretacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoII\FEvolucaoRedeSocioassistencial.aspx.cs">
+      <DependentUpon>FEvolucaoRedeSocioassistencial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoII\FEvolucaoRedeSocioassistencial.aspx.designer.cs">
+      <DependentUpon>FEvolucaoRedeSocioassistencial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoII\FPopulacaoVulnerabilidade.aspx.cs">
+      <DependentUpon>FPopulacaoVulnerabilidade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoII\FPopulacaoVulnerabilidade.aspx.designer.cs">
+      <DependentUpon>FPopulacaoVulnerabilidade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoIV\FInterfacePolitica.aspx.cs">
+      <DependentUpon>FInterfacePolitica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoIV\FInterfacePolitica.aspx.designer.cs">
+      <DependentUpon>FInterfacePolitica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoVI\CAcaoPlanejamento.aspx.cs">
+      <DependentUpon>CAcaoPlanejamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoVI\CAcaoPlanejamento.aspx.designer.cs">
+      <DependentUpon>CAcaoPlanejamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoVI\FAcaoPlanejamento.aspx.cs">
+      <DependentUpon>FAcaoPlanejamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoVI\FAcaoPlanejamento.aspx.designer.cs">
+      <DependentUpon>FAcaoPlanejamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoVI\FDiretrizes.aspx.cs">
+      <DependentUpon>FDiretrizes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoVI\FDiretrizes.aspx.designer.cs">
+      <DependentUpon>FDiretrizes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoVI\FDiretrizesServicos.aspx.cs">
+      <DependentUpon>FDiretrizesServicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoVI\FDiretrizesServicos.aspx.designer.cs">
+      <DependentUpon>FDiretrizesServicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoV\FDespesas.aspx.cs">
+      <DependentUpon>FDespesas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoV\FDespesas.aspx.designer.cs">
+      <DependentUpon>FDespesas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoV\FFonteFinanciamento.aspx.cs">
+      <DependentUpon>FFonteFinanciamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoV\FFonteFinanciamento.aspx.designer.cs">
+      <DependentUpon>FFonteFinanciamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoV\FHistorico.aspx.cs">
+      <DependentUpon>FHistorico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoV\FHistorico.aspx.designer.cs">
+      <DependentUpon>FHistorico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoV\FLeiOrcamentaria.aspx.cs">
+      <DependentUpon>FLeiOrcamentaria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoV\FLeiOrcamentaria.aspx.designer.cs">
+      <DependentUpon>FLeiOrcamentaria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoV\FPrestacaoDeContas.aspx.cs">
+      <DependentUpon>FPrestacaoDeContas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoV\FPrestacaoDeContas.aspx.designer.cs">
+      <DependentUpon>FPrestacaoDeContas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoV\FPrevisaoOrcamentaria.aspx.cs">
+      <DependentUpon>FPrevisaoOrcamentaria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoV\FPrevisaoOrcamentaria.aspx.designer.cs">
+      <DependentUpon>FPrevisaoOrcamentaria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoI\FConselhos.aspx.cs">
+      <DependentUpon>FConselhos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoI\FConselhos.aspx.designer.cs">
+      <DependentUpon>FConselhos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoV\FExecucaoFinanceira.aspx.cs">
+      <DependentUpon>FExecucaoFinanceira.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoV\FExecucaoFinanceira.aspx.designer.cs">
+      <DependentUpon>FExecucaoFinanceira.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoI\FFundoMunicipal.aspx.cs">
+      <DependentUpon>FFundoMunicipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoI\FFundoMunicipal.aspx.designer.cs">
+      <DependentUpon>FFundoMunicipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoI\FGestorMunicipal.aspx.cs">
+      <DependentUpon>FGestorMunicipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoI\FGestorMunicipal.aspx.designer.cs">
+      <DependentUpon>FGestorMunicipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoI\FOrgaoGestor.aspx.cs">
+      <DependentUpon>FOrgaoGestor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoI\FOrgaoGestor.aspx.designer.cs">
+      <DependentUpon>FOrgaoGestor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoI\FPrefeito.aspx.cs">
+      <DependentUpon>FPrefeito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoI\FPrefeito.aspx.designer.cs">
+      <DependentUpon>FPrefeito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoI\FPrefeitura.aspx.cs">
+      <DependentUpon>FPrefeitura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoI\FPrefeitura.aspx.designer.cs">
+      <DependentUpon>FPrefeitura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoVIII\FParecerConselhoMunicipal.aspx.cs">
+      <DependentUpon>FParecerConselhoMunicipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoVIII\FParecerConselhoMunicipal.aspx.designer.cs">
+      <DependentUpon>FParecerConselhoMunicipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoVIII\FConselhoMunicipal.aspx.cs">
+      <DependentUpon>FConselhoMunicipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoVIII\FConselhoMunicipal.aspx.designer.cs">
+      <DependentUpon>FConselhoMunicipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoVII\FMonitoramento.aspx.cs">
+      <DependentUpon>FMonitoramento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoVII\FMonitoramento.aspx.designer.cs">
+      <DependentUpon>FMonitoramento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoVII\FAvaliacao.aspx.cs">
+      <DependentUpon>FAvaliacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoVII\FAvaliacao.aspx.designer.cs">
+      <DependentUpon>FAvaliacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoVII\FAspectosGerais.aspx.cs">
+      <DependentUpon>FAspectosGerais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoVII\FAspectosGerais.aspx.designer.cs">
+      <DependentUpon>FAspectosGerais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoVII\FVigilancia.aspx.cs">
+      <DependentUpon>FVigilancia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoVII\FVigilancia.aspx.designer.cs">
+      <DependentUpon>FVigilancia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlocoV\FCronogramaDesembolso.aspx.cs">
+      <DependentUpon>FCronogramaDesembolso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlocoV\FCronogramaDesembolso.aspx.designer.cs">
+      <DependentUpon>FCronogramaDesembolso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CalcularParcelasPublicas.aspx.cs">
+      <DependentUpon>CalcularParcelasPublicas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalcularParcelasPublicas.aspx.designer.cs">
+      <DependentUpon>CalcularParcelasPublicas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\celular.ascx.cs">
+      <DependentUpon>celular.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\celular.ascx.designer.cs">
+      <DependentUpon>celular.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\data.ascx.cs">
+      <DependentUpon>data.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\data.ascx.designer.cs">
+      <DependentUpon>data.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\valor.ascx.cs">
+      <DependentUpon>valor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\valor.ascx.designer.cs">
+      <DependentUpon>valor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CalcularParcelasPrivadas.aspx.cs">
+      <DependentUpon>CalcularParcelasPrivadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalcularParcelasPrivadas.aspx.designer.cs">
+      <DependentUpon>CalcularParcelasPrivadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FDesbloqueioAnual.aspx.cs">
+      <DependentUpon>FDesbloqueioAnual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FDesbloqueioAnual.aspx.designer.cs">
+      <DependentUpon>FDesbloqueioAnual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HistoricoAlteracoesCompleto.aspx.cs">
+      <DependentUpon>HistoricoAlteracoesCompleto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HistoricoAlteracoesCompleto.aspx.designer.cs">
+      <DependentUpon>HistoricoAlteracoesCompleto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Download.aspx.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Download.aspx.designer.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HistoricoAlteracoes.aspx.cs">
+      <DependentUpon>HistoricoAlteracoes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HistoricoAlteracoes.aspx.designer.cs">
+      <DependentUpon>HistoricoAlteracoes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mapa.aspx.cs">
+      <DependentUpon>Mapa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mapa.aspx.designer.cs">
+      <DependentUpon>Mapa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\Raepeti.aspx.cs">
+      <DependentUpon>Raepeti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\Raepeti.aspx.designer.cs">
+      <DependentUpon>Raepeti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RAtividadesServicosSocioassistenciais.aspx.cs">
+      <DependentUpon>RAtividadesServicosSocioassistenciais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RAtividadesServicosSocioassistenciais.aspx.designer.cs">
+      <DependentUpon>RAtividadesServicosSocioassistenciais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RAcoesVigilancia.aspx.cs">
+      <DependentUpon>RAcoesVigilancia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RAcoesVigilancia.aspx.designer.cs">
+      <DependentUpon>RAcoesVigilancia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RAcoesMonitoramento.aspx.cs">
+      <DependentUpon>RAcoesMonitoramento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RAcoesMonitoramento.aspx.designer.cs">
+      <DependentUpon>RAcoesMonitoramento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RAcoesAvaliacao.aspx.cs">
+      <DependentUpon>RAcoesAvaliacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RAcoesAvaliacao.aspx.designer.cs">
+      <DependentUpon>RAcoesAvaliacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RAuxilioReclusaoPensaoMorte.aspx.cs">
+      <DependentUpon>RAuxilioReclusaoPensaoMorte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RAuxilioReclusaoPensaoMorte.aspx.designer.cs">
+      <DependentUpon>RAuxilioReclusaoPensaoMorte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RComunidadesGrupos.aspx.cs">
+      <DependentUpon>RComunidadesGrupos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RComunidadesGrupos.aspx.designer.cs">
+      <DependentUpon>RComunidadesGrupos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RCronogramaDesembolso.aspx.cs">
+      <DependentUpon>RCronogramaDesembolso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RCronogramaDesembolso.aspx.designer.cs">
+      <DependentUpon>RCronogramaDesembolso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RDiagnosticoSocioterritorial.aspx.cs">
+      <DependentUpon>RDiagnosticoSocioterritorial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RDiagnosticoSocioterritorial.aspx.designer.cs">
+      <DependentUpon>RDiagnosticoSocioterritorial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RExecucaoFinanceira.aspx.cs">
+      <DependentUpon>RExecucaoFinanceira.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RExecucaoFinanceira.aspx.designer.cs">
+      <DependentUpon>RExecucaoFinanceira.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RIndicadores.aspx.cs">
+      <DependentUpon>RIndicadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RIndicadores.aspx.designer.cs">
+      <DependentUpon>RIndicadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RIntegracaoServicos.aspx.cs">
+      <DependentUpon>RIntegracaoServicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RIntegracaoServicos.aspx.designer.cs">
+      <DependentUpon>RIntegracaoServicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RPrestacaoDeContas.aspx.cs">
+      <DependentUpon>RPrestacaoDeContas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RPrestacaoDeContas.aspx.designer.cs">
+      <DependentUpon>RPrestacaoDeContas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RPrestacaoDeContasProtecaoAlta.aspx.cs">
+      <DependentUpon>RPrestacaoDeContasProtecaoAlta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RPrestacaoDeContasProtecaoAlta.aspx.designer.cs">
+      <DependentUpon>RPrestacaoDeContasProtecaoAlta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RPrestacaoDeContasBE.aspx.cs">
+      <DependentUpon>RPrestacaoDeContasBE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RPrestacaoDeContasBE.aspx.designer.cs">
+      <DependentUpon>RPrestacaoDeContasBE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RPrestacaoDeContasProtecaoMedia.aspx.cs">
+      <DependentUpon>RPrestacaoDeContasProtecaoMedia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RPrestacaoDeContasProtecaoMedia.aspx.designer.cs">
+      <DependentUpon>RPrestacaoDeContasProtecaoMedia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RPrestacaoDeContasPP.aspx.cs">
+      <DependentUpon>RPrestacaoDeContasPP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RPrestacaoDeContasPP.aspx.designer.cs">
+      <DependentUpon>RPrestacaoDeContasPP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RProgramaFamiliaPaulista.aspx.cs">
+      <DependentUpon>RProgramaFamiliaPaulista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RProgramaFamiliaPaulista.aspx.designer.cs">
+      <DependentUpon>RProgramaFamiliaPaulista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RProgramaProjeto.aspx.cs">
+      <DependentUpon>RProgramaProjeto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RProgramaProjeto.aspx.designer.cs">
+      <DependentUpon>RProgramaProjeto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RRedesSocioassistenciaisFinanceiro.aspx.cs">
+      <DependentUpon>RRedesSocioassistenciaisFinanceiro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RRedesSocioassistenciaisFinanceiro.aspx.designer.cs">
+      <DependentUpon>RRedesSocioassistenciaisFinanceiro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RAcoesPlanejadas.aspx.cs">
+      <DependentUpon>RAcoesPlanejadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RAcoesPlanejadas.aspx.designer.cs">
+      <DependentUpon>RAcoesPlanejadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RRedesSocioassistenciaisDetalhamento.aspx.cs">
+      <DependentUpon>RRedesSocioassistenciaisDetalhamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RRedesSocioassistenciaisDetalhamento.aspx.designer.cs">
+      <DependentUpon>RRedesSocioassistenciaisDetalhamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RSaoPauloAmigoIdoso.aspx.cs">
+      <DependentUpon>RSaoPauloAmigoIdoso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RSaoPauloAmigoIdoso.aspx.designer.cs">
+      <DependentUpon>RSaoPauloAmigoIdoso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RSaoPauloSolidario.aspx.cs">
+      <DependentUpon>RSaoPauloSolidario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RSaoPauloSolidario.aspx.designer.cs">
+      <DependentUpon>RSaoPauloSolidario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RDistribuicaoEstadualProgramaTrabalho.aspx.cs">
+      <DependentUpon>RDistribuicaoEstadualProgramaTrabalho.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RDistribuicaoEstadualProgramaTrabalho.aspx.designer.cs">
+      <DependentUpon>RDistribuicaoEstadualProgramaTrabalho.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RBeneficiosContinuados.aspx.cs">
+      <DependentUpon>RBeneficiosContinuados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RBeneficiosContinuados.aspx.designer.cs">
+      <DependentUpon>RBeneficiosContinuados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RServicosIntermunicipais.aspx.cs">
+      <DependentUpon>RServicosIntermunicipais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RServicosIntermunicipais.aspx.designer.cs">
+      <DependentUpon>RServicosIntermunicipais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RServicosRegionalizados.aspx.cs">
+      <DependentUpon>RServicosRegionalizados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RServicosRegionalizados.aspx.designer.cs">
+      <DependentUpon>RServicosRegionalizados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RStatusExecucaoFinanceira.aspx.cs">
+      <DependentUpon>RStatusExecucaoFinanceira.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RStatusExecucaoFinanceira.aspx.designer.cs">
+      <DependentUpon>RStatusExecucaoFinanceira.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RStatusLeiOrcamentaria.aspx.cs">
+      <DependentUpon>RStatusLeiOrcamentaria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RStatusLeiOrcamentaria.aspx.designer.cs">
+      <DependentUpon>RStatusLeiOrcamentaria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RStatusPrestacaoDeContas.aspx.cs">
+      <DependentUpon>RStatusPrestacaoDeContas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RStatusPrestacaoDeContas.aspx.designer.cs">
+      <DependentUpon>RStatusPrestacaoDeContas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RUnidadesServicosSocioassistenciais.aspx.cs">
+      <DependentUpon>RUnidadesServicosSocioassistenciais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RUnidadesServicosSocioassistenciais.aspx.designer.cs">
+      <DependentUpon>RUnidadesServicosSocioassistenciais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioInativo.aspx.cs">
+      <DependentUpon>UsuarioInativo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuarioInativo.aspx.designer.cs">
+      <DependentUpon>UsuarioInativo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\WebHelper.cs" />
+    <Compile Include="versao.aspx.cs">
+      <DependentUpon>versao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="versao.aspx.designer.cs">
+      <DependentUpon>versao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VHistorico.aspx.cs">
+      <DependentUpon>VHistorico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VHistorico.aspx.designer.cs">
+      <DependentUpon>VHistorico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaFluxoPMASCAS.aspx.cs">
+      <DependentUpon>ConsultaFluxoPMASCAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaFluxoPMASCAS.aspx.designer.cs">
+      <DependentUpon>ConsultaFluxoPMASCAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaUsuarios.aspx.cs">
+      <DependentUpon>ConsultaUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaUsuarios.aspx.designer.cs">
+      <DependentUpon>ConsultaUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\cep.ascx.cs">
+      <DependentUpon>cep.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\cep.ascx.designer.cs">
+      <DependentUpon>cep.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\cnpj.ascx.cs">
+      <DependentUpon>cnpj.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\cnpj.ascx.designer.cs">
+      <DependentUpon>cnpj.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\cpf.ascx.cs">
+      <DependentUpon>cpf.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\cpf.ascx.designer.cs">
+      <DependentUpon>cpf.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\rg.ascx.cs">
+      <DependentUpon>rg.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\rg.ascx.designer.cs">
+      <DependentUpon>rg.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\telefone.ascx.cs">
+      <DependentUpon>telefone.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\telefone.ascx.designer.cs">
+      <DependentUpon>telefone.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaFluxoPMASOrgaoGestor.aspx.cs">
+      <DependentUpon>ConsultaFluxoPMASOrgaoGestor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaFluxoPMASOrgaoGestor.aspx.designer.cs">
+      <DependentUpon>ConsultaFluxoPMASOrgaoGestor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaFluxoPMASDRADS.aspx.cs">
+      <DependentUpon>ConsultaFluxoPMASDRADS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaFluxoPMASDRADS.aspx.designer.cs">
+      <DependentUpon>ConsultaFluxoPMASDRADS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaFluxoPMASCMAS.aspx.cs">
+      <DependentUpon>ConsultaFluxoPMASCMAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaFluxoPMASCMAS.aspx.designer.cs">
+      <DependentUpon>ConsultaFluxoPMASCMAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaPMAS.aspx.cs">
+      <DependentUpon>ConsultaPMAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaPMAS.aspx.designer.cs">
+      <DependentUpon>ConsultaPMAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FBloqueioQuadroFinanceiro.aspx.cs">
+      <DependentUpon>FBloqueioQuadroFinanceiro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FBloqueioQuadroFinanceiro.aspx.designer.cs">
+      <DependentUpon>FBloqueioQuadroFinanceiro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impressao.aspx.cs">
+      <DependentUpon>Impressao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impressao.aspx.designer.cs">
+      <DependentUpon>Impressao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FluxoHistorico.aspx.cs">
+      <DependentUpon>FluxoHistorico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FluxoHistorico.aspx.designer.cs">
+      <DependentUpon>FluxoHistorico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FFluxo.aspx.cs">
+      <DependentUpon>FFluxo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FFluxo.aspx.designer.cs">
+      <DependentUpon>FFluxo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LogOff.aspx.cs">
+      <DependentUpon>LogOff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOff.aspx.designer.cs">
+      <DependentUpon>LogOff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pendencias.aspx.cs">
+      <DependentUpon>Pendencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pendencias.aspx.designer.cs">
+      <DependentUpon>Pendencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpImpressao.aspx.cs">
+      <DependentUpon>PopUpImpressao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopUpImpressao.aspx.designer.cs">
+      <DependentUpon>PopUpImpressao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rascunho.aspx.cs">
+      <DependentUpon>Rascunho.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rascunho.aspx.designer.cs">
+      <DependentUpon>Rascunho.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesBeneficiosEventuais.aspx.cs">
+      <DependentUpon>RInformacoesBeneficiosEventuais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesBeneficiosEventuais.aspx.designer.cs">
+      <DependentUpon>RInformacoesBeneficiosEventuais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RDistribuicaoSituacaoVulnerabilidade.aspx.cs">
+      <DependentUpon>RDistribuicaoSituacaoVulnerabilidade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RDistribuicaoSituacaoVulnerabilidade.aspx.designer.cs">
+      <DependentUpon>RDistribuicaoSituacaoVulnerabilidade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RRedesSocioassistenciais.aspx.cs">
+      <DependentUpon>RRedesSocioassistenciais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RRedesSocioassistenciais.aspx.designer.cs">
+      <DependentUpon>RRedesSocioassistenciais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RServicosEstadualizados.aspx.cs">
+      <DependentUpon>RServicosEstadualizados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RServicosEstadualizados.aspx.designer.cs">
+      <DependentUpon>RServicosEstadualizados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RAnaliseDiagnostica.aspx.cs">
+      <DependentUpon>RAnaliseDiagnostica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RAnaliseDiagnostica.aspx.designer.cs">
+      <DependentUpon>RAnaliseDiagnostica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RProgramasTransferenciaRenda.aspx.cs">
+      <DependentUpon>RProgramasTransferenciaRenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RProgramasTransferenciaRenda.aspx.designer.cs">
+      <DependentUpon>RProgramasTransferenciaRenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RDistribuicaoEstadualProtecaoSocial.aspx.cs">
+      <DependentUpon>RDistribuicaoEstadualProtecaoSocial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RDistribuicaoEstadualProtecaoSocial.aspx.designer.cs">
+      <DependentUpon>RDistribuicaoEstadualProtecaoSocial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RProgramasMunicipaisTransferenciaRenda.aspx.cs">
+      <DependentUpon>RProgramasMunicipaisTransferenciaRenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RProgramasMunicipaisTransferenciaRenda.aspx.designer.cs">
+      <DependentUpon>RProgramasMunicipaisTransferenciaRenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RRHLocalExecucao.aspx.cs">
+      <DependentUpon>RRHLocalExecucao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RRHLocalExecucao.aspx.designer.cs">
+      <DependentUpon>RRHLocalExecucao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RRHOrgaoGestor.aspx.cs">
+      <DependentUpon>RRHOrgaoGestor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RRHOrgaoGestor.aspx.designer.cs">
+      <DependentUpon>RRHOrgaoGestor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\ROrganizacaoOrgaoGestor.aspx.cs">
+      <DependentUpon>ROrganizacaoOrgaoGestor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\ROrganizacaoOrgaoGestor.aspx.designer.cs">
+      <DependentUpon>ROrganizacaoOrgaoGestor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RConselhosExistentes.aspx.cs">
+      <DependentUpon>RConselhosExistentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RConselhosExistentes.aspx.designer.cs">
+      <DependentUpon>RConselhosExistentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RQuantidadeUnidadesLocaisServicos.aspx.cs">
+      <DependentUpon>RQuantidadeUnidadesLocaisServicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RQuantidadeUnidadesLocaisServicos.aspx.designer.cs">
+      <DependentUpon>RQuantidadeUnidadesLocaisServicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesCadastraisLocalExecucao.aspx.cs">
+      <DependentUpon>RInformacoesCadastraisLocalExecucao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesCadastraisLocalExecucao.aspx.designer.cs">
+      <DependentUpon>RInformacoesCadastraisLocalExecucao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesCadastraisConselhoMunicipal.aspx.cs">
+      <DependentUpon>RInformacoesCadastraisConselhoMunicipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesCadastraisConselhoMunicipal.aspx.designer.cs">
+      <DependentUpon>RInformacoesCadastraisConselhoMunicipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesCadastraisOrgaoGestor.aspx.cs">
+      <DependentUpon>RInformacoesCadastraisOrgaoGestor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesCadastraisOrgaoGestor.aspx.designer.cs">
+      <DependentUpon>RInformacoesCadastraisOrgaoGestor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesCadastraisPrefeituras.aspx.cs">
+      <DependentUpon>RInformacoesCadastraisPrefeituras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesCadastraisPrefeituras.aspx.designer.cs">
+      <DependentUpon>RInformacoesCadastraisPrefeituras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RFuncionamentoCentroPOP.aspx.cs">
+      <DependentUpon>RFuncionamentoCentroPOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RFuncionamentoCentroPOP.aspx.designer.cs">
+      <DependentUpon>RFuncionamentoCentroPOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RFuncionamentoCREAS.aspx.cs">
+      <DependentUpon>RFuncionamentoCREAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RFuncionamentoCREAS.aspx.designer.cs">
+      <DependentUpon>RFuncionamentoCREAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RFuncionamentoCRAS.aspx.cs">
+      <DependentUpon>RFuncionamentoCRAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RFuncionamentoCRAS.aspx.designer.cs">
+      <DependentUpon>RFuncionamentoCRAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RDistribuicaoPorteNivelGestao.aspx.cs">
+      <DependentUpon>RDistribuicaoPorteNivelGestao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RDistribuicaoPorteNivelGestao.aspx.designer.cs">
+      <DependentUpon>RDistribuicaoPorteNivelGestao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\Relatorio.Master.cs">
+      <DependentUpon>Relatorio.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\Relatorio.Master.designer.cs">
+      <DependentUpon>Relatorio.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesBasicasDrads.aspx.cs">
+      <DependentUpon>RInformacoesBasicasDrads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesBasicasDrads.aspx.designer.cs">
+      <DependentUpon>RInformacoesBasicasDrads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesFMAS.aspx.cs">
+      <DependentUpon>RInformacoesFMAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesFMAS.aspx.designer.cs">
+      <DependentUpon>RInformacoesFMAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesMunicipais.aspx.cs">
+      <DependentUpon>RInformacoesMunicipais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios\RInformacoesMunicipais.aspx.designer.cs">
+      <DependentUpon>RInformacoesMunicipais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SampleRequestValidator.cs" />
+    <Compile Include="SelecionarRelatorio.aspx.cs">
+      <DependentUpon>SelecionarRelatorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelecionarRelatorio.aspx.designer.cs">
+      <DependentUpon>SelecionarRelatorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TrustedIssuerNameRegistry.cs" />
+    <Compile Include="Usuario\AlterarSenha.aspx.cs">
+      <DependentUpon>AlterarSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\AlterarSenha.aspx.designer.cs">
+      <DependentUpon>AlterarSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\AlterarSenhaUsuario.aspx.cs">
+      <DependentUpon>AlterarSenhaUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\AlterarSenhaUsuario.aspx.designer.cs">
+      <DependentUpon>AlterarSenhaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\ConsultarUsuarioCadUnico.aspx.cs">
+      <DependentUpon>ConsultarUsuarioCadUnico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\ConsultarUsuarioCadUnico.aspx.designer.cs">
+      <DependentUpon>ConsultarUsuarioCadUnico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\FUsuario.aspx.cs">
+      <DependentUpon>FUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\FUsuario.aspx.designer.cs">
+      <DependentUpon>FUsuario.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Arquivos\OrientacoesTecnicasNormativasSUAS\" />
+    <Folder Include="Scripts\i18n\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.ControleAcesso\Seds.PMAS.QUADRIENAL.Controleacesso.csproj">
+      <Project>{5af1b5f1-fbe2-454a-b4f6-6ed1e123e9e2}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Controleacesso</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Entidades\Seds.PMAS.QUADRIENAL.Entidades.csproj">
+      <Project>{2CEB2E6E-83B9-4E12-8995-6B58A7607F87}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Negocio.Pendencia\Seds.PMAS.QUADRIENAL.Negocio.Pendencia.csproj">
+      <Project>{84c88f58-9294-4248-9cf7-0e95888637c7}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Negocio.Pendencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Negocio.Validadores\Seds.PMAS.QUADRIENAL.Negocio.Validadores.csproj">
+      <Project>{858694AA-C5A5-44AF-A983-2A24EC176028}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Negocio.Validadores</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Negocio\Seds.PMAS.QUADRIENAL.Negocio.csproj">
+      <Project>{D3E84FEE-80FD-476B-B07F-65636094995D}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Processos\Seds.PMAS.QUADRIENAL.UI.Processos.csproj">
+      <Project>{2EE39BDA-144D-496C-9737-ACD1B56BC4CA}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.UI.Processos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Resources\Seds.PMAS.QUADRIENAL.Resources.csproj">
+      <Project>{efcd55c6-35db-4fd1-ba71-a84212aaca36}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Servicos.Contratos\Seds.PMAS.QUADRIENAL.Servicos.Contratos.csproj">
+      <Project>{D5445516-9344-4C6F-9081-BD2F412FBC9B}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Servicos.Contratos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Servicos\Seds.PMAS.QUADRIENAL.Servicos.csproj">
+      <Project>{3C00CB7D-B4E4-4F09-AA6D-CE68662D19AD}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Servicos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Sessao\Seds.PMAS.QUADRIENAL.Sessao.csproj">
+      <Project>{6f43c4ea-b4f6-4a20-8b25-649a822237f4}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Sessao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.UI.Facade\Seds.PMAS.QUADRIENAL.UI.Facade.csproj">
+      <Project>{7559b3f1-f932-4614-984d-1d26cba1ae7b}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.UI.Facade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>61000</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

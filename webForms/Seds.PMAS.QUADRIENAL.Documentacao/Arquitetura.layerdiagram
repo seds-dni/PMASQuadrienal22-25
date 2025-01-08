@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="681f574c-45c1-445b-aa4c-775402b23087" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="6852f31f-feb4-42bc-8502-36dc5ce8358e" name="Apresentação">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="77e13f1f-9b48-4bbf-86d2-205e37863867" direction="Forward">
+          <layerMoniker Id="908b58eb-b734-4fe2-9b20-692da27aa3ff" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="6cc68c5d-758e-4fa3-9789-8362d0a50658" direction="Forward">
+          <layerMoniker Id="a7768f15-7510-45c3-9515-7add798d5a5a" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="de04942a-ed10-45e7-80d0-7702155ebea2" direction="Forward">
+          <layerMoniker Id="27290a49-50ce-40aa-a2d4-0dfdc348511f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="8a9394b0-e220-44dd-95a9-3b6ac2f985d5" name="Seds.PMAS2013.UI.Web">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="37746b80-de97-4225-a587-a4a1cc1d42f5" direction="Forward">
+              <layerMoniker Id="352b5f6b-342d-4004-90b5-f2288675e70a" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="b064e6d5-9edd-47d3-bd7b-e3160f6b27dc" name="Seds.PMAS2013.UI.Web">
+              <ArtifactNode Label="Seds.PMAS2013.UI.Web" Category="CodeSchema_Project" Id="(Assembly=../Seds.PMAS2013.UI.Web/Seds.PMAS2013.UI.Web.csproj)">
+                <Category Ref="CodeSchema_SourceFile" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Seds.PMAS2013.UI.Web)" Label="Seds.PMAS2013.UI.Web.dll" Category="FileSystem.Category.FileOfType.dll">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="352b5f6b-342d-4004-90b5-f2288675e70a" name="Seds.PMAS2013.UI.Processos">
+          <references>
+            <reference Id="6c93f57c-26ed-4637-87cf-ea75f0188edf" name="Seds.PMAS2013.UI.Processos">
+              <ArtifactNode Label="Seds.PMAS2013.UI.Processos" Category="CodeSchema_Project" Id="(Assembly=../Seds.PMAS2013.Processos/Seds.PMAS2013.UI.Processos.csproj)">
+                <Category Ref="CodeSchema_SourceFile" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Seds.PMAS2013.Processos)" Label="Seds.PMAS2013.Processos.dll" Category="FileSystem.Category.FileOfType.dll">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="908b58eb-b734-4fe2-9b20-692da27aa3ff" name="Camada de Serviços">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="f794cf73-ea1e-451e-8787-ed82470e91b0" direction="Forward">
+          <layerMoniker Id="8e3aa47f-f56c-4496-a22e-c468bd7aced2" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="20618913-e67f-47f0-a2fc-83b6af92b00e" name="Seds.PMAS2013.Servicos">
+          <references>
+            <reference Id="3ed27d85-da7a-4c89-8409-0c4d204c1154" name="Seds.PMAS2013.Servicos">
+              <ArtifactNode Label="Seds.PMAS2013.Servicos" Category="CodeSchema_Project" Id="(Assembly=../Seds.PMAS2013.Servicos/Seds.PMAS2013.Servicos.csproj)">
+                <Category Ref="CodeSchema_SourceFile" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Seds.PMAS2013.Servicos)" Label="Seds.PMAS2013.Servicos.dll" Category="FileSystem.Category.FileOfType.dll">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="c7ad2d0c-d21e-4283-a22a-55aeddfee9e1" name="Seds.PMAS2013.Servicos.WebHost">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="239abd37-8244-40ce-818d-5406cdc218d8" direction="Forward">
+              <layerMoniker Id="20618913-e67f-47f0-a2fc-83b6af92b00e" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="c18a9aeb-4a3b-4da3-bc7b-2df483f5cce1" direction="Forward">
+              <layerMoniker Id="6602511c-ba22-417b-a4d2-21ba170c7fbe" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="00eeea66-3874-43e3-afc3-2c4cf8cb4093" name="Seds.PMAS2013.Servicos.WebHost">
+              <ArtifactNode Label="Seds.PMAS2013.Servicos.WebHost" Category="CodeSchema_Project" Id="(Assembly=../Seds.PMAS2013.Servicos.WebHost/Seds.PMAS2013.Servicos.WebHost.csproj)">
+                <Category Ref="CodeSchema_SourceFile" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Seds.PMAS2013.Servicos.WebHost)" Label="Seds.PMAS2013.Servicos.WebHost.dll" Category="FileSystem.Category.FileOfType.dll">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="6602511c-ba22-417b-a4d2-21ba170c7fbe" name="Seds.PMAS2013.Servicos.Contratos">
+          <references>
+            <reference Id="041ae357-9eb1-4843-822f-e82ceff421b8" name="Seds.PMAS2013.Servicos.Contratos">
+              <ArtifactNode Label="Seds.PMAS2013.Servicos.Contratos" Category="CodeSchema_Project" Id="(Assembly=../Seds.PMAS2013.Servicos.Contratos/Seds.PMAS2013.Servicos.Contratos.csproj)">
+                <Category Ref="CodeSchema_SourceFile" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Seds.PMAS2013.Servicos.Contratos)" Label="Seds.PMAS2013.Servicos.Contratos.dll" Category="FileSystem.Category.FileOfType.dll">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="8e3aa47f-f56c-4496-a22e-c468bd7aced2" name="Camada de Negócio">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="24b1dc40-f446-4899-ae9e-29bcc2c0a592" direction="Forward">
+          <layerMoniker Id="27955f47-b413-4352-a047-01f345c14e9f" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="859343ae-d819-4c0b-be06-346ef332379b" direction="Forward">
+          <layerMoniker Id="a7768f15-7510-45c3-9515-7add798d5a5a" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="bc181775-69f6-4516-ba3a-9c7287f52fe1" direction="Forward">
+          <layerMoniker Id="27290a49-50ce-40aa-a2d4-0dfdc348511f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="5131f48c-95f3-41ff-b2bb-1284ec420a70" name="Seds.PMAS2013.Negocio">
+          <references>
+            <reference Id="826a03a8-6af3-4ce9-b174-baf2192f98c7" name="Seds.PMAS2013.Negocio">
+              <ArtifactNode Label="Seds.PMAS2013.Negocio" Category="CodeSchema_Project" Id="(Assembly=../Seds.PMAS2013.Negocio/Seds.PMAS2013.Negocio.csproj)">
+                <Category Ref="CodeSchema_SourceFile" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Seds.PMAS2013.Negocio)" Label="Seds.PMAS2013.Negocio.dll" Category="FileSystem.Category.FileOfType.dll">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="27955f47-b413-4352-a047-01f345c14e9f" name="Camada de Dados">
+      <childLayers>
+        <layer Id="366164eb-bba2-4aa2-9ae5-7f1dcee627d3" name="Seds.PMAS2013.Persistencia">
+          <references>
+            <reference Id="0677a828-d79f-4330-b08e-e4901e94f645" name="Seds.PMAS2013.Persistencia">
+              <ArtifactNode Label="Seds.PMAS2013.Persistencia" Category="CodeSchema_Project" Id="(Assembly=../Seds.PMAS2013.Persistencia/Seds.PMAS2013.Persistencia.csproj)">
+                <Category Ref="CodeSchema_SourceFile" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Seds.PMAS2013.Persistencia)" Label="Seds.PMAS2013.Persistencia.dll" Category="FileSystem.Category.FileOfType.dll">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="6ca93bdb-44c0-43c3-85d1-5497f3d56e87" name="Seds.PMAS2013.Persistencia.Repositorio">
+          <references>
+            <reference Id="f9eec865-c8c4-4b30-9d4c-145d3310323f" name="Seds.PMAS2013.Persistencia.Repositorio">
+              <ArtifactNode Label="Seds.PMAS2013.Persistencia.Repositorio" Category="CodeSchema_Project" Id="(Assembly=../Seds.PMAS2013.Persistencia.Repositorio/Seds.PMAS2013.Persistencia.Repositorio.csproj)">
+                <Category Ref="CodeSchema_SourceFile" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Seds.PMAS2013.Persistencia.Repositorio)" Label="Seds.PMAS2013.Persistencia.Repositorio.dll" Category="FileSystem.Category.FileOfType.dll">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="27290a49-50ce-40aa-a2d4-0dfdc348511f" name="Seds.PMAS2013.Negocio.Validadores">
+      <references>
+        <reference Id="da07ff16-5122-4ca3-a193-00b6907104e8" name="Seds.PMAS2013.Negocio.Validadores">
+          <ArtifactNode Label="Seds.PMAS2013.Negocio.Validadores" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/Visual Studio 2010/Projects/Seds.PMAS2013/Seds.PMAS2013.Negocio.Validadores/Seds.PMAS2013.Negocio.Validadores.csproj&quot;)">
+            <Category Ref="CodeSchema_SourceFile" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Seds.PMAS2013.Negocio.Validadores)" Label="Seds.PMAS2013.Negocio.Validadores.dll" Category="FileSystem.Category.FileOfType.dll">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="a7768f15-7510-45c3-9515-7add798d5a5a" name="Seds.PMAS2013.Entidades">
+      <references>
+        <reference Id="8edc1097-c446-4aae-94c1-a3551c0b4aa6" name="Seds.PMAS2013.Entidades">
+          <ArtifactNode Label="Seds.PMAS2013.Entidades" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/Visual Studio 2010/Projects/Seds.PMAS2013/Seds.PMAS2013.Entidades/Seds.PMAS2013.Entidades.csproj&quot;)">
+            <Category Ref="CodeSchema_SourceFile" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Seds.PMAS2013.Entidades)" Label="Seds.PMAS2013.Entidades.dll" Category="FileSystem.Category.FileOfType.dll">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

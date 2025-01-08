@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="dbPMAS_QUADRIENAL">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=10.22.0.13\SEDS;Initial Catalog=DBPMAS_QUADRIENAL_HOMOLOG</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>627cf23d-a232-4930-8abd-989232658d37</DataSourceID>
+</RptDataSource>

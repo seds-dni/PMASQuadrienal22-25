@@ -1,0 +1,63 @@
+﻿ .textbox{
+    font-family: Tahoma;
+    font-size: 11px;
+ }
+ 
+ .button-save
+ {
+    /*background-image: url(../../Styles/Icones/filesaveas.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: left !important;
+    padding-left: 16px !important;
+    margin-left: 5px !important;*/
+}
+
+.button-find
+ {
+    /*content: "\e61e";*/
+    /*border-bottom-color: #2086bf;*/ 
+    /*background-image: url(../../Styles/Icones/find.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: left !important;*/
+    padding-left: 16px !important;
+    margin-left: 5px !important;
+}
+
+.button-calc
+ {
+    background-image: url(../../Styles/Icones/kcalc.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: left !important;
+    padding-left: 16px !important;
+    margin-left: 5px !important;
+}
+
+.button-add
+ {
+    background-image: url(../../Styles/Icones/edit_add.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: left !important;
+    padding-left: 16px !important;
+    margin-left: 5px !important;
+    height:22px;
+}
+
+.bg-alternative  
+{
+    background-color: #F3F3F3 !important;
+}
+
+
+
+.row td 
+{     
+    padding: 0 2px 0 2px;
+    border-bottom-width: 1px; 
+    /*border-bottom-color: #a6c9e2;*/ 
+    /*border-bottom-style: solid;*/
+    border-right-width: 1px; 
+    /*border-right-color: #a6c9e2;*/ 
+    /*border-right-style: solid;*/    
+}
+
+

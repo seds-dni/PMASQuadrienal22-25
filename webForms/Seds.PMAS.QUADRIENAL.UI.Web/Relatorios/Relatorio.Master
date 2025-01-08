@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Relatorio.master.cs"
+    Inherits="Seds.PMAS.QUADRIENAL.UI.Web.Relatorios.Relatorio" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Plano Municipal de Assistência Social - PMAS 2022/2025</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link type="image/x-icon" href="~/Styles/Icones/pmas.ico" rel="shortcut icon" />
+    <%-- <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/custom-theme/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
+    <link href="~/Styles/ui.jqgrid.css" rel="stylesheet" />--%>
+
+    <link href="~/Styles/Style.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/metro/css/metro-icons.css" rel="stylesheet" />
+    <link href="~/Styles/BootstrapMenu/bootstrap.css" rel="stylesheet" />
+    <link href="~/Styles/BootstrapMenu/bootstrap-min.css" rel="stylesheet" />
+
+    <link href="~/Styles/custom-theme/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
+    <link href="~/Styles/metro/css/metro-colors.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .freezing_report {
+            position: relative;
+            top: expression(this.offsetParent.scrollTop);
+            z-index: 10;
+        }
+
+        .bg {
+            background-color: #a6c9e2;
+        }
+    </style>
+    <script type="text/javascript">
+        function imprimir() {
+            document.getElementById("btnImprimir").style.display = "none";
+            document.getElementById("btnGerarExcel").style.display = "none";
+            document.getElementById("btnGeraXLSX").style.display = "none";
+            self.print();
+            document.getElementById("btnImprimir").style.display = "inline";
+            document.getElementById("btnGerarExcel").style.display = "inline";
+            document.getElementById("btnGeraXLSX").style.display = "inline";
+
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <ajaxToolkit:ToolkitScriptManager runat="Server" ID="ScriptManager1">
+            <Scripts>
+                <asp:ScriptReference Path="~/Scripts/jquery-1.7.1.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-ui-1.8.18.custom.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jqgrid/i18n/grid.locale-pt-br.js" />
+                <asp:ScriptReference Path="~/Scripts/jqgrid/jquery.jqGrid.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jqgrid/plugins/ui.multiselect.js" />
+                <asp:ScriptReference Path="~/Scripts/jqgrid/src/jqDnR.js" />
+                <asp:ScriptReference Path="~/Scripts/jqgrid/src/jqModal.js" />
+                <asp:ScriptReference Path="~/Scripts/ui.functions.js" />
+                <asp:ScriptReference Path="~/Scripts/Script.js" />
+                <asp:ScriptReference Path="~/Scripts/modernizr-2.7.1.js" />
+            </Scripts>
+        </ajaxToolkit:ToolkitScriptManager>
+        <div class="header" width="100%" cellpadding="0" cellspacing="0">
+            <div class="divide-nav">
+                <%--    <div class="cell" height="80" width="320" style="background-color: White;">--%>
+                <%--<asp:Image ID="imgSP" runat="server" ImageUrl="~/Styles/Images/bandeira_menor.png" Style="height: auto; float:right" />--%>
+                <asp:Image ID="imgSP" runat="server" ImageUrl="~/Styles/Images/logosp.png" Style="height: auto; float:right; width:150px;" />
+                <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Styles/Images/logoPMAS.png"  Style="width:250px;height: auto; float:left;" />
+                <%--     </div>
+                <div class="cell" height="80" style="background-color: White;">--%>
+                <%--<asp:Image ID="imgSecretaria" runat="server" ImageUrl="~/Styles/Images/logosecretaria.jpg" Style="align: center;" />--%>
+                <%--            </div>
+                <div class="cell" align="center" style="background-color: White;">--%>
+                <%-- <asp:Image ID="imgSP" runat="server" ImageUrl="~/Styles/Images/logosp.png" />--%>
+                <%--</div>--%>
+            </div>
+            <div class="row">
+                <div class="cell" align="left" style="padding: 2px 10px 10px 10px; background-color: White;"
+                    class="freezing_report">
+                    <asp:Button ID="btnGerarExcel" runat="server" Text="Gerar Excel" />
+                    
+                    <asp:Button ID="btnGeraXLSX" runat="server" Text="Gerar XLSX"/>
+
+                    <asp:Button ID="btnImprimir" runat="server" Text="Imprimir" OnClientClick="return imprimir();" />
+                </div>
+            </div>
+            <div class="content">
+                <div class="formInput no-padding no-margin" id="FormMain"  runat="server">
+                    <div class="grid no-padding no-margin">
+                        <div class="row no-padding">
+                            <div class="cell no-padding" align="center" style="background-color: White;">
+                                <table class="table border bordered" cellspacing="0" cellpadding="0" border="0"
+                                    runat="server" id="tbRelatorio">
+                                    <tr class="info">
+                                        <td align="left" style="min-height: 30px;" valign="middle">
+                                            <div style="width: 100%; min-height: 30px;">
+                                                <div style="float: left; min-width: 40%; padding-top: 8px;">
+                                                    <b>
+                                                        <asp:Literal runat="server" ID="litTitulo" Text="Titulo do Relatório"></asp:Literal>
+                                                    </b>
+                                                </div>
+                                                <%--<div style="text-align: right; width: 60%; padding-top: 8px;">--%>
+                                                <div style="text-align: right; padding-top: 8px;">
+                                                    <b>Relatório gerado em :
+                                        <%= DateTime.Now.ToShortDateString() %>
+                                        - Hor&#225;rio:
+                                        <%= DateTime.Now.ToShortTimeString() %>
+                                        - PMASweb 2022/2025 - SEDS/CAS/GSUAS </b>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="padding: 10px 10px 10px 10px; background-color: White;">
+                                            <b>Filtros utilizados</b>&nbsp
+                                            <asp:Literal runat="server" ID="litFiltros" Text="sem filtros" />&nbsp&nbsp&nbsp
+                                           <b><asp:Label runat="server" id="lblDataReferencia" Text="Data de Referência"></asp:Label></b>&nbsp
+                                            <asp:Label ID="lblData" runat="server" Text=""></asp:Label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <asp:ContentPlaceHolder ID="conteudo" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

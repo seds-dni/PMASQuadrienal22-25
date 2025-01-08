@@ -1,0 +1,22 @@
+﻿namespace Seds.PMAS.Common.Enums
+{
+    public enum EnumMessage
+    {
+        SECURITY_REQUEST_NULL,
+        SECURITY_REQUEST_DENIED,
+        SECURITY_REQUEST_PASSWORD_DENIED,
+        SECURITY_REQUEST_INACTIVE,
+        USER_MAIL_ERROR,
+        USER_INVALID,
+        USER_MAIL_INVALID,
+        USER_MAIL_EMPTY,
+        USER_NAME_EMPTY,
+        NO_RECORDS_FOUND,
+        NO_PROFILE_FOUND,
+        NO_PAGE,
+        NO_TOTAL_PAGES,
+        REQUEST_PASSWORD_CONFIRM_INVALID,
+        REQUEST_PASSWORD_INVALID,
+        REQUEST_PASS_IS_NOT_EQUAL_PASS_CONF
+    }
+}

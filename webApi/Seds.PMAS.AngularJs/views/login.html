@@ -1,0 +1,59 @@
+﻿<div data-ng-controller="loginController" data-ng-hide="authentication.IsAuthenticated">
+    <div class="page-header text-center">
+        <h3>Sistema de Autenticação e Autorização - SAA</h3>
+    </div>
+    <form role="form">
+        <div class="col-md-2">
+            &nbsp;
+        </div>
+        <h3 class="text-light"><span class="mif-warning mif-ani-shuttle mif-ani-slow fg-yellow"></span>&nbsp;&nbsp;Acesso restrito</h3>
+        <hr class="thin">
+        <div class="row">
+            <div class="col-md-2">
+                &nbsp;
+            </div>
+            <div class="cell center">
+                <div class="input-control modern text iconic" data-role="input">
+                    <input type="text" data-ng-model="loginData.userName" placeholder="Usuário" required autofocus>
+                    <span class="label">Informe seu login</span>
+                    <span class="informer">Por favor entre com o seu login</span>
+                    <!--           <span class="placeholder">Input login</span>-->
+                    <span class="icon mif-user"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                &nbsp;
+            </div>
+            <div class="cell">
+                <div class="input-control modern password iconic " data-role="input">
+                    <input type="password" data-ng-model="loginData.password" placeholder="Senha" required>
+                    <span class="label">Senha</span>
+                    <span class="informer">Informe sua senha</span>
+                    <!--    <span class="placeholder">Input password</span>-->
+                    <span class="icon mif-lock"></span>
+                    <button class="button helper-button reveal"><span class="mif-looks"></span></button>
+                </div>
+            </div>
+            <div class="col-md-2">
+                &nbsp;
+            </div>
+            <div data-ng-hide="message == ''">
+                {{message}}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                &nbsp;
+            </div>
+            <div class="cell">
+                <button class="button primary" type="submit" data-ng-click="login()">Entrar</button>
+            </div>
+        </div>
+        <div class="col-md-2">
+            &nbsp;
+        </div>
+    </form>
+</div>

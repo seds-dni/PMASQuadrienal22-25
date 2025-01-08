@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c6d1a44d-9876-4dec-98e9-e409445276a3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://saa.homologacao.seds/PerfilService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PerfilService.wsdl" MetadataType="Wsdl" ID="2c4c9f50-5313-425c-90fc-454789ae4e44" SourceId="1" SourceUrl="http://saa.homologacao.seds/PerfilService.svc?wsdl" />
+    <MetadataFile FileName="PerfilService.xsd" MetadataType="Schema" ID="88f54fba-80df-426e-aff9-51581745b046" SourceId="1" SourceUrl="http://saa.homologacao.seds/PerfilService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PerfilService1.xsd" MetadataType="Schema" ID="0532ca45-4b41-4517-8ecd-ae403111cb30" SourceId="1" SourceUrl="http://saa.homologacao.seds/PerfilService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PerfilService2.xsd" MetadataType="Schema" ID="a15075c3-3fbf-4197-80a3-4573fd0569fb" SourceId="1" SourceUrl="http://saa.homologacao.seds/PerfilService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PerfilService.disco" MetadataType="Disco" ID="3a2e7f54-18e1-4e74-9d89-b25398ab5418" SourceId="1" SourceUrl="http://saa.homologacao.seds/PerfilService.svc?disco" />
+    <MetadataFile FileName="PerfilService1.wsdl" MetadataType="Wsdl" ID="91c3b35e-fbbc-479c-985b-f33bd81a2e04" SourceId="1" SourceUrl="http://saa.homologacao.seds/PerfilService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="PerfilService3.xsd" MetadataType="Schema" ID="7e901216-d77a-4380-98ee-c9a82d40a68f" SourceId="1" SourceUrl="http://saa.homologacao.seds/PerfilService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

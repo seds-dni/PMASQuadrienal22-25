@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C00CB7D-B4E4-4F09-AA6D-CE68662D19AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Seds.PMAS.QUADRIENAL.Servicos</RootNamespace>
+    <AssemblyName>Seds.PMAS.QUADRIENAL.Servicos</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CadastroUsuario">
+      <HintPath>..\packages\CadastroUsuario.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\Extras\Microsoft.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Seguranca.Token">
+      <HintPath>..\packages\Seds.Seguranca.Token.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcoesService.cs" />
+    <Compile Include="AppConfig.cs" />
+    <Compile Include="DradsPlanoMunicipalService.cs" />
+    <Compile Include="InterfacePoliticaService.cs" />
+    <Compile Include="RelatoriosService.cs" />
+    <Compile Include="PlanoMunicipalService.cs" />
+    <Compile Include="ProgramasService.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="RedeProtecaoSocialService.cs" />
+    <Compile Include="EstruturaAssistenciaSocialService.cs" />
+    <Compile Include="UsuarioPMASService.cs" />
+    <Compile Include="PrefeituraService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWorkManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Entidades\Seds.PMAS.QUADRIENAL.Entidades.csproj">
+      <Project>{2CEB2E6E-83B9-4E12-8995-6B58A7607F87}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Negocio.Validadores\Seds.PMAS.QUADRIENAL.Negocio.Validadores.csproj">
+      <Project>{858694AA-C5A5-44AF-A983-2A24EC176028}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Negocio.Validadores</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Negocio\Seds.PMAS.QUADRIENAL.Negocio.csproj">
+      <Project>{D3E84FEE-80FD-476B-B07F-65636094995D}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Servicos.Contratos\Seds.PMAS.QUADRIENAL.Servicos.Contratos.csproj">
+      <Project>{d5445516-9344-4c6f-9081-bd2f412fbc9b}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Servicos.Contratos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\Seds.Seguranca.Entidades.PerfilInfo.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

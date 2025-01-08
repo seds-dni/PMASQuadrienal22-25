@@ -1,0 +1,1293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="803bd77e-2f29-40c3-a4b7-8d6543f13147"
+  name="Seds.PMAS2013.Documentacao" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="537d9e55-cb46-4975-b8a7-fe562861dd14"
+        name="ÓrgãoGestor"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="da87507e-525c-4da9-98b5-8c3fc0ef9e38"
+            isDerived="false"
+            sourceEndRoleName="ÓrgãoGestor"
+            targetEndRoleName="Atualiza dados da Prefeitura"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="cf0f2bde-bfda-4106-9b9a-4a4ae50d3177"
+              LastKnownName="Atualiza dados da Prefeitura"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9a170137-01f7-41a1-9e0b-8f67a49fb202"
+                  name="ÓrgãoGestor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4cf29a57-294e-4b61-ba3d-392231ca77f7"
+                  name="Atualiza dados da Prefeitura"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cf0f2bde-bfda-4106-9b9a-4a4ae50d3177"
+        name="Atualiza dados da Prefeitura"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="f421e158-baf7-484a-977a-f565890107e5"
+        name="ConsultaUsuario"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="f3e13938-8f49-48dd-8f72-bb9422f6ffb8"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b88d6626-b42b-4fff-a62c-f29720ed7aea"
+                LastKnownName="Lifeline2"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="a09d995f-00bb-4310-8010-506666501ed1"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d2e5063c-defd-4a84-b308-17fda17a2a0e"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="0efa42b4-0804-49e7-8043-87382a9b5f9b"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="dfe97dec-92bc-4fc9-9fb3-9c529586d782"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d2e5063c-defd-4a84-b308-17fda17a2a0e"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="34d313fa-502a-41a1-a4e5-a08d35cac742"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b88d6626-b42b-4fff-a62c-f29720ed7aea"
+                LastKnownName="Lifeline2"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6fa0c2cd-f5c6-4c53-9d8b-91f0b6527171"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="2132dcb4-070a-4621-9ed6-56c86b8722d5"
+                LastKnownName="Lifeline1"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0efa42b4-0804-49e7-8043-87382a9b5f9b"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="b88d6626-b42b-4fff-a62c-f29720ed7aea"
+                LastKnownName="Lifeline2"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="dfe97dec-92bc-4fc9-9fb3-9c529586d782"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="b88d6626-b42b-4fff-a62c-f29720ed7aea"
+                LastKnownName="Lifeline2"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3bfcef49-102f-459f-9150-4ef04d163d3f"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="2132dcb4-070a-4621-9ed6-56c86b8722d5"
+                LastKnownName="Lifeline1"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a09d995f-00bb-4310-8010-506666501ed1"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="77f31ae9-6a15-4245-a691-b4e977dc1612"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b88d6626-b42b-4fff-a62c-f29720ed7aea"
+                LastKnownName="Lifeline2"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="2132dcb4-070a-4621-9ed6-56c86b8722d5"
+            name="Lifeline1"
+            isActor="false"
+            lifelineDisplayName="Lifeline1">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6fa0c2cd-f5c6-4c53-9d8b-91f0b6527171"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3bfcef49-102f-459f-9150-4ef04d163d3f"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="b88d6626-b42b-4fff-a62c-f29720ed7aea"
+            name="Lifeline2"
+            isActor="false"
+            lifelineDisplayName="Lifeline2">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="d2e5063c-defd-4a84-b308-17fda17a2a0e"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a09d995f-00bb-4310-8010-506666501ed1"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="147be76b-e724-4f86-b9f2-64c2df2d606d"
+            name="&lt;&lt;create&gt;&gt;"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6fa0c2cd-f5c6-4c53-9d8b-91f0b6527171"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0efa42b4-0804-49e7-8043-87382a9b5f9b"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c7895ded-b11f-41b3-af1e-3dc129bba63f"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="dfe97dec-92bc-4fc9-9fb3-9c529586d782"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3bfcef49-102f-459f-9150-4ef04d163d3f"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="34d313fa-502a-41a1-a4e5-a08d35cac742"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="77f31ae9-6a15-4245-a691-b4e977dc1612"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="65a21146-59c8-4bd1-9d54-37bc71284b6c"
+        name="Órgão Gestor"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="86f03777-158c-47e0-80e3-ae7a39fde3ab"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="c9549b9a-a5d9-464c-8fb9-6b05fcfe6500"
+              LastKnownName="Usuário"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="c0cc31ae-b6d2-4364-b6e0-0764285e2496"
+            isDerived="false"
+            sourceEndRoleName="Órgão Gestor"
+            targetEndRoleName="Cadastrar Rede Proteção Social"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5651c1ac-7fc4-4ca8-84f1-08d80bffad0c"
+              LastKnownName="Cadastrar Rede Proteção Social"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dee17a55-b7d7-44d2-b268-def0a5d96db3"
+                  name="Órgão Gestor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="93ee0f88-c271-4656-b629-fb0f7da78ab5"
+                  name="Cadastrar Rede Proteção Social"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="838d92be-9d39-40ff-a77b-f50b07842a0f"
+            isDerived="false"
+            sourceEndRoleName="Órgão Gestor"
+            targetEndRoleName="Enviar Plano Municipal p/ DRADS"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d8a150e6-8815-44e8-bfad-8345e00c9d56"
+              LastKnownName="Enviar Plano Municipal p/ DRADS"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="93de24b5-c8e5-4370-8922-25d82354b47a"
+                  name="Órgão Gestor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5abcb7ec-6424-4f31-8a1f-e647418ae85b"
+                  name="Enviar Plano Municipal p/ DRADS"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5651c1ac-7fc4-4ca8-84f1-08d80bffad0c"
+        name="Cadastrar Rede Proteção Social"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="fe539bb5-963f-4132-a03a-2d43ae3ff17b"
+            LastKnownName="PMAS 2013"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="19af0d47-9899-4be1-ba15-95c3519a3e8c"
+        name="CMAS"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="ca561ddf-7f3e-494f-ba28-d7396f8aa17e"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="c9549b9a-a5d9-464c-8fb9-6b05fcfe6500"
+              LastKnownName="Usuário"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="9f5e3080-3a67-4392-9317-ed7dbae0df15"
+            isDerived="false"
+            sourceEndRoleName="CMAS"
+            targetEndRoleName="Cadastar Dados do Conselho Municipal"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d837b6e1-5850-4f7b-9b67-689c412acbb2"
+              LastKnownName="Cadastar Dados do Conselho Municipal"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="89a7e1e3-d4c3-46d0-950d-86b3e47fdef2"
+                  name="CMAS"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9daadc56-a5b2-4e1b-857d-22b5149ab6c4"
+                  name="Cadastar Dados do Conselho Municipal"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d837b6e1-5850-4f7b-9b67-689c412acbb2"
+        name="Cadastar Dados do Conselho Municipal"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="fe539bb5-963f-4132-a03a-2d43ae3ff17b"
+            LastKnownName="PMAS 2013"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b1bf3153-8801-4f46-95a5-b1d5fa112339"
+        name="Avaliar Plano Municipal"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="fe539bb5-963f-4132-a03a-2d43ae3ff17b"
+            LastKnownName="PMAS 2013"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="e7ee147c-df23-435a-bfac-e2bee56f9611"
+        name="Artifact1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d904e8ed-2858-44e9-bb00-b92b9d2e4754"
+        name="Informar Parecer"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="c6c4d992-8b9a-4c84-8a8c-1d98d8f7736d">
+            <useCaseMoniker
+              Id="b1bf3153-8801-4f46-95a5-b1d5fa112339"
+              LastKnownName="Avaliar Plano Municipal"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="c08d4aa5-60f9-42f9-bd5b-290940310aa6"
+        name="Gestor Municipal"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="e3d32f3c-af77-48a0-8c79-49eeac2eca67"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="65a21146-59c8-4bd1-9d54-37bc71284b6c"
+              LastKnownName="Órgão Gestor"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="cf8f23ba-3718-4e75-a81e-1c611754d61b"
+            isDerived="false"
+            sourceEndRoleName="Gestor Municipal"
+            targetEndRoleName="Finalizar Plano Municipal"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="bc1815ae-343d-401d-b1ba-88747cf3df71"
+              LastKnownName="Finalizar Plano Municipal"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5be950b0-7673-45d0-b311-f60593bb7500"
+                  name="Gestor Municipal"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="207ea9dd-24cd-4bbb-86a9-aac5ea1c90c9"
+                  name="Finalizar Plano Municipal"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b724baa5-1e75-4812-bf37-13631bfa8caf"
+        name="Presidente do CMAS"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="991ff28f-4d67-4645-8878-70bf4cd7e53b"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="19af0d47-9899-4be1-ba15-95c3519a3e8c"
+              LastKnownName="CMAS"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="86bb29c9-aa9b-4402-b02b-acc3e6254b63"
+            isDerived="false"
+            sourceEndRoleName="Presidente do CMAS"
+            targetEndRoleName="Avaliar Plano Municipal"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b1bf3153-8801-4f46-95a5-b1d5fa112339"
+              LastKnownName="Avaliar Plano Municipal"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6cf932da-6112-4e4c-b163-f430a8285b2a"
+                  name="Presidente do CMAS"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f480c700-695f-4193-a23d-22bbedc7b495"
+                  name="Avaliar Plano Municipal"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bc1815ae-343d-401d-b1ba-88747cf3df71"
+        name="Finalizar Plano Municipal"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="fe539bb5-963f-4132-a03a-2d43ae3ff17b"
+            LastKnownName="PMAS 2013"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2c749d51-2353-48aa-83be-0be4ccb92903"
+        name="TipoServico"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="7b74e7ee-fff2-4c01-a6d7-78232da321ce"
+            isDerived="false"
+            sourceEndRoleName="TipoServico"
+            targetEndRoleName="Usuario"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="012f6f3a-2abb-47ae-88fe-7b5f5b982027"
+              LastKnownName="Usuario"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bb55c202-8f69-405a-89df-404f9de2fb54"
+                  name="TipoServico"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a52442cb-16cd-48b3-97e3-adbc5d24294f"
+                  name="Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="012f6f3a-2abb-47ae-88fe-7b5f5b982027"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c509f2cb-c619-4f03-b606-13dd4ab46a4c"
+        name="TipoProtecaoSocial"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="cb890f55-59a0-4500-aba1-11bce6445d30"
+            isDerived="false"
+            sourceEndRoleName="TipoProtecaoSocial"
+            targetEndRoleName="TipoServico"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="2c749d51-2353-48aa-83be-0be4ccb92903"
+              LastKnownName="TipoServico"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="02d2b86a-df04-4dbd-8f22-a31119b25b7d"
+                  name="TipoProtecaoSocial"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c0c89bc3-8940-42c2-bddc-a87f2f5c0826"
+                  name="TipoServico"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="caddab6d-7ce2-4a0b-b293-9ff62680e93c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d0f623d6-a95e-4a2c-bf22-6b1ff83585ca"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d8a150e6-8815-44e8-bfad-8345e00c9d56"
+        name="Enviar Plano Municipal p/ DRADS"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="fe539bb5-963f-4132-a03a-2d43ae3ff17b"
+            LastKnownName="PMAS 2013"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="c9549b9a-a5d9-464c-8fb9-6b05fcfe6500"
+        name="Usuário"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="a577163d-599e-44bf-a3db-5ff0cd128b6a"
+            isDerived="false"
+            sourceEndRoleName="Usuário"
+            targetEndRoleName="Logar no Sistema"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ce9ce7be-6755-4e2f-8cfd-1b97b7003c4a"
+              LastKnownName="Logar no Sistema"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c18eb20c-fb8c-4247-b26c-db5e1c03dc65"
+                  name="Usuário"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f22321ed-03b2-47e5-bed1-dc358aee5752"
+                  name="Logar no Sistema"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ce9ce7be-6755-4e2f-8cfd-1b97b7003c4a"
+        name="Logar no Sistema"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="3d1da9d5-92d5-4187-afb5-50c094aba066"
+            isDerived="false"
+            sourceEndRoleName="Logar no Sistema"
+            targetEndRoleName="Sistema de Autenticação e Autorização"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="73ae0c88-f39f-4d6d-a2ba-209152a4f7e2"
+              LastKnownName="Sistema de Autenticação e Autorização"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="70facd88-973b-4b86-9e0f-10996f5d66a2"
+                  name="Logar no Sistema"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1584df46-6291-4932-979f-757e33b29399"
+                  name="Sistema de Autenticação e Autorização"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="fe539bb5-963f-4132-a03a-2d43ae3ff17b"
+            LastKnownName="PMAS 2013"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="73ae0c88-f39f-4d6d-a2ba-209152a4f7e2"
+        name="Sistema de Autenticação e Autorização"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="fe539bb5-963f-4132-a03a-2d43ae3ff17b"
+        name="PMAS 2013"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="235c20f0-98ba-4c80-8fce-8f1787fcf3c5"
+        name="Manter Dados da Prefeitura"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="9cf41d71-6c8d-4754-92b0-facc5cf99cda">
+            <useCaseMoniker
+              Id="56dc4ac8-b44d-48d5-84d6-5dc4649fbe36"
+              LastKnownName="Atualizar Data da Publicação do DOE"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="f88e37ec-af01-43bc-8430-65cdba47a7bc"
+            LastKnownName="Bloco I - PMAS"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="1c4e0072-eb3c-48ea-95f7-c0d61fdf960b"
+        name="Órgão Gestor"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="62ab35bd-9ea7-4f41-b5e8-62439a7fc3e6"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="b7af6152-6de5-49af-aa75-061c1351e284"
+              LastKnownName="Usuário"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="a987b81e-e418-47f1-a7de-c8f91d89c4e8"
+            isDerived="false"
+            sourceEndRoleName="Órgão Gestor"
+            targetEndRoleName="Manter Dados da Prefeitura"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="235c20f0-98ba-4c80-8fce-8f1787fcf3c5"
+              LastKnownName="Manter Dados da Prefeitura"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f0937f9c-2ff3-42d4-bff7-670a0654bae5"
+                  name="Órgão Gestor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9dc71f65-1d47-490a-a9ea-d5b9fa3b56bf"
+                  name="Manter Dados da Prefeitura"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="40014047-470d-4554-95b9-31ca1dd45027"
+            isDerived="false"
+            sourceEndRoleName="Órgão Gestor"
+            targetEndRoleName="Manter Orgão Gestor"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e0c12c27-880c-4adc-924b-1ae9776979d0"
+              LastKnownName="Manter Orgão Gestor"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2a74d6e5-31e7-453c-a448-779ecd206d88"
+                  name="Órgão Gestor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8b8a8e9a-8712-41b9-9a85-addb2a992245"
+                  name="Manter Orgão Gestor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="56dc4ac8-b44d-48d5-84d6-5dc4649fbe36"
+        name="Atualizar Data da Publicação do DOE"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f88e37ec-af01-43bc-8430-65cdba47a7bc"
+            LastKnownName="Bloco I - PMAS"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4d162a26-c269-44c2-b648-362cf6f106cf"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="e8466bd4-dd6f-41cb-b1cf-35672e4b7cb8"
+            isDerived="false"
+            sourceEndRoleName="UseCase1"
+            targetEndRoleName="Atualizar Data da Publicação do DOE"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="56dc4ac8-b44d-48d5-84d6-5dc4649fbe36"
+              LastKnownName="Atualizar Data da Publicação do DOE"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e6898839-f345-4d75-806b-63e7ffe24224"
+                  name="UseCase1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="213d265c-eb68-4bf1-ae03-996fcd3a7522"
+                  name="Atualizar Data da Publicação do DOE"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="fcfad4b3-3451-4781-9b8f-c1dad716282f"
+        name="CAS Administrador"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="92362cd9-4f4c-4f7b-a194-e8acc52b1ae9"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="b7af6152-6de5-49af-aa75-061c1351e284"
+              LastKnownName="Usuário"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="91ed47a8-4996-49d9-bb6a-3bf66e3dd9a6"
+            isDerived="false"
+            sourceEndRoleName="CAS Administrador"
+            targetEndRoleName="Atualizar Data da Publicação do DOE"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="56dc4ac8-b44d-48d5-84d6-5dc4649fbe36"
+              LastKnownName="Atualizar Data da Publicação do DOE"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="298c5197-17c4-4526-a749-e84549dc7255"
+                  name="CAS Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5c1c96b1-cd07-413a-981e-b754459ee352"
+                  name="Atualizar Data da Publicação do DOE"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="f88e37ec-af01-43bc-8430-65cdba47a7bc"
+        name="Bloco I - PMAS"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e0c12c27-880c-4adc-924b-1ae9776979d0"
+        name="Manter Orgão Gestor"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f88e37ec-af01-43bc-8430-65cdba47a7bc"
+            LastKnownName="Bloco I - PMAS"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a568620c-ac73-4233-82f7-3c21a895bdf2"
+        name="Visualizar Órgão Gestor"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f88e37ec-af01-43bc-8430-65cdba47a7bc"
+            LastKnownName="Bloco I - PMAS"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b7af6152-6de5-49af-aa75-061c1351e284"
+        name="Usuário"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="cde88c96-a4ba-4d50-9585-0eec4f5d5a92"
+            isDerived="false"
+            sourceEndRoleName="Usuário"
+            targetEndRoleName="Visualizar Órgão Gestor"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a568620c-ac73-4233-82f7-3c21a895bdf2"
+              LastKnownName="Visualizar Órgão Gestor"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e5c34110-0bea-4bf0-b7c6-66178f5dc03b"
+                  name="Usuário"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6d8f0479-60ff-487e-a8b0-ab0d64a9fd64"
+                  name="Visualizar Órgão Gestor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a3f2b3fc-ee50-4ba4-89cd-0fead45a88d5"
+            isDerived="false"
+            sourceEndRoleName="Usuário"
+            targetEndRoleName="Visualizar Dados da Prefeitura"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1664af28-2923-42d7-9bab-33e55514f9de"
+              LastKnownName="Visualizar Dados da Prefeitura"
+              LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="79feca9d-c0df-406e-8c72-d86e5018841a"
+                  name="Usuário"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4efba7d5-7fd1-4ba2-a1d1-8e8308cf682b"
+                  name="Visualizar Dados da Prefeitura"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1664af28-2923-42d7-9bab-33e55514f9de"
+        name="Visualizar Dados da Prefeitura"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f88e37ec-af01-43bc-8430-65cdba47a7bc"
+            LastKnownName="Bloco I - PMAS"
+            LastKnownLocation="Seds.PMAS2013.Documentacao.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

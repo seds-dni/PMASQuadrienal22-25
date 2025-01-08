@@ -1,0 +1,454 @@
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.xml
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.xml
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PrestaçãoDeContas\SEDS-PMAS_Quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\Produção\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\Homologação\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.xml
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.xml
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.xml
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.xml
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.xml
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.xml
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal_2022\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.xml
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.xml
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.xml
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.xml
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Homologação\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.xml
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.xml
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Produção\pmas_quadrienal\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.xml
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.xml
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal - 20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroCep.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\CadastroUsuario.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Crypto.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Entidades.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Servicos.Contratos.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.Seguranca.Token.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.WebApiClient.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\StructureMap.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Entidades.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Servicos.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Sessao.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.xml
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\System.Net.Http.Formatting.xml
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Persistencia.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Controleacesso.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Resources.pdb
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\bin\Release\Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.csprojResolveAssemblyReference.cache
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.dll
+C:\Projetos\PMAS\PMASII - Desenvolvimento\pmas_quadrienal-20231010\webForms\Seds.PMAS.QUADRIENAL.UI.Facade\obj\Release\Seds.PMAS.QUADRIENAL.UI.Facade.pdb

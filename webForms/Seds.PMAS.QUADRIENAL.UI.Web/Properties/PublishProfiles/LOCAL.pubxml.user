@@ -1,0 +1,2506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>
+    </TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>c:\DEPLOY\PMASQUADRIENAL</_PublishTargetUrl>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Themes/Default/css/clock.css">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="App_Themes/Default/css/docs.css">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="App_Themes/Default/css/metro-colors.css">
+      <publishTime>12/05/2017 11:00:42</publishTime>
+    </File>
+    <File Include="App_Themes/Default/css/metro-icons.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Default/css/metro-responsive.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Default/css/metro-rtl.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Default/css/metro-schemes.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Default/css/metro.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Default/css/style.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Default/Default.css">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="App_Themes/Default/fonts/metro.eot">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="App_Themes/Default/fonts/metro.svg">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="App_Themes/Default/fonts/metro.ttf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="App_Themes/Default/fonts/metro.woff">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="App_Themes/Default/fonts/selection.json">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="App_Themes/Default/SkinDefault.skin">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/1-NOB2012.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/1-PerguntaseRespostas-ServicoespecializadoemabordagemSocial.pdf">
+      <publishTime>03/11/2015 11:47:05</publishTime>
+    </File>
+    <File Include="Arquivos/10-Caderno_de_orientacoes_Paif_SCFV.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/10-OrientacoesPAIFVolII-2012.pdf">
+      <publishTime>03/11/2015 11:47:00</publishTime>
+    </File>
+    <File Include="Arquivos/11-Caderno_de_orientacoes_Paif_SCFV.pdf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Arquivos/11-OrientacoesTecnicasCREAS-2011.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/12-OrientacoesTecnicasCREAS-2011.pdf">
+      <publishTime>03/11/2015 11:46:35</publishTime>
+    </File>
+    <File Include="Arquivos/12-PerguntaserespostasCREAS-2011.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/13-OrientacoesTecnicasCentroPop-2011.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/13-PerguntaserespostasCREAS-2011.pdf">
+      <publishTime>03/11/2015 11:46:41</publishTime>
+    </File>
+    <File Include="Arquivos/14-OrientacoesTecnicasCentroPop-2011.pdf">
+      <publishTime>03/11/2015 11:46:34</publishTime>
+    </File>
+    <File Include="Arquivos/14-Perguntas_e_RespostasCentroPop-2011.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/15-OrientacoesTecnicasServicosdeAcolhimento-2009.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/15-Perguntas_e_RespostasCentroPop-2011.pdf">
+      <publishTime>03/11/2015 11:46:49</publishTime>
+    </File>
+    <File Include="Arquivos/16-Cartilha_Servico_Abordagem_Social.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/16-ConcepcaodeConvivenciaeFortalecimentodeVinculos.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/16-OrientacoesTecnicasServicosdeAcolhimento-2009.pdf">
+      <publishTime>03/11/2015 11:46:45</publishTime>
+    </File>
+    <File Include="Arquivos/16-PerguntaseRespostas-ServicoespecializadoemabordagemSocial.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/17-Cartilha_Servico_Abordagem_Social.pdf">
+      <publishTime>03/11/2015 11:46:39</publishTime>
+    </File>
+    <File Include="Arquivos/17-ConcepcaodeConvivenciaeFortalecimentodeVinculos.pdf">
+      <publishTime>03/11/2015 11:46:38</publishTime>
+    </File>
+    <File Include="Arquivos/17-Orientacoestecnicas-ServicoparapessoacomdeficienciaemCentroDia.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/17-OrientacoesTecnicasdaVigilanciaSocioassistencialfinal.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/17-PerguntaseRespostas-ServicoespecializadoemabordagemSocial.pdf">
+      <publishTime>03/11/2015 11:47:05</publishTime>
+    </File>
+    <File Include="Arquivos/18-Orientacoestecnicas-ServicoparapessoacomdeficienciaemCentroDia.pdf">
+      <publishTime>03/11/2015 11:46:39</publishTime>
+    </File>
+    <File Include="Arquivos/18-OrientacoesTecnicasdaVigilanciaSocioassistencialfinal.pdf">
+      <publishTime>03/11/2015 11:47:08</publishTime>
+    </File>
+    <File Include="Arquivos/18-PerguntaseRespostas-ResidenciaInclusiva.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/19-CadernodeOrientacoes IGD-SUAS-2012.pdf">
+      <publishTime>03/11/2015 11:47:00</publishTime>
+    </File>
+    <File Include="Arquivos/19-CadernodeOrientacoesIGD-SUAS-2012.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/19-PerguntaseRespostas-ResidenciaInclusiva.pdf">
+      <publishTime>03/11/2015 11:46:54</publishTime>
+    </File>
+    <File Include="Arquivos/2-TipificacaoNacionaldeServiçosSocioassistenciais-2009.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/20-CadernodeOrientacoes IGD-SUAS-2012.pdf">
+      <publishTime>03/11/2015 11:47:00</publishTime>
+    </File>
+    <File Include="Arquivos/20-Caderno_de_orientacao_pagamento_profissionais.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/20-NotaTecnica25de2020.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/21-Caderno_de_orientacao_pagamento_profissionais.pdf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Arquivos/3-PactodeAprimoramento.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/4-Orientacoestecnicas-VigilanciaSocioassistencias.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/5-ConcepcaodeaConvivenciaeFortalecimentodeVinculos.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/6-OrientacoesTecnicasCRAS-2009.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/7-OCRASquetemosoCRASquequeremos-2011.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/7-OrientacoesTecnicasCRAS-2009.pdf">
+      <publishTime>03/11/2015 11:46:59</publishTime>
+    </File>
+    <File Include="Arquivos/8-OCRASquetemosoCRASquequeremos-2011.pdf">
+      <publishTime>03/11/2015 11:46:47</publishTime>
+    </File>
+    <File Include="Arquivos/8-OrientacoesPAIFvolI-2012.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/9-OrientacoesPAIFvolI-2012.pdf">
+      <publishTime>03/11/2015 11:46:38</publishTime>
+    </File>
+    <File Include="Arquivos/9-OrientacoesPAIFVolII-2012.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/Caderno de Orientações Técnicas - MSE em meio aberto.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/FormulariosAcesso/PMAS_Formulário_perfil_CMAS.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FormulariosAcesso/PMAS_Formulário_perfil_CONSULTA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FormulariosAcesso/PMAS_Formulário_perfil_CONSULTA_REGIONAL.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FormulariosAcesso/PMAS_Formulário_perfil_DIRETOR_REGIONAL.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FormulariosAcesso/PMAS_Formulário_perfil_DRADS.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FormulariosAcesso/PMAS_Formulário_perfil_DRADS_ADM.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FormulariosAcesso/PMAS_Formulário_perfil_ÓRGÃO_GESTOR.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FSA_perfil_CAS.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/FSA_perfil_CMAS.pdf">
+      <publishTime>08/29/2023 11:57:24</publishTime>
+    </File>
+    <File Include="Arquivos/FSA_perfil_CONSULTA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FSA_perfil_CONSULTAREGIONAL.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FSA_perfil_DIRETORREGIONAL.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FSA_perfil_DRADS.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FSA_perfil_DRADSADM.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FSA_perfil_ORGAOGESTOR.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/FSA_perfil_SEDS.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/glossario.htm">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Arquivos/II Plano Decenal da Assistência Social 2016-2026.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/ManuaisOrientacoesSistema/Execução_Financeira_2022_e_Prestação_de_Contas_2022_PMASweb_2022_2025.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/ManuaisOrientacoesSistema/Orientacoesparadesativacaodeserviços.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/ManuaisOrientacoesSistema/Orientacoessobreaatualizacaoanualpara2022-PMAS_2022-2025.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/ManuaisOrientacoesSistema/Orientacoes_para_registro_da_Reprogramacao_no_PMASweb.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMAS2017-BlocoI-Identificacao.pdf">
+      <publishTime>09/06/2019 11:49:30</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMAS2017-BlocoII-Diagnostico.pdf">
+      <publishTime>09/06/2019 11:49:30</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMAS2017-BlocoIII-RededeProtecaoSocial.pdf">
+      <publishTime>09/06/2019 11:49:30</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMAS2017-BlocoIV-Financiamento.pdf">
+      <publishTime>09/06/2019 11:49:30</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMAS2017-BlocoV-Planejamento.pdf">
+      <publishTime>09/06/2019 11:49:30</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMAS2017-BlocoVI-Vigilancia.pdf">
+      <publishTime>09/06/2019 11:49:30</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMAS2017-BlocoVII-CMAS.pdf">
+      <publishTime>09/06/2019 11:49:30</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMAS2017-ParecerdaDRADS.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2015-BLOCOI.pdf">
+      <publishTime>03/11/2015 11:46:50</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2015-BLOCOII.pdf">
+      <publishTime>03/11/2015 11:47:09</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2015-BLOCOIII.pdf">
+      <publishTime>03/11/2015 11:46:40</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2015-BLOCOIV.pdf">
+      <publishTime>03/11/2015 11:47:01</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2015-BLOCOV.pdf">
+      <publishTime>03/11/2015 11:47:06</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2015-BLOCOVI.pdf">
+      <publishTime>03/11/2015 11:46:28</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2015-BLOCOVII.pdf">
+      <publishTime>03/11/2015 11:46:39</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2015-ParecerdaDRADS.pdf">
+      <publishTime>03/11/2015 11:47:01</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2016-BLOCOI.pdf">
+      <publishTime>03/11/2015 11:46:53</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2016-BLOCOII.pdf">
+      <publishTime>03/11/2015 11:46:54</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2016-BLOCOIII.pdf">
+      <publishTime>07/04/2016 15:56:20</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2016-BLOCOIV.pdf">
+      <publishTime>04/12/2015 17:13:33</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2016-BLOCOV.pdf">
+      <publishTime>08/12/2015 17:12:35</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2016-BLOCOVI.pdf">
+      <publishTime>07/04/2016 15:56:20</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2016-BLOCOVII.pdf">
+      <publishTime>09/12/2015 16:15:40</publishTime>
+    </File>
+    <File Include="Arquivos/ManualdepreenchimentoPMASweb2016-ParecerdaDRADS.pdf">
+      <publishTime>10/12/2015 12:31:10</publishTime>
+    </File>
+    <File Include="Arquivos/Monitoramento 2016 das metas do Pacto.xlsx">
+      <publishTime>09/10/2017 11:11:34</publishTime>
+    </File>
+    <File Include="Arquivos/Monitoramento_2016_das_metas_do_Pacto.xlsx">
+      <publishTime>09/10/2017 11:11:34</publishTime>
+    </File>
+    <File Include="Arquivos/OrientacoesparagestaodosistemaPMASweb.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/Plano Estadual de Assistência Social 2016-2019.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/PSB no domicílio para PCD e idosos.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_ALTA_NOROESTE.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_ALTA_PAULISTA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_ALTA_SOROCABANA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_ARARAQUARA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_AVARÉ.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_BAIXADA_SANTISTA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_BARRETOS.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_BAURU.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_BOTUCATU.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_CAMPINAS.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_CAPITAL.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_FERNANDÓPOLIS.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_FRANCA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_GRANDE_SP_ABC.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_GRANDE_SP_LESTE.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_GRANDE_SP_NORTE.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_GRANDE_SP_OESTE.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_ITAPEVA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_MARÍLIA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_MOGIANA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_PIRACICABA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_RIBEIRÃO_PRETO.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_SOROCABA.pdf">
+      <publishTime>08/29/2023 11:57:25</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_SÃO_JOSÉ_DO_RIO_PRETO.pdf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_VALE_DO_PARAÍBA.pdf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Arquivos/RelatorioVulnerabilidade/DRADS_VALE_DO_RIBEIRA.pdf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Arquivos/Trabalho Social com Famílias Indígenas.pdf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.pdb">
+      <publishTime>07/21/2021 15:11:06</publishTime>
+    </File>
+    <File Include="bin/AntiXSSLibrary.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>08/31/2023 19:44:23</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Aspose.Cells.dll">
+      <publishTime>08/29/2023 11:57:27</publishTime>
+    </File>
+    <File Include="bin/CadastroCep.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/CadastroUsuario.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Crypto.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>06/27/2024 13:36:33</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.Framework.dll">
+      <publishTime>05/21/2024 15:18:46</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/HtmlSanitizationLibrary.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.TextEditor.dll">
+      <publishTime>08/31/2023 19:44:23</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/29/2023 11:57:28</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/pt-br/System.Net.Http.Formatting.resources.dll">
+      <publishTime>07/10/2012 22:30:26</publishTime>
+    </File>
+    <File Include="bin/pt-br/System.Net.Http.resources.dll">
+      <publishTime>07/10/2012 22:31:08</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/SanitizerProviders.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Seds.Entidades.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Controleacesso.dll">
+      <publishTime>12/19/2024 15:00:26</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Controleacesso.pdb">
+      <publishTime>11/22/2021 14:05:59</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Entidades.dll">
+      <publishTime>12/19/2024 15:00:25</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Entidades.pdb">
+      <publishTime>11/19/2021 11:23:39</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Negocio.dll">
+      <publishTime>12/19/2024 15:00:29</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Negocio.pdb">
+      <publishTime>11/24/2021 10:32:05</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Negocio.Pendencia.dll">
+      <publishTime>12/19/2024 15:00:32</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Negocio.Pendencia.pdb">
+      <publishTime>11/24/2021 10:32:07</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Negocio.Validadores.dll">
+      <publishTime>12/19/2024 15:00:27</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Negocio.Validadores.pdb">
+      <publishTime>11/24/2021 10:32:04</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Negocio.XmlSerializers.dll">
+      <publishTime>12/19/2024 15:00:30</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Persistencia.dll">
+      <publishTime>12/19/2024 15:00:26</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Persistencia.pdb">
+      <publishTime>11/19/2021 18:33:13</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.dll">
+      <publishTime>11/28/2024 15:01:50</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.pdb">
+      <publishTime>11/19/2021 11:23:38</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Processos.dll">
+      <publishTime>12/19/2024 15:00:26</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Processos.pdb">
+      <publishTime>11/19/2021 11:23:40</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Processos.XmlSerializers.dll">
+      <publishTime>12/19/2024 15:00:26</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Resources.dll">
+      <publishTime>11/28/2024 15:01:50</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Resources.pdb">
+      <publishTime>11/19/2021 11:23:37</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Servicos.Contratos.dll">
+      <publishTime>12/19/2024 15:00:26</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Servicos.Contratos.pdb">
+      <publishTime>11/19/2021 11:23:40</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Servicos.dll">
+      <publishTime>12/19/2024 15:00:30</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Servicos.pdb">
+      <publishTime>11/24/2021 10:32:06</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Sessao.dll">
+      <publishTime>12/19/2024 15:00:25</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.Sessao.pdb">
+      <publishTime>11/19/2021 11:23:39</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.UI.Facade.dll">
+      <publishTime>12/19/2024 15:00:31</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.UI.Facade.pdb">
+      <publishTime>11/24/2021 10:32:06</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.UI.Web.dll">
+      <publishTime>12/19/2024 15:00:36</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS.QUADRIENAL.UI.Web.pdb">
+      <publishTime>11/24/2021 10:32:11</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Entidades.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Entidades.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Negocio.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Negocio.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Negocio.Validadores.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Negocio.Validadores.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Persistencia.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Persistencia.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Persistencia.Repositorio.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Persistencia.Repositorio.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Processos.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Processos.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Servicos.Contratos.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Servicos.Contratos.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Servicos.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.Servicos.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.UI.Web.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2015.UI.Web.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Entidades.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Entidades.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Negocio.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Negocio.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Negocio.Validadores.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Negocio.Validadores.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Persistencia.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Persistencia.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Persistencia.Repositorio.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Persistencia.Repositorio.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Processos.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Processos.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Servicos.Contratos.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Servicos.Contratos.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Servicos.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.Servicos.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.UI.Web.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2016.UI.Web.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Entidades.dll">
+      <publishTime>06/04/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Entidades.pdb">
+      <publishTime>06/04/2017 14:00:14</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Negocio.dll">
+      <publishTime>06/04/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Negocio.pdb">
+      <publishTime>06/04/2017 14:00:18</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Negocio.Validadores.dll">
+      <publishTime>06/04/2017 14:00:17</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Negocio.Validadores.pdb">
+      <publishTime>06/04/2017 14:00:17</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Persistencia.dll">
+      <publishTime>06/04/2017 14:00:17</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Persistencia.pdb">
+      <publishTime>06/04/2017 14:00:17</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Persistencia.Repositorio.dll">
+      <publishTime>03/02/2017 11:23:19</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Persistencia.Repositorio.pdb">
+      <publishTime>03/02/2017 11:23:19</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Processos.dll">
+      <publishTime>06/04/2017 14:00:19</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Processos.pdb">
+      <publishTime>06/04/2017 14:00:19</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Servicos.Contratos.dll">
+      <publishTime>06/04/2017 14:00:17</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Servicos.Contratos.pdb">
+      <publishTime>06/04/2017 14:00:17</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Servicos.dll">
+      <publishTime>06/04/2017 14:00:19</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.Servicos.pdb">
+      <publishTime>06/04/2017 14:00:19</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.UI.Web.dll">
+      <publishTime>10/04/2017 15:54:27</publishTime>
+    </File>
+    <File Include="bin/Seds.PMAS2017.UI.Web.pdb">
+      <publishTime>10/04/2017 15:54:27</publishTime>
+    </File>
+    <File Include="bin/Seds.Seguranca.Entidades.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Seds.Seguranca.Servicos.Contratos.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Seds.Seguranca.Token.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Seds.Servicos.Contratos.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Seds.Servicos.Contratos.Faults.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/Seds.WebApiClient.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/skmControls2.dll">
+      <publishTime>08/29/2023 11:57:28</publishTime>
+    </File>
+    <File Include="bin/SpreadsheetLight.dll">
+      <publishTime>06/27/2024 10:11:30</publishTime>
+    </File>
+    <File Include="bin/StructureMap.dll">
+      <publishTime>08/29/2023 11:57:28</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>07/10/2012 21:52:12</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>07/10/2012 21:51:54</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoI/FConselhos.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoI/FExecucaoFinanceira.aspx">
+      <publishTime>10/08/2014 15:55:57</publishTime>
+    </File>
+    <File Include="BlocoI/FFundoMunicipal.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoI/FGestorMunicipal.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoI/FLeiOrcamentaria.aspx">
+      <publishTime>10/08/2014 15:55:57</publishTime>
+    </File>
+    <File Include="BlocoI/FOrgaoGestor.aspx">
+      <publishTime>12/04/2023 11:17:01</publishTime>
+    </File>
+    <File Include="BlocoI/FPrefeito.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoI/FPrefeitura.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoI/FPrevisaoOrcamentaria.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoII/CCentrosReferencias.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/CServicosRecursosFinanceirosCentroPOP.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/CServicosRecursosFinanceirosCRAS.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/CServicosRecursosFinanceirosCREAS.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/CServicosRecursosFinanceirosPrivado.aspx">
+      <publishTime>12/03/2014 15:33:14</publishTime>
+    </File>
+    <File Include="BlocoII/CServicosRecursosFinanceirosPublico.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/CUnidadesPrivadas.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/CUnidadesPublicas.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FAnaliseDiagnostica.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoII/FAnaliseInterpretacao.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoII/FAtualizacaoDiagnostica.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoII/FAtualizacaoDiagnostica.aspx.cs">
+      <publishTime>11/21/2018 10:09:22</publishTime>
+    </File>
+    <File Include="BlocoII/FCentroPOP.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FCRAS.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FCREAS.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FEvolucaoRedeSocioassistencial.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoII/FLocalExecucaoPrivado.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FLocalExecucaoPublico.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FPopulacaoVulnerabilidade.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoII/FPrevisaoInstalacaoCentroPOP.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FPrevisaoInstalacaoCRAS.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FPrevisaoInstalacaoCREAS.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FServicoRecursoFinanceiroCentroPOP.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FServicoRecursoFinanceiroCRAS.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FServicoRecursoFinanceiroCREAS.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FServicoRecursoFinanceiroPrivado.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FServicoRecursoFinanceiroPublico.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/FSituacaoVulnerabilidade.aspx">
+      <publishTime>10/10/2023 10:10:09</publishTime>
+    </File>
+    <File Include="BlocoII/FUnidadePrivada.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoII/FUnidadePublica.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/MapaRedeProtecaoSocial.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/VServicoRecursoFinanceiroCentroPOP.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoII/VServicoRecursoFinanceiroCRAS.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoII/VServicoRecursoFinanceiroCREAS.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoII/VServicoRecursoFinanceiroPrivado.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoII/VServicoRecursoFinanceiroPublico.aspx">
+      <publishTime>10/08/2014 15:55:58</publishTime>
+    </File>
+    <File Include="BlocoIII/CBeneficioEventual.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CBeneficiosContinuados.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CCentroPOPDesativados.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CCentrosReferencias.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CCRASDesativados.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CCREASDesativados.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CLocaisPrivadosDesativados.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CLocaisPublicoDesativados.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CProgramasProjetos.aspx">
+      <publishTime>10/15/2024 16:42:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CServicosRecursosFinanceirosCentroPOP.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CServicosRecursosFinanceirosCentroPOPDesativado.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CServicosRecursosFinanceirosCRAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CServicosRecursosFinanceirosCRASDesativado.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CServicosRecursosFinanceirosCREAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CServicosRecursosFinanceirosCREASDesativado.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CServicosRecursosFinanceirosPrivado.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CServicosRecursosFinanceirosPrivadoDesativado.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CServicosRecursosFinanceirosPublico.aspx">
+      <publishTime>10/09/2023 09:24:32</publishTime>
+    </File>
+    <File Include="BlocoIII/CServicosRecursosFinanceirosPublicoDesativado.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CTransferenciaRenda.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CUnidadesPrivadas.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CUnidadesPrivadasDesativadas.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CUnidadesPublicas.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/CUnidadesPublicasDesativadas.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FBeneficioEventual.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FBeneficioEventualServicos.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FCentroPOP.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FCRAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FCREAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FLocalExecucaoPrivado.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FLocalExecucaoPublico.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoCentroPOP.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoCRAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoCREAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoLocalPrivado.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoLocalPublico.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoServicoCentroPOP.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoServicoCRAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoServicoCREAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoServicoPrivado.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoServicoPublico.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoUnidadePrivada.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FMotivoExclusaoUnidadePublica.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FPrevisaoInstalacaoCentroPOP.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FPrevisaoInstalacaoCRAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FPrevisaoInstalacaoCREAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FProgramaProjeto.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FProgramaProjetoCadastro.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FProgramaProjetoCofinanciamento.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FSaoPauloSolidario.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FServicoRecursoFinanceiroCentroPOP.aspx">
+      <publishTime>01/02/2024 17:09:49</publishTime>
+    </File>
+    <File Include="BlocoIII/FServicoRecursoFinanceiroCRAS.aspx">
+      <publishTime>12/18/2023 10:08:39</publishTime>
+    </File>
+    <File Include="BlocoIII/FServicoRecursoFinanceiroCREAS.aspx">
+      <publishTime>12/18/2023 11:04:36</publishTime>
+    </File>
+    <File Include="BlocoIII/FServicoRecursoFinanceiroPrivado.aspx">
+      <publishTime>10/08/2024 09:50:09</publishTime>
+    </File>
+    <File Include="BlocoIII/FServicoRecursoFinanceiroPublico.aspx">
+      <publishTime>10/08/2024 13:48:22</publishTime>
+    </File>
+    <File Include="BlocoIII/FTransferenciaRenda.aspx">
+      <publishTime>10/31/2024 09:55:17</publishTime>
+    </File>
+    <File Include="BlocoIII/FTransferenciaRendaCofinanciamento.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FUnidadePrivada.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/FUnidadePublica.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/MapaRedeProtecaoSocial.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VCentroPOP.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VCRAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VCREAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VLocalExecucaoPrivado.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VLocalExecucaoPublico.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VProgramaProjetoDetalhe.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VServicoRecursoFinanceiroCentroPOP.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VServicoRecursoFinanceiroCRAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VServicoRecursoFinanceiroCREAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VServicoRecursoFinanceiroPrivado.aspx">
+      <publishTime>10/07/2024 18:55:22</publishTime>
+    </File>
+    <File Include="BlocoIII/VServicoRecursoFinanceiroPublico.aspx">
+      <publishTime>10/07/2024 18:55:13</publishTime>
+    </File>
+    <File Include="BlocoIII/VUnidadePrivada.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIII/VUnidadePublica.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIV/CAcaoPlanejamento.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoIV/FAcaoPlanejamento.aspx">
+      <publishTime>10/08/2014 15:55:59</publishTime>
+    </File>
+    <File Include="BlocoIV/FCronogramaDesembolso.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoIV/FExecucaoFinanceira.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoIV/FInterfacePolitica.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoIV/FLeiOrcamentaria.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoIV/FPrevisaoOrcamentaria.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoV/CAcaoPlanejamento.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoV/FAcaoPlanejamento.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoV/FAspectosGerais.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoV/FAvaliacao.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoV/FCronogramaDesembolso.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoV/FDespesas.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoV/FExecucaoFinanceira.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoV/FFonteFinanciamento.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoV/FHistorico.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoV/FLeiOrcamentaria.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoV/FMonitoramento.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoV/FPrestacaoDeContas.aspx">
+      <publishTime>05/21/2024 19:04:41</publishTime>
+    </File>
+    <File Include="BlocoV/FPrevisaoOrcamentaria.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoV/FVigilancia.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVI/CAcaoPlanejamento.aspx">
+      <publishTime>12/21/2023 13:40:55</publishTime>
+    </File>
+    <File Include="BlocoVI/FAcaoPlanejamento.aspx">
+      <publishTime>02/06/2024 15:47:59</publishTime>
+    </File>
+    <File Include="BlocoVI/FAspectosGerais.aspx">
+      <publishTime>07/03/2017 10:40:18</publishTime>
+    </File>
+    <File Include="BlocoVI/FAvaliacao.aspx">
+      <publishTime>07/03/2017 09:56:05</publishTime>
+    </File>
+    <File Include="BlocoVI/FCronogramaDesembolso.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVI/FDiretrizes.aspx">
+      <publishTime>12/12/2023 18:57:49</publishTime>
+    </File>
+    <File Include="BlocoVI/FDiretrizesServicos.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoVI/FExecucaoFinanceira.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVI/FLeiOrcamentaria.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVI/FMonitoramento.aspx">
+      <publishTime>07/03/2017 09:22:48</publishTime>
+    </File>
+    <File Include="BlocoVI/FPrevisaoOrcamentaria.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVI/FVigilancia.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVII/CAcaoPlanejamento.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVII/FAcaoPlanejamento.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVII/FAspectosGerais.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoVII/FAvaliacao.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoVII/FConselhoMunicipal.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVII/FDiretrizes.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVII/FMonitoramento.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoVII/FParecerConselhoMunicipal.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="BlocoVII/FVigilancia.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="BlocoVIII/FConselhoMunicipal.aspx">
+      <publishTime>09/05/2023 11:43:51</publishTime>
+    </File>
+    <File Include="BlocoVIII/FParecerConselhoMunicipal.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="CalcularParcelasPrivadas.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="CalcularParcelasPublicas.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="ConsultaFluxoPMASCAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="ConsultaFluxoPMASCMAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="ConsultaFluxoPMASDRADS.aspx">
+      <publishTime>03/05/2024 16:04:27</publishTime>
+    </File>
+    <File Include="ConsultaFluxoPMASOrgaoGestor.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="ConsultaPMAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="ConsultaUsuarios.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Controles/celular.ascx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Controles/cep.ascx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Controles/cnpj.ascx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Controles/cpf.ascx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Controles/data.ascx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Controles/rg.ascx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Controles/telefone.ascx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Controles/valor.ascx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Download.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="FBloqueioQuadroFinanceiro.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="FDesbloqueioAnual.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="FederationMetadata/2007-06/FederationMetadata.xml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="FFluxo.aspx">
+      <publishTime>02/15/2024 14:32:57</publishTime>
+    </File>
+    <File Include="FluxoHistorico.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="HistoricoAlteracoes.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="HistoricoAlteracoesCompleto.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Impressao.aspx">
+      <publishTime>05/22/2024 17:43:15</publishTime>
+    </File>
+    <File Include="LogOff.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Mapa.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/27/2024 13:36:35</publishTime>
+    </File>
+    <File Include="Pendencias.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="PopUpImpressao.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Rascunho.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RAcoesAvaliacao.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RAcoesMonitoramento.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RAcoesPlanejadas.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RAcoesVigilancia.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/Raepeti.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RAnaliseDiagnostica.aspx">
+      <publishTime>05/14/2024 15:38:48</publishTime>
+    </File>
+    <File Include="Relatorios/RAtividadesServicosSocioassistenciais.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RAuxilioReclusaoPensaoMorte.aspx">
+      <publishTime>10/07/2024 19:11:58</publishTime>
+    </File>
+    <File Include="Relatorios/RBeneficiosContinuados.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RComunidadesGrupos.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RConselhosExistentes.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RCronogramaDesembolso.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RDiagnosticoSocioterritorial.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RDistribuicaoEstadualProgramaTrabalho.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RDistribuicaoEstadualProtecaoSocial.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RDistribuicaoPorteNivelGestao.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RDistribuicaoSituacaoVulnerabilidade.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/Relatorio.Master">
+      <publishTime>06/27/2024 12:54:54</publishTime>
+    </File>
+    <File Include="Relatorios/RExecucaoFinanceira.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RFuncionamentoCentroPOP.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RFuncionamentoCRAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RFuncionamentoCREAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RIndicadores.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RInformacoesBasicasDrads.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RInformacoesBeneficiosEventuais.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RInformacoesCadastraisConselhoMunicipal.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RInformacoesCadastraisLocalExecucao.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RInformacoesCadastraisOrgaoGestor.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RInformacoesCadastraisPrefeituras.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RInformacoesFMAS.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RInformacoesMunicipais.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RIntegracaoServicos.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/ROrganizacaoOrgaoGestor.aspx">
+      <publishTime>07/04/2024 12:16:25</publishTime>
+    </File>
+    <File Include="Relatorios/RPrestacaoDeContas.aspx">
+      <publishTime>06/24/2024 14:52:58</publishTime>
+    </File>
+    <File Include="Relatorios/RPrestacaoDeContasBE.aspx">
+      <publishTime>06/12/2024 16:32:05</publishTime>
+    </File>
+    <File Include="Relatorios/RPrestacaoDeContasPP.aspx">
+      <publishTime>06/12/2024 16:25:17</publishTime>
+    </File>
+    <File Include="Relatorios/RPrestacaoDeContasProtecaoAlta.aspx">
+      <publishTime>06/24/2024 14:51:37</publishTime>
+    </File>
+    <File Include="Relatorios/RPrestacaoDeContasProtecaoMedia.aspx">
+      <publishTime>06/12/2024 16:47:09</publishTime>
+    </File>
+    <File Include="Relatorios/RProgramaFamiliaPaulista.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RProgramaProjeto.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RProgramasMunicipaisTransferenciaRenda.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RProgramasTransferenciaRenda.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RQuantidadeUnidadesLocaisServicos.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RRedesSocioassistenciais.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RRedesSocioassistenciaisDetalhamento.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RRedesSocioassistenciaisFinanceiro.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RRHLocalExecucao.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RRHOrgaoGestor.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RSaoPauloAmigoIdoso.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RSaoPauloSolidario.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RServicosEstadualizados.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RServicosIntermunicipais.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RServicosRegionalizados.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Relatorios/RStatusExecucaoFinanceira.aspx">
+      <publishTime>08/13/2024 17:59:52</publishTime>
+    </File>
+    <File Include="Relatorios/RStatusLeiOrcamentaria.aspx">
+      <publishTime>08/13/2024 17:48:32</publishTime>
+    </File>
+    <File Include="Relatorios/RStatusPrestacaoDeContas.aspx">
+      <publishTime>08/14/2024 17:07:44</publishTime>
+    </File>
+    <File Include="Relatorios/RUnidadesServicosSocioassistenciais.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Reports.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/bootstrap-min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/bootstrap.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/jquery-1.8.2.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/jquery-1.8.2.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/jquery-2.1.3.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/jquery-ui-1.8.24.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/jquery-ui-1.8.24.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/jquery.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/mdb.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/mdb.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/tether.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/tether.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrapMenu/ui-bootstrap-tpln.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/dataFormat.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-ar.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-bg.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-bg1251.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-cat.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-cn.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-cs.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-da.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-de.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-el.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-en.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-es.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-fa.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-fi.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-fr.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-gl.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-he.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-hr.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-hr1250.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-hu.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-is.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-it.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-ja.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-lt.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-mne.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-nl.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-no.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-pl.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-pt-br.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-pt.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-ro.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-ru.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-sk.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-sr-latin.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-sr.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-sv.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-th.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-tr.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/i18n/grid.locale-ua.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/jquery.jqGrid.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/jquery.jqGrid.src.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/plugins/grid.addons.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/plugins/grid.postext.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/plugins/grid.setcolumns.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/plugins/jquery.contextmenu.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/plugins/jquery.searchFilter.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/plugins/jquery.tablednd.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/plugins/ui.multiselect.js">
+      <publishTime>09/13/2023 16:47:09</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/css/ellipsis-xbl.xml">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/css/ui.jqgrid.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/css/ui.multiselect.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.base.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.celledit.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.common.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.custom.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.filter.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.formedit.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.grouping.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.import.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.inlinedit.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.jqueryui.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.loader.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.subgrid.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.tbltogrid.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/grid.treegrid.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-ar.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-bg.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-bg1251.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-cat.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-cn.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-cs.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-da.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-de.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-dk.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-el.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-en.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-es.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-fa.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-fi.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-fr.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-gl.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-he.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-hr.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-hr1250.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-hu.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-is.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-it.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-ja.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-lt.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-mne.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-nl.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-no.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-pl.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-pt-br.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-pt.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-ro.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-ru.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-sk.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-sr-latin.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-sr.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-sv.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-th.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-tr.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/i18n/grid.locale-ua.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/jqDnR.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/jqModal.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/jquery.fmatter.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jqgrid/src/JsonXml.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.5.2.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.18.custom.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/json.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/json2.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/mascara.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/MaskedEditFix.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/maskedinput.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/meiomask.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.7.1.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/Pages/Consultas/ConsFluxo.js">
+      <publishTime>09/13/2023 14:09:35</publishTime>
+    </File>
+    <File Include="Scripts/Script.js">
+      <publishTime>04/24/2019 15:25:42</publishTime>
+    </File>
+    <File Include="Scripts/Site/inicio.js">
+      <publishTime>09/13/2023 14:08:45</publishTime>
+    </File>
+    <File Include="Scripts/Site/start.js">
+      <publishTime>09/13/2023 14:08:43</publishTime>
+    </File>
+    <File Include="Scripts/SpecificUtils.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/ui.functions.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/Util.js">
+      <publishTime>09/13/2023 12:13:46</publishTime>
+    </File>
+    <File Include="Scripts/vendors/jquery.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/vendors/jquery.mask.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/webkit.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/appbar.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/blocoIII/FOrgaoGestor.js">
+      <publishTime>09/15/2023 11:16:25</publishTime>
+    </File>
+    <File Include="Scripts/widgets/datepicker.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/docs.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/ga.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/global.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/initiator.js">
+      <publishTime>09/13/2023 14:08:47</publishTime>
+    </File>
+    <File Include="Scripts/widgets/inputs.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/jquery-2.1.3.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/jquery.dataTables.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/metro.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/requirements.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/select2.min.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Scripts/widgets/widget.js">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="SelecionarRelatorio.aspx">
+      <publishTime>09/18/2024 16:39:48</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="SpreadsheetLight.xml">
+      <publishTime>06/27/2024 10:11:30</publishTime>
+    </File>
+    <File Include="Styles/blocos/bloco_inicio/b_inicio.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/blocos/default/default.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/BootstrapMenu/bootstrap-min.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/BootstrapMenu/bootstrap.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/BootstrapMenu/bootstrapNovo.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/BotoesAbas.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-bg_flat_55_fbec88_40x100.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-bg_glass_55_bcd2ef_1x400.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-bg_glass_75_d0e5f5_1x400.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-bg_glass_85_dfeffc_1x400.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-bg_inset-hard_100_f5f8f9_1x100.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-bg_inset-hard_100_fcfdfd_1x100.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-icons_217bc0_256x240.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-icons_469bdd_256x240.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-icons_666666_256x240.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-icons_6da8d5_256x240.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/custom-theme/jquery-ui-1.8.18.custom.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/metro.eot">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/metro.svg">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/metro.ttf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/metro.woff">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Bold.eot">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Bold.ttf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Bold.woff">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Bold.woff2">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Light.eot">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Light.ttf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Light.woff">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Light.woff2">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Medium.eot">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Medium.ttf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Medium.woff">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Medium.woff2">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Regular.eot">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Regular.ttf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Regular.woff">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Regular.woff2">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Thin.eot">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Thin.ttf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Thin.woff">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/roboto/Roboto-Thin.woff2">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/fonts/selection.json">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/apply.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/arrow-left.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/arrow.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/back.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/backward.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/Calendar_scheduleHS.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/cancel.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/cmas.gif">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/coins-icon.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/desbloqueioCMAS.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/desbloqueioOG.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/diagnostico.gif">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/edit.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/editdelete.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/edit_add.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/filesaveas.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/financiamento.gif">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/find.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/forward-old.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/forward.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/help.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/identificacao.gif">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/irkickflash.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/kcalc.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/kdmconfig.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/knotes.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/lock.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/messagebox_critical.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/messagebox_warning.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/money-icon.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/noatunback.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/noatunforward.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/note.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/planejamento.gif">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/pmas.ico">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/redeprotecao.gif">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/sp.ico">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/unlock.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/US-dollar-icon.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Icones/vigilancia.gif">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/0.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/1.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/2.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/3.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/4.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/5.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/6.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/7.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/8.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/9.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/ajax-loader.gif">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/bandeira.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/bandeira_menor.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/bg.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/bgbar.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/gov-white.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/governo-do-estado-de-sao-paulo-sp-logo.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/login.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/logo-rodape.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/logo.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/logoPMAS.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/logopmas2013.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/logosecretaria.jpg">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/logosp.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/logosp_secretaria.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/PMAS.jpg">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Images/turquesa_ombre_folleto_1x_248.png">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/css/clock.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/css/docs.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/css/metro-colors.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/css/metro-icons.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/css/metro-responsive.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/css/metro-rtl.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/css/metro-schemes.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/css/metro.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/css/style.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/fonts/metro.eot">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/fonts/metro.svg">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/fonts/metro.ttf">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/fonts/metro.woff">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/metro/fonts/selection.json">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/searchFilter.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/Style.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/ui.jqgrid.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Styles/ui.multiselect.css">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Usuario/AlterarSenha.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Usuario/AlterarSenhaUsuario.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Usuario/ConsultarUsuarioCadUnico.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Usuario/FUsuario.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Usuario/Web.config">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="UsuarioInativo.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="versao.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="VHistorico.aspx">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Web - homologacao.config">
+      <publishTime>08/29/2023 11:57:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/10/2017 14:17:17</publishTime>
+    </File>
+    <File Include="Web.Release.config">
+      <publishTime>11/03/2015 11:47:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

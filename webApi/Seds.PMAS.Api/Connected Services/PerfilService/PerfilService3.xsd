@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Seds.Seguranca.Entidades" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Seds.Seguranca.Entidades" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://s-producao.seds.com.br:82/PerfilService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ArrayOfPerfilInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PerfilInfo" nillable="true" type="tns:PerfilInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPerfilInfo" nillable="true" type="tns:ArrayOfPerfilInfo" />
+  <xs:complexType name="PerfilInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Aplicativo" nillable="true" type="tns:AplicativoInfo" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdAplicativo" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Removido" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PerfilInfo" nillable="true" type="tns:PerfilInfo" />
+  <xs:complexType name="AplicativoInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Removido" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AplicativoInfo" nillable="true" type="tns:AplicativoInfo" />
+  <xs:complexType name="ArrayOfConsultaUsuarioCadUnicoInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ConsultaUsuarioCadUnicoInfo" nillable="true" type="tns:ConsultaUsuarioCadUnicoInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfConsultaUsuarioCadUnicoInfo" nillable="true" type="tns:ArrayOfConsultaUsuarioCadUnicoInfo" />
+  <xs:complexType name="ConsultaUsuarioCadUnicoInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Aplicativo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdAplicativo" type="xs:int" />
+      <xs:element minOccurs="0" name="IdPerfil" type="xs:int" />
+      <xs:element minOccurs="0" name="IdUsuario" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Perfil" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RG" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Situacao" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ConsultaUsuarioCadUnicoInfo" nillable="true" type="tns:ConsultaUsuarioCadUnicoInfo" />
+  <xs:complexType name="UsuarioCadUnicoInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Bairro" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CEP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Celular" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cidade" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Complemento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Endereco" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdUsuario" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Numero" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrgaoEmissor" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Perfis" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="RG" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telefone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrocarSenha" type="xs:boolean" />
+      <xs:element minOccurs="0" name="UFCidade" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UFRG" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioCadUnicoInfo" nillable="true" type="tns:UsuarioCadUnicoInfo" />
+</xs:schema>

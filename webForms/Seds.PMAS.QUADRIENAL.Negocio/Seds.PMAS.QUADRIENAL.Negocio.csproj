@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3E84FEE-80FD-476B-B07F-65636094995D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Seds.PMAS.QUADRIENAL.Negocio</RootNamespace>
+    <AssemblyName>Seds.PMAS.QUADRIENAL.Negocio</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CadastroUsuario">
+      <HintPath>..\packages\CadastroUsuario.dll</HintPath>
+    </Reference>
+    <Reference Include="Crypto">
+      <HintPath>..\packages\Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.IdentityModel\3.5.0.0__31bf3856ad364e35\Microsoft.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Entidades">
+      <HintPath>..\packages\Seds.Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Seguranca.Entidades">
+      <HintPath>..\packages\Seds.Seguranca.Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Seguranca.Servicos.Contratos">
+      <HintPath>..\packages\Seds.Seguranca.Servicos.Contratos.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Seguranca.Token">
+      <HintPath>..\packages\Seds.Seguranca.Token.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Servicos.Contratos">
+      <HintPath>..\packages\Seds.Servicos.Contratos.dll</HintPath>
+    </Reference>
+    <Reference Include="Seds.Servicos.Contratos.Faults">
+      <HintPath>..\packages\Seds.Servicos.Contratos.Faults.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\packages\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acoes\IntencaoAcao.cs" />
+    <Compile Include="Acoes\RecursosPrefeituraAcaoPlanejamento.cs" />
+    <Compile Include="BaseDados.cs" />
+    <Compile Include="AprimoramentoAcao.cs" />
+    <Compile Include="AcaoVigilanciaSocioAssistencial.cs" />
+    <Compile Include="Acoes\Avaliacao.cs" />
+    <Compile Include="Acoes\Monitoramento.cs" />
+    <Compile Include="ConselhoMunicipalPresidenteAnterior.cs" />
+    <Compile Include="ControleAcesso\PrefeituraExercicioBloqueio.cs" />
+    <Compile Include="DradsPlanoMunicipalRecursos.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AcoesDesenvolvidaProgramas.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AvaliacaoLocalExecucao.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AvaliacaoServicoRecursoFinanceiro.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\CaracterizacaoAtividades.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\CaracterizacaoUsuario.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ConsorcioCentroPOP.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ConsorcioCRAS.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ConsorcioCREAS.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ConsorcioPrivado.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ConsorcioPublico.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\DistritosSaoPaulo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\EixoTecnologico.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\FormaJuridica.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\InterlocutorMunicipal.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\MotivoEstadualizado.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\OrgaoResponsavel.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\PublicoAlvo.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\UnidadeOfertante.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\UsuarioProgramaProjeto.cs" />
+    <Compile Include="IntegracaoProSocial\AreaAtuacaoProSocial.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\FormaAtuacao.cs" />
+    <Compile Include="IntegracaoProSocial\MantenedoraProSocial.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\FormaDistribuicaoAlimento.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfaceFormaDistribuicao.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaAlimentacao.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaEmprego.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaEducacao.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaOutraPolitica.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\InterfacePublicaSaude.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\OutraAcao.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\OutraPolitica.cs" />
+    <Compile Include="InterfaceOutrasPoliticas\RestaurantePopular.cs" />
+    <Compile Include="LogCentroPop.cs" />
+    <Compile Include="LogCras.cs" />
+    <Compile Include="LogCreas.cs" />
+    <Compile Include="MotivoDesativacaoLocal.cs" />
+    <Compile Include="MotivoDesativacaoServico.cs" />
+    <Compile Include="Prefeitura\ConselhoExistentePresidente.cs" />
+    <Compile Include="Prefeitura\PrefeituraAtualizacaoAnual.cs" />
+    <Compile Include="Prefeitura\OrgaoGestorEquipeEspecificaTotais.cs" />
+    <Compile Include="Prefeitura\OrgaoGestorIntencaoEstruturacaoEquipe.cs" />
+    <Compile Include="Prefeitura\GestorFundoMunicipal.cs" />
+    <Compile Include="Prefeitura\OrgaoGestorEquipeEspecifica.cs" />
+    <Compile Include="Prefeitura\TipoGestor.cs" />
+    <Compile Include="Programas\GrupoGestor.cs" />
+    <Compile Include="Programas\IdentificacaoTerritorio.cs" />
+    <Compile Include="Programas\MetaFamiliaPaulista.cs" />
+    <Compile Include="Programas\MetaPrevistaProgramaTransferencia.cs" />
+    <Compile Include="Programas\PETIAcao.cs" />
+    <Compile Include="Programas\PETIEixoAtuacao.cs" />
+    <Compile Include="Programas\PETIIndicadores.cs" />
+    <Compile Include="Programas\PETISituacaoAcao.cs" />
+    <Compile Include="Programas\PETITipoAcao.cs" />
+    <Compile Include="Programas\PlanoAcao.cs" />
+    <Compile Include="Programas\ProgramaProjetoPrevisaoAnualBeneficiarios.cs" />
+    <Compile Include="Programas\SPSolidarioAgendaFamiliaParceria.cs" />
+    <Compile Include="Programas\SPSolidarioAlemdaRendaParceria.cs" />
+    <Compile Include="Programas\SPSolidarioPlanejamentoBens.cs" />
+    <Compile Include="Programas\SPSolidarioPlanejamentoServicos.cs" />
+    <Compile Include="Programas\TransferenciaRendaGestorAcao.cs" />
+    <Compile Include="Programas\TransferenciaRendaPrevisaoAnual.cs" />
+    <Compile Include="Programas\TransferenciaRendaTecnicoReferencia.cs" />
+    <Compile Include="Quadro.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="GenericEqualityComparer.cs" />
+    <Compile Include="IndiceGestaoDescentralizada.cs" />
+    <Compile Include="Escolaridade.cs" />
+    <Compile Include="ConselhoMunicipalParecer.cs" />
+    <Compile Include="Db.cs" />
+    <Compile Include="FluxoPMAS.cs" />
+    <Compile Include="PlanoMunicipalHistorico.cs" />
+    <Compile Include="RedeProtecaoSocial\AnaliseDiagnosticaComunidade.cs" />
+    <Compile Include="RedeProtecaoSocial\DemandasParlamentaresServicosCentroPOP.cs" />
+    <Compile Include="RedeProtecaoSocial\DemandasParlamentaresServicosCRAS.cs" />
+    <Compile Include="RedeProtecaoSocial\DemandasParlamentaresServicosCREAS.cs" />
+    <Compile Include="RedeProtecaoSocial\DemandasParlamentaresServicosPrivado.cs" />
+    <Compile Include="RedeProtecaoSocial\DemandasParlamentaresServicosPublicos.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\CentroPOPMunicipio.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroFundosPublico.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroFundosCREAS.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroFundosCRAS.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroFundosCentroPOP.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroCRASFonteRecurso.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroCentroPOPFonteRecurso.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroCREASFonteRecurso.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroFundosPrivado.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroPrivadoRecursosHumanos.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\CREASMunicipio.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroCentroPOPRecursosHumanos.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroCREASRecursosHumanos.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroCRASRecursosHumanos.cs" />
+    <Compile Include="RedeProtecaoSocial\PrefeituraDemandaAtendimento.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroPublicoRecursosHumanos.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceirosPublicoFonteRecurso.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicosRecursosFinanceirosPrivadoFonteRecursos.cs" />
+    <Compile Include="RedeProtecaoSocial\SituacaoAtualInscricao.cs" />
+    <Compile Include="RedeProtecaoSocial\SituacaoInscricao.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\UnidadeTipoAtendimento.cs" />
+    <Compile Include="RelatorioCadastral.cs" />
+    <Compile Include="RelatorioDescritivo.cs" />
+    <Compile Include="RelatorioQuantitativo.cs" />
+    <Compile Include="Service References\PerfilService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TipoDemandaAtendimento.cs" />
+    <Compile Include="Acoes\PrefeituraVigilanciaMonitoramentoAvaliacao.cs" />
+    <Compile Include="MotivoNaoInstalacao.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\InstrumentoMonitoramento.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ProcedimentoMonitoramento.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\FocoMonitoramento.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\Periodicidade.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\MeioDivulgacao.cs" />
+    <Compile Include="MotivoNaoAvaliacao.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\ProcedimentoAvaliacao.cs" />
+    <Compile Include="ObjetivoAvaliacao.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RedeProtecaoSocial\PrevisaoInstalacaoCentroPOP.cs" />
+    <Compile Include="RedeProtecaoSocial\PrevisaoInstalacaoCRAS.cs" />
+    <Compile Include="RedeProtecaoSocial\PrevisaoInstalacaoCREAS.cs" />
+    <Compile Include="Reports\Impressao.cs" />
+    <Compile Include="Reports\ReportingServices.cs" />
+    <Compile Include="VigilanciaSocioAssistencial.cs" />
+    <Compile Include="TipoRede.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AcaoPlanejamento.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\EixoAcaoPlanejamento.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\BeneficioEventual.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoLegislacao.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\FormaAuxilio.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\CriterioConcessao.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\NecessidadeBeneficioEventual.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoBeneficioEventual.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AcaoSocioAssistencialComplementar.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\UsuarioTransferenciaRenda.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoTransferenciaRenda.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AbrangenciaTerritorial.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Acoes\PrefeituraAcaoPlanejamento.cs" />
+    <Compile Include="ConselhoMunicipal.cs" />
+    <Compile Include="Programas\PrefeituraBeneficioEventual.cs" />
+    <Compile Include="Programas\PrefeituraBeneficioEventualServico.cs" />
+    <Compile Include="Programas\TransferenciaRenda.cs" />
+    <Compile Include="Programas\TransferenciaRendaCofinanciamento.cs" />
+    <Compile Include="Programas\TransferenciaRendaParceria.cs" />
+    <Compile Include="Programas\ProgramaProjetoCofinanciamento.cs" />
+    <Compile Include="Programas\ProgramaProjetoParceria.cs" />
+    <Compile Include="Programas\ProgramaProjeto.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\Parceria.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AtividadeSocioAssistencial.cs" />
+    <Compile Include="Prefeitura\ConselhoExistente.cs" />
+    <Compile Include="ContextManager.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\Cargo.cs" />
+    <Compile Include="Conselhos.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AbrangenciaServico.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\AcaoSocioAssistencial.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\CentroPOP.cs" />
+    <Compile Include="RedeProtecaoSocial\AnaliseDiagnostica.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroPrivado.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\UnidadePrivada.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\LocalExecucaoPrivado.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroCentroPOP.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroCREAS.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\CREAS.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroCRAS.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\CRAS.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\LocalExecucaoPublico.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\LocalExecucao\Servicos\ServicoRecursoFinanceiroPublico.cs" />
+    <Compile Include="RedeProtecaoSocial\Unidade\UnidadePublica.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\UsuarioTipoServico.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\SituacaoEspecifica.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\SituacaoVulnerabilidade.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoProtecaoSocial.cs" />
+    <Compile Include="Prefeitura\RecursosFinanceiros.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\Estrutura.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\Formacao.cs" />
+    <Compile Include="Prefeitura\Prefeito.cs" />
+    <Compile Include="Prefeitura\FundoMunicipal.cs" />
+    <Compile Include="Prefeitura\GestorMunicipal.cs" />
+    <Compile Include="Prefeitura\OrgaoGestor.cs" />
+    <Compile Include="Prefeitura\Prefeitura.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy.cs" />
+    <Compile Include="ProxyPerfil.cs" />
+    <Compile Include="Recurso.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoServico.cs" />
+    <Compile Include="EstruturaAssistenciaSocial\TipoParceria.cs" />
+    <Compile Include="CronogramaDesembolso.cs" />
+    <Compile Include="UsuarioPMAS.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="Web References\wsReport\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.ControleAcesso\Seds.PMAS.QUADRIENAL.Controleacesso.csproj">
+      <Project>{5af1b5f1-fbe2-454a-b4f6-6ed1e123e9e2}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Controleacesso</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Entidades\Seds.PMAS.QUADRIENAL.Entidades.csproj">
+      <Project>{2CEB2E6E-83B9-4E12-8995-6B58A7607F87}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Negocio.Validadores\Seds.PMAS.QUADRIENAL.Negocio.Validadores.csproj">
+      <Project>{858694AA-C5A5-44AF-A983-2A24EC176028}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Negocio.Validadores</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio\Seds.PMAS.QUADRIENAL.Persistencia.Repositorio.csproj">
+      <Project>{BF085AFF-AE9B-46EA-9574-0A810A613697}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Persistencia.Repositorio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seds.PMAS.QUADRIENAL.Persistencia\Seds.PMAS.QUADRIENAL.Persistencia.csproj">
+      <Project>{686F30B7-608B-4E9E-8354-68EC54CD52F3}</Project>
+      <Name>Seds.PMAS.QUADRIENAL.Persistencia</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\Seds.Seguranca.Entidades.PerfilInfo.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\PerfilService\PerfilService.wsdl" />
+    <None Include="Service References\PerfilService\PerfilService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PerfilService\PerfilService1.wsdl" />
+    <None Include="Service References\PerfilService\PerfilService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PerfilService\PerfilService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PerfilService\PerfilService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PerfilService\Seds.PMAS.QUADRIENAL.Negocio.PerfilService.ConsultaUsuarioCadUnicoInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PerfilService\Seds.PMAS.QUADRIENAL.Negocio.PerfilService.UsuarioCadUnicoInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ActiveState.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\CatalogItem.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\DataRetrievalPlan.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\DataSetDefinition.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\DataSource.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\DataSourceDefinition.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\DataSourcePrompt.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\Event.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ExecutionSettingEnum.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ExpirationDefinition.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\Extension.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ExtensionParameter.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ExtensionSettings.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ItemTypeEnum.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\Job.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ParameterValue.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ParameterValueOrFieldReference.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\Policy.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\Property.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\wsReport\ReportHistorySnapshot.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ReportParameter.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ReportService.wsdl" />
+    <None Include="Web References\wsReport\Role.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\Schedule.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\ScheduleDefinitionOrReference.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\Subscription.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\Task.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsReport\Warning.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://10.22.2.20/ReportServer/ReportService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\wsReport\</RelPath>
+      <UpdateFromURL>http://10.22.2.20/ReportServer/ReportService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Seds_PMAS2015_Negocio_wsReport_ReportingService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\PerfilService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PerfilService\PerfilService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PerfilService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PerfilService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PerfilService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

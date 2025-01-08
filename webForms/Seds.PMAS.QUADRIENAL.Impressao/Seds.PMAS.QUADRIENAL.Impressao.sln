@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Seds.PMAS.QUADRIENAL.Impressao", "Seds.PMAS.QUADRIENAL.Impressao\Seds.PMAS.QUADRIENAL.Impressao.rptproj", "{D4EC88DD-E070-469B-A3D6-870DAF914D20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Production|Default = Production|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4EC88DD-E070-469B-A3D6-870DAF914D20}.Debug|Default.ActiveCfg = Debug
+		{D4EC88DD-E070-469B-A3D6-870DAF914D20}.Debug|Default.Build.0 = DebugLocal
+		{D4EC88DD-E070-469B-A3D6-870DAF914D20}.Debug|Default.Deploy.0 = DebugLocal
+		{D4EC88DD-E070-469B-A3D6-870DAF914D20}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{D4EC88DD-E070-469B-A3D6-870DAF914D20}.DebugLocal|Default.Build.0 = DebugLocal
+		{D4EC88DD-E070-469B-A3D6-870DAF914D20}.Production|Default.ActiveCfg = Production
+		{D4EC88DD-E070-469B-A3D6-870DAF914D20}.Production|Default.Build.0 = Production
+		{D4EC88DD-E070-469B-A3D6-870DAF914D20}.Production|Default.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

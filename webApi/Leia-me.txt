@@ -1,0 +1,9 @@
+Install-Package Ninject.Web.WebApi.OwinHost -Version 3.2.0
+
+
+Ninject.Web.WebApi (>= 3.2.0 && < 3.3.0)
+Ninject.Web.Common (>= 3.0.0 && < 4.0.0)
+Ninject.Web.Common.OwinHost (>= 3.0.0 && < 4.0.0)
+Ninject.Extensions.ContextPreservation (>= 3.0.0 && < 4.0.0)
+Ninject.Extensions.NamedScope (>= 3.0.0 && < 4.0.0)
+Microsoft.AspNet.WebApi.Owin (>= 5.0.0 && < 6.0.0)

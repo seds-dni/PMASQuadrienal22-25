@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://saa.homologacao.seds/PerfilService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://saa.homologacao.seds/PerfilService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://saa.homologacao.seds/PerfilService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Seds.Seguranca.Entidades" />
+      <xsd:import schemaLocation="http://saa.homologacao.seds/PerfilService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPerfilService_GetPerfisByAplicativo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPerfisByAplicativo" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_GetPerfisByAplicativo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPerfisByAplicativoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_AssociarUsuarioAoPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:AssociarUsuarioAoPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_AssociarUsuarioAoPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AssociarUsuarioAoPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_GetPerfisByUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPerfisByUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_GetPerfisByUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPerfisByUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_GetUsuariosByAplicativo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuariosByAplicativo" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_GetUsuariosByAplicativo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuariosByAplicativoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_GetUsuarioById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuarioById" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_GetUsuarioById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuarioByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_GetUsuariosByAplicativoNomeRG_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuariosByAplicativoNomeRG" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_GetUsuariosByAplicativoNomeRG_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuariosByAplicativoNomeRGResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_InativarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:InativarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_InativarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InativarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_AtivarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:AtivarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IPerfilService_AtivarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AtivarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPerfilService">
+    <wsdl:operation name="GetPerfisByAplicativo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPerfilService/GetPerfisByAplicativo" message="tns:IPerfilService_GetPerfisByAplicativo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPerfilService/GetPerfisByAplicativoResponse" message="tns:IPerfilService_GetPerfisByAplicativo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AssociarUsuarioAoPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPerfilService/AssociarUsuarioAoPerfil" message="tns:IPerfilService_AssociarUsuarioAoPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPerfilService/AssociarUsuarioAoPerfilResponse" message="tns:IPerfilService_AssociarUsuarioAoPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPerfisByUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPerfilService/GetPerfisByUsuario" message="tns:IPerfilService_GetPerfisByUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPerfilService/GetPerfisByUsuarioResponse" message="tns:IPerfilService_GetPerfisByUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsuariosByAplicativo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPerfilService/GetUsuariosByAplicativo" message="tns:IPerfilService_GetUsuariosByAplicativo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPerfilService/GetUsuariosByAplicativoResponse" message="tns:IPerfilService_GetUsuariosByAplicativo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsuarioById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPerfilService/GetUsuarioById" message="tns:IPerfilService_GetUsuarioById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPerfilService/GetUsuarioByIdResponse" message="tns:IPerfilService_GetUsuarioById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsuariosByAplicativoNomeRG">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPerfilService/GetUsuariosByAplicativoNomeRG" message="tns:IPerfilService_GetUsuariosByAplicativoNomeRG_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPerfilService/GetUsuariosByAplicativoNomeRGResponse" message="tns:IPerfilService_GetUsuariosByAplicativoNomeRG_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InativarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPerfilService/InativarUsuario" message="tns:IPerfilService_InativarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPerfilService/InativarUsuarioResponse" message="tns:IPerfilService_InativarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AtivarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPerfilService/AtivarUsuario" message="tns:IPerfilService_AtivarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPerfilService/AtivarUsuarioResponse" message="tns:IPerfilService_AtivarUsuario_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

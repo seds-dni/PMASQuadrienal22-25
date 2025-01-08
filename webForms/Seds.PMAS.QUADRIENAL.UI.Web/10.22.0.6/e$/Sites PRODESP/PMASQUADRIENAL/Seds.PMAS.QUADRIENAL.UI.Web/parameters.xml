@@ -1,0 +1,6 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/Seds.PMAS.QUADRIENAL.UI.Web_deploy" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Projetos\\SEDS\ -\ PMAS\ Quadrienal\\Fontes\\Desenvolvimento\\main\\webForms\\Seds\.PMAS\.QUADRIENAL\.UI\.Web\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Projetos\\SEDS\ -\ PMAS\ Quadrienal\\Fontes\\Desenvolvimento\\main\\webForms\\Seds\.PMAS\.QUADRIENAL\.UI\.Web\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

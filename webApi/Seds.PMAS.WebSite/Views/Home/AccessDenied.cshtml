@@ -1,0 +1,52 @@
+﻿{
+    ViewBag.Title = "AccessDenied";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/angular-resource.js"></script>
+    <script src="Scripts/angular-messages.js"></script>
+    <script src="Modules/pmas.js"></script>
+    <script src="Controller/menuController.js"></script>
+    <script src="Services/menuService.js"></script>
+    <script src="Controller/homeController.js"></script>
+    <script src="Controller/listaController.js"></script>
+    <script src="Controller/prefeitoController.js"></script>
+    <script src="Services/prefeitoService.js"></script>
+
+
+    <script src="Scripts/jquery-1.10.1.min.js"></script>
+    <script src="Scripts/jquery.mask.js"></script>
+    <link type="image/x-icon" href="Images/Icons/pmas.ico" rel="shortcut icon" />
+    <!--    <script src="Scripts/bootstrapMenu/jquery.js"></script>-->
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <script src="Scripts/widgets/metro.js"></script>
+    <script src="Scripts/bootstrapMenu/tether.js"></script>
+    <script src="Scripts/bootstrapMenu/bootstrap.min.js"></script>
+    <link href="Content/BootstrapMenu/bootstrap.css" rel="stylesheet" />
+    <link href="Content/BootstrapMenu/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/site/site.css" rel="stylesheet" />
+    <link href="Content/metro/css/metro-icons.css" rel="stylesheet" />
+    <link href="Content/metro/css/style.css" rel="stylesheet" />
+    <script src="Scripts/select2.min.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>PMAS Teste web api</title>
+  
+
+</head>
+<body>
+    <div align="center" style="padding-top:100px;">
+        <h1>
+            <b class="titulo">Usuário Inativo ou não possui permissão de acesso ao aplicativo.</b>
+        </h1>
+        <h3>
+            @Html.ActionLink("Sair", "LogOff")
+        </h3>
+    </div>
+</body>
+</html>

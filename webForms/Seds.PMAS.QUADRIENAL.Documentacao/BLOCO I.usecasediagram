@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="a78dfa93-c36f-40ad-b028-063757996fea" name="BLOCO I" linkedPackageId="c119d6c6-520c-4307-bab5-b06e5bee5bf9" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="979373cc-21bb-4ffe-ba7f-1ffc3da64895">
+      <profileInstance Id="a1033291-986a-40b2-8d5c-c6aec4e6acda" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="5fd3a42e-ccea-4a65-8125-dc3b163f0975">
+      <profileInstance Id="784b526f-a290-4276-b1a7-ca82ca867c6c" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ae529ef1-0ffb-4c0f-b463-84c750701880" name="Manter Dados da Prefeitura" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="235c20f0-98ba-4c80-8fce-8f1787fcf3c5" />
+        <additions>
+          <include Id="ddf12ff8-f424-43c5-b91b-6254e918db8f">
+            <useCaseMoniker Id="b0b93821-91fa-45df-a828-86cfe87ad0b2" LastKnownName="Atualizar Data da Publicação do DOE" />
+            <elementDefinition Id="9cf41d71-6c8d-4754-92b0-facc5cf99cda" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="16f3f559-c29e-4e9c-a728-e7147d158477" LastKnownName="Bloco I - PMAS" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c5af43ab-b592-4a9e-8ec7-851e3bc3e4a6" name="Órgão Gestor" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1c4e0072-eb3c-48ea-95f7-c0d61fdf960b" />
+        <generalsInternal>
+          <generalization Id="2649e5fb-27d2-4058-abd8-37267182444b" isSubstitutable="false">
+            <actorMoniker Id="9c52ada4-9086-4efb-9f22-ae3889055f60" LastKnownName="Usuário" />
+            <elementDefinition Id="62ab35bd-9ea7-4f41-b5e8-62439a7fc3e6" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="8f90ea60-0238-47c4-bac0-a37672631eb2" isDerived="false" sourceEndRoleName="Órgão Gestor" targetEndRoleName="Manter Dados da Prefeitura" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ae529ef1-0ffb-4c0f-b463-84c750701880" LastKnownName="Manter Dados da Prefeitura" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fa5484a4-f75b-46a2-9e1e-9cce524511a6" name="Órgão Gestor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f0937f9c-2ff3-42d4-bff7-670a0654bae5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e3a78cb-dafa-4f69-aca0-f1a3ebf4e7fb" name="Manter Dados da Prefeitura" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9dc71f65-1d47-490a-a9ea-d5b9fa3b56bf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a987b81e-e418-47f1-a7de-c8f91d89c4e8" />
+          </association>
+          <association Id="a8c7237b-8e29-41fc-ab98-7f97e66b15ce" isDerived="false" sourceEndRoleName="Órgão Gestor" targetEndRoleName="Manter Orgão Gestor" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="facc6c3c-8d0f-4e8a-a807-fac994225ac3" LastKnownName="Manter Orgão Gestor" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6148e79f-2fd4-4a03-abdf-0ef74f0f1f25" name="Órgão Gestor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2a74d6e5-31e7-453c-a448-779ecd206d88" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="49095f7c-e39d-464b-a0b9-102d7fc246bb" name="Manter Orgão Gestor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8b8a8e9a-8712-41b9-9a85-addb2a992245" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="40014047-470d-4554-95b9-31ca1dd45027" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b0b93821-91fa-45df-a828-86cfe87ad0b2" name="Atualizar Data da Publicação do DOE" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="56dc4ac8-b44d-48d5-84d6-5dc4649fbe36" />
+        <subjects>
+          <subsystemMoniker Id="16f3f559-c29e-4e9c-a728-e7147d158477" LastKnownName="Bloco I - PMAS" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="260602d7-8a65-4bd0-944d-3e4fa135ce13" name="CAS Administrador" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fcfad4b3-3451-4781-9b8f-c1dad716282f" />
+        <generalsInternal>
+          <generalization Id="9f79a64f-abff-4705-a364-8cbbb51ee58a" isSubstitutable="false">
+            <actorMoniker Id="9c52ada4-9086-4efb-9f22-ae3889055f60" LastKnownName="Usuário" />
+            <elementDefinition Id="92362cd9-4f4c-4f7b-a194-e8acc52b1ae9" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="babcee56-b6c3-4833-b8e3-8a986bc7b20b" isDerived="false" sourceEndRoleName="CAS Administrador" targetEndRoleName="Atualizar Data da Publicação do DOE" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b0b93821-91fa-45df-a828-86cfe87ad0b2" LastKnownName="Atualizar Data da Publicação do DOE" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d7edc189-6c46-44ac-86b6-a93419427de7" name="CAS Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="298c5197-17c4-4526-a749-e84549dc7255" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e715f87-e831-4fcb-be36-608125716c11" name="Atualizar Data da Publicação do DOE" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5c1c96b1-cd07-413a-981e-b754459ee352" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="91ed47a8-4996-49d9-bb6a-3bf66e3dd9a6" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="16f3f559-c29e-4e9c-a728-e7147d158477" name="Bloco I - PMAS" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f88e37ec-af01-43bc-8430-65cdba47a7bc" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="facc6c3c-8d0f-4e8a-a807-fac994225ac3" name="Manter Orgão Gestor" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e0c12c27-880c-4adc-924b-1ae9776979d0" />
+        <subjects>
+          <subsystemMoniker Id="16f3f559-c29e-4e9c-a728-e7147d158477" LastKnownName="Bloco I - PMAS" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="057b6a2d-316d-4970-99d2-22a5958e05f6" name="Visualizar Órgão Gestor" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a568620c-ac73-4233-82f7-3c21a895bdf2" />
+        <subjects>
+          <subsystemMoniker Id="16f3f559-c29e-4e9c-a728-e7147d158477" LastKnownName="Bloco I - PMAS" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="9c52ada4-9086-4efb-9f22-ae3889055f60" name="Usuário" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b7af6152-6de5-49af-aa75-061c1351e284" />
+        <targetEnds>
+          <association Id="e43e58fb-41ac-4f1a-967c-bbe379b035e6" isDerived="false" sourceEndRoleName="Usuário" targetEndRoleName="Visualizar Órgão Gestor" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="057b6a2d-316d-4970-99d2-22a5958e05f6" LastKnownName="Visualizar Órgão Gestor" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6efe4370-8674-4c87-a3c3-533ba9d3413e" name="Usuário" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e5c34110-0bea-4bf0-b7c6-66178f5dc03b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="58d4fcef-1a54-4af7-b0c3-3402f7ceda2e" name="Visualizar Órgão Gestor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6d8f0479-60ff-487e-a8b0-ab0d64a9fd64" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cde88c96-a4ba-4d50-9585-0eec4f5d5a92" />
+          </association>
+          <association Id="4ea20bc8-f15a-4f48-9a0d-e31bff19a37d" isDerived="false" sourceEndRoleName="Usuário" targetEndRoleName="Visualizar Dados da Prefeitura" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ea2aeb67-00e4-4abc-a266-9c772f07dd27" LastKnownName="Visualizar Dados da Prefeitura" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cbd653d1-9e49-4124-a7dc-cb88312ea0ce" name="Usuário" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="79feca9d-c0df-406e-8c72-d86e5018841a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8b998801-667e-4e50-95d8-21f3ea4749ec" name="Visualizar Dados da Prefeitura" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4efba7d5-7fd1-4ba2-a1d1-8e8308cf682b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a3f2b3fc-ee50-4ba4-89cd-0fead45a88d5" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="ea2aeb67-00e4-4abc-a266-9c772f07dd27" name="Visualizar Dados da Prefeitura" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1664af28-2923-42d7-9bab-33e55514f9de" />
+        <subjects>
+          <subsystemMoniker Id="16f3f559-c29e-4e9c-a728-e7147d158477" LastKnownName="Bloco I - PMAS" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="c119d6c6-520c-4307-bab5-b06e5bee5bf9" name="Seds.PMAS2014.Documentacao">
+    <elementDefinition Id="803bd77e-2f29-40c3-a4b7-8d6543f13147" />
+  </package>
+</useCaseModelRoot>

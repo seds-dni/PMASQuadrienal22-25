@@ -1,0 +1,14 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    Layout = null;
+    ViewBag.Title = "Error";
+}
+@if (Model.Exception.Message.Contains("Sessão expirada"))
+{
+    Response.Redirect("~/Home/LogOff");
+}
+<hgroup class="title">
+    <h1 class="error">Contate o administrador</h1>
+    @Model.Exception
+</hgroup>

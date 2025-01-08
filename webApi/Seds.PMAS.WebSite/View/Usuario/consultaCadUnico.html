@@ -1,0 +1,32 @@
+﻿<div ng-controller="usuarioController">
+    <!-- <form ng-show="isEditavel()">-->
+    <form name="frmUsuario" data-role="validator" data-show-required-state="false" data-hint-mode="line" data-hint-background="bg-red" data-hint-color="fg-white" data-hide-error="5000" novalidate="novalidate" ng-disabled="status.busy">
+        <div class="frame">
+            <div class="form-header">Cadastro Único de Usuários <span class="mif-users icon"></span></div>
+            <div class="content">
+                <div class="flex-grid formInput" data-text="usuário">
+                    <div class="grid">
+                        <div class="row cells2" ng-class="{'has-error': frmUsuario.nome.$error.required && formUsuario.nome.$touched}">
+                            <div class="cell">
+                                <label for="Nome">
+                                    Nome
+                                </label>
+                                <div class="input-control text full-size" data-role="input">
+                                    <input type="text" placeholder="informe o Nome" style="padding-right: 5px;">
+                                </div>
+                            </div>
+                            <div class="cell">
+                                <label for="Município">
+                                    Município
+                                </label>
+                                <div class="input-control text full-size" data-role="input">
+                                    <input type="text" placeholder="informe o Nome" style="padding-right: 5px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" ng-disabled="status.busy|| frmPrefeito.$invalid" ng-click="buscar()"><span class="mif-search"></span> Buscar</button>
+                </div>
+            </div>
+        </div>
+    </form>
